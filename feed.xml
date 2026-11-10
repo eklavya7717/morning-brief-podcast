@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>The Morning Brief</title>
+    <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
+    <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
+    <language>en-IN</language>
+    <copyright>Eklav</copyright>
+    <lastBuildDate>Tue, 10 Nov 2026 15:05:37 +0530</lastBuildDate>
+    <generator>morning-brief/src/podcast.py</generator>
+    <itunes:author>Eklav</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:category text="News" />
+    <itunes:owner>
+      <itunes:name>Eklav</itunes:name>
+      <itunes:email>eklav@example.invalid</itunes:email>
+    </itunes:owner>
+    <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Morning Brief, Tuesday 10 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-10/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Tuesday, 10 November 2026. In this edition: Hindu Succession | Grandson Has No Birthright In Property Devolved On Father In Partition Of Grandfather's Estate : Supreme Court; Public Servant Arrested &amp; Kept In Custody For More Than 48 Hours Is Deemed Suspended; No Specific Order Needed : Supreme Court; Compulsory Retirement Order Not Punitive Or Stigmatic, So No Hearing Of Employee Needed : Supreme Court; Supreme Court Directs UP Gov To Identify Undertrials Granted Bail But Haven't Been Released From Jail In 75 Districts; Supreme Court Directs Rajasthan To Frame Policy For Financial Assistance To Industries Setting Up Zero Liquid Discharge Plants; Judge's Temperamental Issues Don't Mean Dishonesty Or Lack Of Integrity : Supreme Court; and 6 more stories.</description>
+      <itunes:title>The Morning Brief, Tuesday 10 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Tuesday, 10 November 2026. In this edition: Hindu Succession | Grandson Has No Birthright In Property Devolved On Father In Partition Of Grandfather's Estate : Supreme Court; Public Servant Arrested &amp; Kept In Custody For More Than 48 Hours Is Deemed Suspended; No Specific Order Needed : Supreme Court; Compulsory Retirement Order Not Punitive Or Stigmatic, So No Hearing Of Employee Needed : Supreme Court; Supreme Court Directs UP Gov To Identify Undertrials Granted Bail But Haven't Been Released From Jail In 75 Districts; Supreme Court Directs Rajasthan To Frame Policy For Financial Assistance To Industries Setting Up Zero Liquid Discharge Plants; Judge's Temperamental Issues Don't Mean Dishonesty Or Lack Of Integrity : Supreme Court; and 6 more stories.</itunes:summary>
+      <itunes:duration>6:21</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://eklavya7717.github.io/morning-brief-podcast/2026-11-10/brief.mp3" length="3047801" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>
