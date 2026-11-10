@@ -20,7 +20,7 @@ from src.audio import SOURCE_NAMES, _court_phrase, naturalise
 
 # Any OpenAI-compatible free-tier provider works; the key's env var picks it (all have a free tier, no card).
 PROVIDERS = (
-    ("GROQ_API_KEY", "https://api.groq.com/openai/v1/chat/completions", "llama-3.3-70b-versatile"),
+    ("GROQ_API_KEY", "https://api.groq.com/openai/v1/chat/completions", "openai/gpt-oss-120b"),
     ("GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "gemini-2.5-flash"),
     ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1/chat/completions", "meta-llama/llama-3.3-70b-instruct:free"),
 )
@@ -52,8 +52,10 @@ def _chat(prompt: str, cfg: dict, max_tokens: int) -> str | None:
     if not prov:
         return None
     key, url, model = prov
-    body = {"model": model, "max_tokens": max_tokens, "temperature": 0.4,
+    body = {"model": model, "max_tokens": max_tokens + 1500, "temperature": 0.4,  # headroom: reasoning models think first
             "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]}
+    if "gpt-oss" in model:
+        body["reasoning_effort"] = "low"
     for attempt in range(4):
         try:
             r = requests.post(url, json=body, timeout=120, headers={"Authorization": f"Bearer {key}"})
