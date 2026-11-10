@@ -4,8 +4,23 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
       - run: |
-          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-          curl -s -A "$UA" https://www.livelaw.in/news-sitemap-daily.xml -o /tmp/s.xml -w "sitemap -> %{http_code} %{size_download}B\n"
-          grep -o '<loc>[^<]*</loc>' /tmp/s.xml | wc -l | sed 's/^/sitemap urls: /'
-          grep -o '<loc>[^<]*</loc>' /tmp/s.xml | sed 's/<[^>]*>//g' | head -8 | while read u; do echo "article -> $(curl -s -o /tmp/a -w '%{http_code} %{size_download}B' -A "$UA" "$u") ${u:0:70}"; done
+          python - <<'PY'
+          import logging, json
+          from src.sources import livelaw as L
+          from src.core.fetch import now_ist
+          print("now_ist", now_ist())
+          cands, pos = L._collect_candidates(None)
+          print("candidates", len(cands), "positions", len(pos))
+          pub = [c.get("published") for c in cands.values()][:5]
+          print("sample published", pub)
+          fresh = [c for c in cands.values() if L._candidate_fresh(c, 30)]
+          print("fresh", len(fresh))
+          items = L.fetch(n=18, config={})
+          print("items", len(items))
+          for i in items[:6]: print(i["priority"], i["title"][:70])
+          PY
