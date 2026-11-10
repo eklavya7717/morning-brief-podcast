@@ -192,6 +192,8 @@ def is_irrelevant(item: dict) -> bool:
     text = f"{item.get('title','')} {item.get('summary','')}".lower()
     if item.get("category") in {"sports", "entertainment"}:
         return True
+    if item.get("source") in LEGAL_SOURCES or item.get("category") in LEGAL_CATEGORIES:
+        return False  # "divorce", "relationship" etc. are family-law rulings here, not gossip
     return any(pattern in text for pattern in IRRELEVANT_PATTERNS)
 
 
@@ -216,8 +218,11 @@ def enhance_priority(item: dict) -> int:
     return max(0, min(100, score))
 
 
+LEGAL_SOURCES = {"livelaw", "sccblog", "scobserver", "barandbench"}
+
+
 def _is_legal(item: dict) -> bool:
-    return item.get("source") == "livelaw" or item.get("category") in LEGAL_CATEGORIES
+    return item.get("source") in LEGAL_SOURCES or item.get("category") in LEGAL_CATEGORIES
 
 
 def _pretty_date(date_str: str) -> tuple[str, str]:

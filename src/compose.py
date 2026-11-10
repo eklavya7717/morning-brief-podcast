@@ -68,8 +68,11 @@ SOURCE_LABELS = {
     "indianexpress": "Indian Express",
     "thehindu": "The Hindu",
     "telegram-pdf": "Telegram PDF",
+    "sccblog": "SCC Online",
+    "scobserver": "Supreme Court Observer",
+    "barandbench": "Bar & Bench",
 }
-SOURCE_ORDER = ["livelaw", "indianexpress", "thehindu", "telegram-pdf"]
+SOURCE_ORDER = ["livelaw", "sccblog", "scobserver", "barandbench", "indianexpress", "thehindu", "telegram-pdf"]
 
 CATEGORY_LABELS = {
     "supreme-court": "Supreme Court",

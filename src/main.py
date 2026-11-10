@@ -59,8 +59,8 @@ def load_config(path: Path | None = None) -> dict:
         config["sources"]["telegram_pdf"] = {
             "api_id": int(env("TG_API_ID")), "api_hash": env("TG_API_HASH"),
             "session_string": env("TG_SESSION"), "max_mb": 80,
-            # TG_CHATS="-100123:Delhi,-100456" (optional :edition keyword per chat)
-            "chats": [{"id": int(c.split(":")[0]), "match": c.partition(":")[2]} for c in env("TG_CHATS", "").split(",") if c.strip()],
+            # TG_CHATS="-100123:jaipur|delhi,-100456" (optional city editions, in preference order)
+            "chats": [{"id": int(c.split(":")[0]), "match": [x for x in c.partition(":")[2].split("|") if x]} for c in env("TG_CHATS", "").split(",") if c.strip()],
         }
     if env("BRIEF_OUT"):
         config.setdefault("paths", {})["out"] = env("BRIEF_OUT")
@@ -95,6 +95,11 @@ def collect(config: dict, *, no_cache: bool = False) -> tuple[dict, dict]:
         from src.sources import thehindu
 
         jobs["thehindu"] = lambda: thehindu.fetch(n=15, config=config)
+
+    if sources_cfg.get("legalfeeds", True):
+        from src.sources import legalfeeds
+
+        jobs["legalfeeds"] = lambda: legalfeeds.fetch(n=22, config=config)
 
     if sources_cfg.get("telegram_pdf"):  # dict with api_id/api_hash/chats; False = off
         from src.sources import telegram_pdf
@@ -205,7 +210,8 @@ def build_artifacts(
             artifacts["mp3"] = mp3
             script_path = out_dir / "brief.script.txt"
             artifacts["script"] = script_path if script_path.exists() else None
-            artifacts["mp3_lite"] = make_lite_mp3(mp3)
+            # a long edition cannot fit ntfy's attachment cap; it ships via the podcast instead
+            artifacts["mp3_lite"] = make_lite_mp3(mp3) if (meta.get("duration_s") or 0) < 900 else None
             brief["audio_meta"] = {
                 "duration_s": meta.get("duration_s"),
                 "words": meta.get("words"),

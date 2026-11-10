@@ -1,0 +1,147 @@
+"""Long-form (30-60 min) audio script: each legal story explained, not just announced.
+
+For every legal item with full text, a free GitHub Models call (GITHUB_TOKEN, no
+subscription) writes a spoken segment in its own words: what was decided, the
+legal question, the principle applied, and how it affects people and practice.
+Everything degrades safely: no token / rate limit / bad output -> that item is
+read from its summary and holdings instead; no usable items -> ``None`` and the
+caller uses the short extractive script.
+"""
+from __future__ import annotations
+
+import os
+import re
+import sys
+import time
+
+import requests
+
+from src.audio import SOURCE_NAMES, _court_phrase, naturalise
+
+ENDPOINT = "https://models.github.ai/inference/chat/completions"
+SYSTEM = (
+    "You write one segment of a daily audio briefing for an Indian law student preparing for the "
+    "judicial services exams. Write in your own words, grounded ONLY in the SOURCE: never add facts, "
+    "case names, section numbers or holdings that are not in it. Plain spoken English for "
+    "text-to-speech: no markdown, no lists, no headings, no brackets. Do not copy sentences from the "
+    "source; quote at most a short phrase."
+)
+SECTIONS = (
+    ("supreme-court", "From the Supreme Court."),
+    ("high-court", "Now to the High Courts."),
+    ("legislation", "New laws and notifications."),
+    ("judiciary", "Around the judiciary and the profession."),
+)
+_cache: dict[str, str] = {}
+
+
+def _chat(prompt: str, cfg: dict, max_tokens: int) -> str | None:
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_MODELS_TOKEN")
+    if not token:
+        return None
+    body = {"model": cfg.get("llm_model") or "openai/gpt-4.1-mini", "max_tokens": max_tokens, "temperature": 0.4,
+            "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]}
+    for attempt in range(4):
+        try:
+            r = requests.post(ENDPOINT, json=body, timeout=90, headers={"Authorization": f"Bearer {token}"})
+            if r.status_code == 429:  # free tier is rate limited: wait as told, then retry
+                time.sleep(min(60, int(r.headers.get("retry-after", 10 * (attempt + 1)))))
+                continue
+            r.raise_for_status()
+            return (r.json()["choices"][0]["message"]["content"] or "").strip()
+        except Exception as exc:  # noqa: BLE001
+            print(f"[deepscript] llm attempt {attempt + 1} failed: {exc}", file=sys.stderr)
+            time.sleep(3 * (attempt + 1))
+    return None
+
+
+def _clean_llm(text: str) -> str:
+    text = re.sub(r"[*#_`>\[\]]+", "", text)
+    return naturalise(re.sub(r"\n{2,}", "\n", text)).strip()
+
+
+def _fallback(item: dict) -> str:
+    bits = [item.get("title", "").rstrip(".") + "."]
+    if item.get("case_name") and item.get("court"):
+        bits.append(f"This is {item['case_name']}, before {_court_phrase(item['court'])}.")
+    if item.get("summary"):
+        bits.append(item["summary"])
+    bits += [b.rstrip(".") + "." for b in (item.get("bullets") or [])[:4]]
+    if item.get("ratio"):
+        bits.append(f"The principle: {item['ratio'].rstrip('.')}.")
+    return naturalise(" ".join(bits))
+
+
+def explain(item: dict, cfg: dict, words: int) -> str:
+    """One spoken segment for a legal item (LLM when there is text to ground it)."""
+    key = f"{item.get('id')}:{words}"
+    if key in _cache:
+        return _cache[key]
+    text = ""
+    body = item.get("body") or ""
+    if len(body.split()) >= 120:
+        meta = " | ".join(x for x in (item.get("court"), item.get("case_name")) if x)
+        prompt = (
+            f"Write about {words} words on this item, as flowing speech in four beats: (1) what was decided "
+            "or enacted, and by whom; (2) the legal question; (3) the legal principle and the reasoning the "
+            "court or law applies; (4) how it affects litigants, authorities or legal practice, and what a "
+            "student should take from it. If the source does not say something, skip it rather than guess.\n"
+            f"HEADLINE: {item.get('title')}\n{('COURT/CASE: ' + meta) if meta else ''}\nSOURCE:\n{body[:12000]}"
+        )
+        got = _chat(prompt, cfg, max_tokens=int(words * 2.2))
+        text = _clean_llm(got) if got and len(got.split()) >= words * 0.4 else ""
+        time.sleep(float(cfg.get("llm_pause_s", 4.5)))  # stay under the free-tier requests-per-minute cap
+    text = text or _fallback(item)
+    src = SOURCE_NAMES.get(item.get("source"), "")
+    if src:
+        text += f" That was reported by {src}."
+    _cache[key] = text
+    return text
+
+
+def _brief_line(item: dict) -> str:
+    first = re.split(r"(?<=[.!?])\s+", item.get("summary") or "")[:2]
+    return naturalise(f"{item.get('title', '').rstrip('.')}. {' '.join(first)}".strip())
+
+
+def build_deep_script(brief: dict, config: dict | None = None) -> str | None:
+    cfg = dict((config or {}).get("audio") or {})
+    target_words = int(cfg.get("target_minutes", 40)) * 155
+    per_story = int(cfg.get("words_per_story", 300))
+    items = [i for s in brief.get("sections", []) for i in s.get("items", [])]
+    legal = [i for i in items if i.get("source") in {"livelaw", "sccblog", "scobserver", "barandbench"}
+             or i.get("category") in {"supreme-court", "high-court", "legislation", "judiciary"}]
+    briefs = [i for i in items if i not in legal and i.get("category") != "editorial"]
+    opinion = [i for i in items if i.get("category") == "editorial"]
+    if not legal:
+        return None
+    top = brief.get("top_story")
+    legal.sort(key=lambda i: -i.get("priority", 0))
+    room = max(4, int((target_words * 0.78) / per_story))
+    legal = legal[:room]
+
+    parts = [f"Good morning. This is The Morning Brief for {brief.get('weekday', '')}, {brief.get('date_pretty', '')}. "
+             f"Today we go deep on {len(legal)} legal developments, then a quick run through the news, "
+             "and the day's opinion pages. Let us begin."]
+    if top and top in legal:
+        parts += ["Our lead story.", explain(top, cfg, int(per_story * 1.5))]
+        legal.remove(top)
+    for cat, heading in SECTIONS:
+        group = [i for i in legal if i.get("category") == cat]
+        if cat == "judiciary":
+            group = [i for i in legal if i.get("category") not in {"supreme-court", "high-court", "legislation"}]
+        if group:
+            parts.append(heading)
+            parts += [explain(i, cfg, per_story) for i in group]
+    if briefs:
+        parts.append("Now, the news in brief, across domains.")
+        parts += [_brief_line(i) for i in briefs[:14]]
+    if opinion:
+        parts.append("And finally, from the opinion pages.")
+        parts += [_brief_line(i) for i in opinion[:4]]
+    capsule = [i for i in brief.get("judiciary_capsule") or [] if i.get("case_name") and i.get("ratio")]
+    if capsule:
+        parts.append("Before you go, three lines to carry with you.")
+        parts += [naturalise(f"{i['case_name']}: {i['ratio']}") for i in capsule]
+    parts.append("That is all for today. Revise well, and see you tomorrow.")
+    return "\n\n".join(p for p in parts if p.strip())

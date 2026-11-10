@@ -1274,6 +1274,7 @@ def _build_item(candidate: dict, cache_ttl: int | None, position: int | None) ->
             court=court,
             case_name=case_name,
             ratio=ratio,
+            body=" ".join(paragraphs),
         )
     except Exception:
         return None

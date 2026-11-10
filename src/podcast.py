@@ -147,12 +147,23 @@ def _edition_weekday(edition: dict | None, date: datetime) -> str:
     return weekday or date.strftime("%A")
 
 
+LEDGER = "episodes.json"
+
+
+def _ledger(out_root: Path) -> dict:
+    return _load_json(Path(out_root) / LEDGER) or {}
+
+
 def collect_episodes(out_root: Path, limit: int = MAX_ITEMS) -> list[dict]:
-    """Newest-first list of renderable editions under ``out_root``."""
+    """Newest-first list of editions: local mp3 files plus the ledger (audio hosted elsewhere)."""
     out_root = Path(out_root)
     if not out_root.exists():
         return []
     episodes: list[dict] = []
+    for date_str, e in _ledger(out_root).items():
+        date = _edition_date(date_str)
+        if date and not (out_root / date_str / "brief.mp3").exists():
+            episodes.append({**e, "date": date, "date_str": date_str, "mp3": None})
     for mp3 in out_root.glob("*/brief.mp3"):
         date = _edition_date(mp3.parent.name)
         if date is None or not mp3.is_file():
@@ -177,6 +188,15 @@ def collect_episodes(out_root: Path, limit: int = MAX_ITEMS) -> list[dict]:
         )
     episodes.sort(key=lambda episode: episode["date"], reverse=True)
     return episodes[:limit]
+
+
+def _remember(out_root: Path, episodes: list[dict], keep: int) -> None:
+    """Persist show notes so an episode survives after its local mp3 is gone."""
+    ledger = {
+        e["date_str"]: {k: e[k] for k in ("title", "description", "summary", "duration_s", "size_bytes")}
+        for e in episodes[:keep]
+    }
+    (Path(out_root) / LEDGER).write_text(json.dumps(ledger, indent=1, ensure_ascii=False), encoding="utf-8")
 
 
 # ------------------------------------------------------------------------ feed
@@ -211,7 +231,11 @@ def build_feed(out_root: Path, config: dict | None = None) -> Path:
     owner_email = str(pod.get("email") or "eklav@example.invalid").strip() or "eklav@example.invalid"
     image_url = str(pod.get("image_url") or "").strip()
 
-    episodes = collect_episodes(out_root)
+    keep = int(pod.get("max_items") or MAX_ITEMS)
+    episodes = collect_episodes(out_root, keep)
+    release_repo = str(pod.get("release_repo") or "").strip()  # audio hosted as GitHub release assets
+    if release_repo:
+        _remember(out_root, episodes, keep)
     now = _now_ist()
 
     rss = ET.Element(
@@ -267,7 +291,8 @@ def build_feed(out_root: Path, config: dict | None = None) -> Path:
             item,
             "enclosure",
             None,
-            url=f"{base}/{episode['date_str']}/brief.mp3",
+            url=(f"https://github.com/{release_repo}/releases/download/ed-{episode['date_str']}/brief.mp3"
+                 if release_repo else f"{base}/{episode['date_str']}/brief.mp3"),
             length=str(episode["size_bytes"]),
             type="audio/mpeg",
         )

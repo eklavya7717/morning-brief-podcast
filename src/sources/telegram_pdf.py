@@ -102,28 +102,33 @@ async def _fetch(cfg: dict, lookback_h: float) -> list[dict]:
         if not await client.is_user_authorized():
             raise RuntimeError("telegram not logged in: run python -m src.sources.telegram_pdf --login")
         for entry in cfg.get("chats", []):
-            # entry: chat id, or {"id": chat id, "match": "Delhi"} to pick one city edition
-            chat, match = (entry["id"], (entry.get("match") or "").lower()) if isinstance(entry, dict) else (entry, "")
-            async for msg in client.iter_messages(chat, limit=120):
+            # entry: chat id, or {"id": id, "match": ["jaipur", "delhi"]}: city editions in preference order
+            chat = entry["id"] if isinstance(entry, dict) else entry
+            prefs = entry.get("match") if isinstance(entry, dict) else []
+            prefs = [prefs] if isinstance(prefs, str) else [p.lower() for p in (prefs or [])]
+            found = []  # (day, preference rank, msg, name): newest day wins, then the preferred city
+            async for msg in client.iter_messages(chat, limit=150):
                 if msg.date < since:
                     break
-                doc = msg.document
-                name = msg.file.name if msg.file else ""
+                doc, name = msg.document, (msg.file.name if msg.file else "") or ""
                 if not doc or doc.mime_type != "application/pdf" or doc.size > max_bytes:
                     continue
-                if match and match not in (name or "").lower():
-                    continue
-                dest = CACHE_DIR / f"tg_{chat}_{msg.id}.pdf"
-                if not dest.exists():
-                    part = dest.with_suffix(".part")  # a killed download must not look complete
-                    await msg.download_media(file=str(part))
-                    part.replace(dest)
-                day = msg.date.astimezone(timezone(timedelta(hours=5, minutes=30))).strftime("%d %b")
-                got = parse_pdf(dest, _paper_name(name or str(chat)), msg.date.isoformat(), f"tg://{chat}/{msg.id}")
-                for it in got:  # stale paper (no upload today) is labelled with its own date
-                    it["tags"] = it["tags"][:5] + [f"e-paper {day}"]
-                items += got
-                break  # newest PDF only: a missing upload falls back to the previous day's
+                low = name.lower()
+                rank_ = next((i for i, p in enumerate(prefs) if p in low), None) if prefs else 0
+                if rank_ is not None:
+                    found.append((-msg.date.toordinal(), rank_, msg.id, msg, name))
+            if not found:
+                continue
+            _, _, _, msg, name = min(found, key=lambda f: f[:3])
+            dest = CACHE_DIR / f"tg_{chat}_{msg.id}.pdf"
+            if not dest.exists():
+                part = dest.with_suffix(".part")  # a killed download must not look complete
+                await client.download_media(msg, file=str(part))
+                part.replace(dest)
+            day = msg.date.astimezone(timezone(timedelta(hours=5, minutes=30))).strftime("%d %b")
+            for it in parse_pdf(dest, _paper_name(name or str(chat)), msg.date.isoformat(), f"tg://{chat}/{msg.id}"):
+                it["tags"] = it["tags"][:5] + [f"e-paper {day}"]  # stale/other-city paper is labelled
+                items.append(it)
     finally:
         await client.disconnect()
     return items

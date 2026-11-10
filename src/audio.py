@@ -60,6 +60,9 @@ SOURCE_NAMES = {
     "indianexpress": "The Indian Express",
     "thehindu": "The Hindu",
     "telegram-pdf": "the print edition",
+    "sccblog": "S C C Online",
+    "scobserver": "the Supreme Court Observer",
+    "barandbench": "Bar and Bench",
 }
 
 FILLER_LINES = [
@@ -582,8 +585,14 @@ def build_script(brief: dict, config: dict | None = None, drop_ids: set[str] | N
     780-900 words, Indian-English anchor register, no urls. If a brief is too
     long for the word budget the lowest-priority items are dropped first.
     """
-    drops = set(drop_ids or set())
     acfg = (config or {}).get("audio") or {}
+    if acfg.get("deep"):  # long-form mode; None means "no usable material", fall through to the short script
+        from src.deepscript import build_deep_script
+
+        deep = build_deep_script(brief, config)
+        if deep:
+            return deep
+    drops = set(drop_ids or set())
     min_words, max_words = int(acfg.get("min_words") or MIN_WORDS), int(acfg.get("max_words") or MAX_WORDS)
     text = ""
     for _ in range(6):
@@ -877,7 +886,7 @@ def synthesize(script: str, workdir: Path, config: dict | None = None) -> tuple[
     if cfg.get("provider") == "edge":
         try:
             return _render_edge(chunks, workdir, cfg.get("edge_voice") or "en-IN-NeerjaNeural",
-                                cfg.get("edge_rate") or "+0%"), "edge"
+                                cfg.get("edge_rate") or "+0%", float(cfg.get("edge_budget_s") or 900)), "edge"
         except Exception as edge_error:  # noqa: BLE001 - fall back to gTTS
             print(f"[audio] edge-tts unavailable ({edge_error}); falling back to gTTS", file=sys.stderr)
     try:

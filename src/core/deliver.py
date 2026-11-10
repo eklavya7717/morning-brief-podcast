@@ -43,7 +43,7 @@ def format_push_text(brief: dict, max_chars: int = NTFY_SAFE_BODY) -> str:
     """The notification body: a mini front page that reads in 20 seconds."""
     lines: list[str] = []
     lines.append(f"THE MORNING BRIEF · {brief.get('weekday','')}, {brief.get('date_pretty','')}")
-    lines.append(f"~{brief.get('read_minutes', 5)} min read · audio + PDF attached")
+    lines.append(f"~{brief.get('read_minutes', 5)} min read · full audio in your Podcasts app · PDF attached")
     lines.append("")
     top = brief.get("top_story")
     if top:
@@ -130,6 +130,9 @@ def push_ntfy(
         if not path or not Path(path).exists():
             continue
         path = Path(path)
+        if path.stat().st_size > float(cfg.get("attach_max_mb", 2)) * 1_000_000:
+            log(f"ntfy: {kind} skipped ({path.stat().st_size // 1_000_000} MB is over the attachment cap)")
+            continue
         ctype = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
         headers = {
             "X-Filename": path.name,

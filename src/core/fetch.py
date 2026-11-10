@@ -247,6 +247,7 @@ ITEM_DEFAULTS = {
     "case_name": None,
     "ratio": None,
     "read_seconds": 30,
+    "body": "",  # full article text (<=14k chars) for the long-form script; not printed
 }
 
 
@@ -267,6 +268,7 @@ def make_item(**kwargs) -> dict:
     bullets = [clean(b) for b in (item.get("bullets") or [])]
     item["bullets"] = [b for b in bullets if b][:5]
     item["tags"] = [clean(t) for t in (item.get("tags") or []) if clean(t)][:6]
+    item["body"] = clean(item.get("body") or "", max_chars=14000)
     item["priority"] = max(0, min(100, int(item.get("priority") or 50)))
     item["published"] = parse_datetime(item.get("published"))
     text = " ".join([item["title"], item["summary"], " ".join(item["bullets"])])

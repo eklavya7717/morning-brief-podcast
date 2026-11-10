@@ -1,11 +1,11 @@
 {
   "edition": {
-    "read_minutes": 10,
-    "max_items": 18,
+    "read_minutes": 15,
+    "max_items": 34,
     "lookback_hours": 30,
     "sections": {
-      "legal": 9,
-      "national": 5,
+      "legal": 18,
+      "national": 12,
       "editorial": 4
     }
   },
@@ -13,7 +13,8 @@
     "livelaw": true,
     "indianexpress": true,
     "thehindu": true,
-    "telegram_pdf": false
+    "telegram_pdf": false,
+    "legalfeeds": true
   },
   "delivery": {
     "ntfy": {
@@ -32,21 +33,28 @@
       "chat_id": ""
     },
     "podcast": {
-      "base_url": "https://eklavya7717.github.io/morning-brief-podcast"
+      "base_url": "https://eklavya7717.github.io/morning-brief-podcast",
+      "release_repo": "eklavya7717/morning-brief-podcast",
+      "max_items": 14
     }
   },
   "audio": {
     "enabled": true,
     "provider": "edge",
     "tld": "co.in",
-    "max_seconds": 780,
+    "max_seconds": 3900,
     "words_per_minute": 155,
     "voice": "en-IN",
-    "build_timeout_s": 600,
-    "gtts_budget_s": 150,
+    "build_timeout_s": 1700,
+    "gtts_budget_s": 1200,
     "edge_voice": "en-IN-NeerjaNeural",
     "min_words": 1500,
-    "max_words": 1750
+    "max_words": 1750,
+    "deep": true,
+    "target_minutes": 40,
+    "words_per_story": 300,
+    "edge_budget_s": 1200,
+    "llm_model": "openai/gpt-4.1-mini"
   },
   "pdf": {
     "enabled": true
