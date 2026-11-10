@@ -101,13 +101,17 @@ async def _fetch(cfg: dict, lookback_h: float) -> list[dict]:
     try:
         if not await client.is_user_authorized():
             raise RuntimeError("telegram not logged in: run python -m src.sources.telegram_pdf --login")
-        for chat in cfg.get("chats", []):
-            async for msg in client.iter_messages(chat, limit=60):
+        for entry in cfg.get("chats", []):
+            # entry: chat id, or {"id": chat id, "match": "Delhi"} to pick one city edition
+            chat, match = (entry["id"], (entry.get("match") or "").lower()) if isinstance(entry, dict) else (entry, "")
+            async for msg in client.iter_messages(chat, limit=120):
                 if msg.date < since:
                     break
                 doc = msg.document
                 name = msg.file.name if msg.file else ""
                 if not doc or doc.mime_type != "application/pdf" or doc.size > max_bytes:
+                    continue
+                if match and match not in (name or "").lower():
                     continue
                 dest = CACHE_DIR / f"tg_{chat}_{msg.id}.pdf"
                 if not dest.exists():

@@ -59,7 +59,8 @@ def load_config(path: Path | None = None) -> dict:
         config["sources"]["telegram_pdf"] = {
             "api_id": int(env("TG_API_ID")), "api_hash": env("TG_API_HASH"),
             "session_string": env("TG_SESSION"), "max_mb": 80,
-            "chats": [int(c) for c in env("TG_CHATS", "").split(",") if c.strip()],
+            # TG_CHATS="-100123:Delhi,-100456" (optional :edition keyword per chat)
+            "chats": [{"id": int(c.split(":")[0]), "match": c.partition(":")[2]} for c in env("TG_CHATS", "").split(",") if c.strip()],
         }
     if env("BRIEF_OUT"):
         config.setdefault("paths", {})["out"] = env("BRIEF_OUT")
