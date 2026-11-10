@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklav</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 19:20:22 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:41:57 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklav</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -24,9 +24,9 @@
       <description>The Morning Brief for Tuesday, 10 November 2026. In this edition: Hindu Succession | Grandson Has No Birthright In Property Devolved On Father In Partition Of Grandfather's Estate : Supreme Court; Supreme Court Directs WhatsApp And Other Intermediaries To Inform Measures To Prevent Digital Arrest Scam &amp; Cybercrimes; Supreme Court Directs UP Gov To Identify Undertrials Granted Bail But Haven't Been Released From Jail In 75 Districts; Public Servant Arrested &amp; Kept In Custody For More Than 48 Hours Is Deemed Suspended; No Specific Order Needed : Supreme Court; Compulsory Retirement Order Not Punitive Or Stigmatic, So No Hearing Of Employee Needed : Supreme Court; Hum Do, Hamare Do? - Supreme Court Observer; and 28 more stories.</description>
       <itunes:title>The Morning Brief, Tuesday 10 November 2026</itunes:title>
       <itunes:summary>The Morning Brief for Tuesday, 10 November 2026. In this edition: Hindu Succession | Grandson Has No Birthright In Property Devolved On Father In Partition Of Grandfather's Estate : Supreme Court; Supreme Court Directs WhatsApp And Other Intermediaries To Inform Measures To Prevent Digital Arrest Scam &amp; Cybercrimes; Supreme Court Directs UP Gov To Identify Undertrials Granted Bail But Haven't Been Released From Jail In 75 Districts; Public Servant Arrested &amp; Kept In Custody For More Than 48 Hours Is Deemed Suspended; No Specific Order Needed : Supreme Court; Compulsory Retirement Order Not Punitive Or Stigmatic, So No Hearing Of Employee Needed : Supreme Court; Hum Do, Hamare Do? - Supreme Court Observer; and 28 more stories.</itunes:summary>
-      <itunes:duration>18:58</itunes:duration>
+      <itunes:duration>42:51</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-10/brief.mp3" length="9104238" type="audio/mpeg" />
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-10/brief.mp3" length="20570113" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
