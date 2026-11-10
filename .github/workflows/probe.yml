@@ -1,0 +1,11 @@
+name: Probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          for u in https://www.livelaw.in/ https://www.livelaw.in/sitemap-news.xml https://www.livelaw.in/top-stories https://indianexpress.com/ https://indianexpress.com/section/india/feed/ https://indianexpress.com/print/front-page/ https://www.thehindu.com/todays-paper/; do
+            echo "$u -> $(curl -s -o /tmp/o -w '%{http_code} %{size_download}B' -A "$UA" -H 'Accept-Language: en-IN' "$u") $(head -c 80 /tmp/o | tr '\n' ' ')"
+          done
