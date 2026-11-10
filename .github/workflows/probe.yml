@@ -6,6 +6,6 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-          for u in https://www.livelaw.in/ https://www.livelaw.in/sitemap-news.xml https://www.livelaw.in/top-stories https://indianexpress.com/ https://indianexpress.com/section/india/feed/ https://indianexpress.com/print/front-page/ https://www.thehindu.com/todays-paper/; do
-            echo "$u -> $(curl -s -o /tmp/o -w '%{http_code} %{size_download}B' -A "$UA" -H 'Accept-Language: en-IN' "$u") $(head -c 80 /tmp/o | tr '\n' ' ')"
-          done
+          curl -s -A "$UA" https://www.livelaw.in/news-sitemap-daily.xml -o /tmp/s.xml -w "sitemap -> %{http_code} %{size_download}B\n"
+          grep -o '<loc>[^<]*</loc>' /tmp/s.xml | wc -l | sed 's/^/sitemap urls: /'
+          grep -o '<loc>[^<]*</loc>' /tmp/s.xml | sed 's/<[^>]*>//g' | head -8 | while read u; do echo "article -> $(curl -s -o /tmp/a -w '%{http_code} %{size_download}B' -A "$UA" "$u") ${u:0:70}"; done
