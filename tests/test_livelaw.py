@@ -327,3 +327,11 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+class BulletsRegressionTests(unittest.TestCase):
+    def test_bullets_extracts_multiple_holdings_without_crashing(self):
+        from src.sources import livelaw
+
+        paras = [f"The Court held that point number {i} applies to every litigant in the matter." for i in range(5)]
+        self.assertGreaterEqual(len(livelaw._bullets(paras, "title")), 2)

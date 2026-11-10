@@ -659,7 +659,8 @@ def _bullets(paragraphs: Sequence[str], title_keywords: str) -> list[str]:
     if provision:
         bullets.append(_clip_words(f"Provision: {provision}", 18))
 
-    for paragraph in opening:
+    held = 0
+    for paragraph in paragraphs[:14]:
         match = re.search(
             r"\b(?:held|observed|ruled|opined|clarified|directed|ordered|noted|stated)\b[^.;]{10,150}",
             paragraph,
