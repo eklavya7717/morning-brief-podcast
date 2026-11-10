@@ -1,0 +1,19 @@
+name: Probe
+on: workflow_dispatch
+permissions:
+  contents: read
+  models: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          T: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          B='{"model":"openai/gpt-4.1-mini","messages":[{"role":"user","content":"Say hi"}],"max_tokens":20}'
+          for V in 2022-11-28 2026-03-10; do
+            echo "=== VERSION $V"; curl -s -i -m 60 -X POST https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: $V" -H "Content-Type: application/json" -d "$B" | head -c 700; echo
+          done
+          echo "=== NO MODEL PREFIX"; curl -s -i -m 60 -X POST https://models.github.ai/inference/chat/completions -H "Authorization: Bearer $T" -H "Content-Type: application/json" -d '{"model":"gpt-4.1-mini","messages":[{"role":"user","content":"Say hi"}]}' | head -c 500; echo
+          echo "=== BAD TOKEN"; curl -s -i -m 60 -X POST https://models.github.ai/inference/chat/completions -H "Authorization: Bearer bad" -H "Content-Type: application/json" -d "$B" | head -c 300; echo
+          echo "=== AZURE LEGACY"; curl -s -i -m 60 -X POST https://models.inference.ai.azure.com/chat/completions -H "Authorization: Bearer $T" -H "Content-Type: application/json" -d '{"model":"gpt-4.1-mini","messages":[{"role":"user","content":"Say hi"}],"max_tokens":20}' | head -c 500; echo
