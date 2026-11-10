@@ -127,8 +127,9 @@ def push_ntfy(
     # NB: ntfy headers must be latin-1 safe - no emoji in X-Title/X-Message.
     audio_path = artifacts.get("mp3_lite") or artifacts.get("mp3")
     attachments = [
-        ("listen", audio_path, "Audio edition - 5 min listen", "headphones"),
-        ("print", artifacts.get("pdf"), "Print edition (PDF) - 5 min read", "newspaper"),
+        ("headlines", audio_path, "Headlines audio (about 6 min). Full edition is in Podcasts", "headphones"),
+        ("print", artifacts.get("pdf"), "Print edition (PDF)", "newspaper"),
+        ("study", artifacts.get("study_pdf"), "Study sheet: quiz, maxim, flashcards", "books"),
     ]
     for kind, path, attachment_title, tag in attachments:
         if not path or not Path(path).exists():

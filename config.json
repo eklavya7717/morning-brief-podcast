@@ -55,7 +55,8 @@
     "target_minutes": 40,
     "words_per_story": 300,
     "edge_budget_s": 1200,
-    "llm_model": "openai/gpt-4.1-mini"
+    "llm_model": "openai/gpt-4.1-mini",
+    "short_edition": true
   },
   "pdf": {
     "enabled": true
@@ -64,5 +65,6 @@
     "out": "out",
     "cache": "cache",
     "logs": "logs"
-  }
+  },
+  "archive": true
 }

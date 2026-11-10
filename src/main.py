@@ -159,6 +159,25 @@ def make_lite_mp3(mp3: Path, target_bytes: int = NTFY_AUDIO_LIMIT) -> Path | Non
         return None
 
 
+def build_short_audio(brief: dict, config: dict, out_dir: Path) -> Path | None:
+    """The 5-6 minute headlines edition (the original extractive script), rendered beside the long one."""
+    try:
+        short_dir = out_dir / "short"
+        short_dir.mkdir(exist_ok=True)
+        cfg = json.loads(json.dumps({k: v for k, v in config.items() if not k.startswith("_")}))
+        cfg["audio"].update(deep=False, min_words=780, max_words=900, max_seconds=420)
+        cfg_path = short_dir / "config.json"
+        cfg_path.write_text(json.dumps(cfg), encoding="utf-8")
+        subprocess.run([sys.executable, "-m", "src.audio", "--brief", str(out_dir / "brief.json"),
+                        "--out", str(short_dir), "--config", str(cfg_path)],
+                       cwd=str(ROOT), capture_output=True, text=True, timeout=600, check=True)
+        mp3 = short_dir / "brief.mp3"
+        return mp3 if mp3.exists() and mp3.stat().st_size > 10_000 else None
+    except Exception as exc:  # noqa: BLE001 - the headlines copy is a bonus
+        LOG.warning(f"audio: headlines version failed: {exc}")
+        return None
+
+
 def build_artifacts(
     brief: dict,
     config: dict,
@@ -211,7 +230,11 @@ def build_artifacts(
             script_path = out_dir / "brief.script.txt"
             artifacts["script"] = script_path if script_path.exists() else None
             # a long edition cannot fit ntfy's attachment cap; it ships via the podcast instead
-            artifacts["mp3_lite"] = make_lite_mp3(mp3) if (meta.get("duration_s") or 0) < 900 else None
+            if (meta.get("duration_s") or 0) < 900:
+                artifacts["mp3_lite"] = make_lite_mp3(mp3)
+            else:  # long edition: ntfy gets a ~6 minute headlines version instead
+                short = build_short_audio(brief, config, out_dir)
+                artifacts["mp3_lite"] = make_lite_mp3(short) if short else None
             brief["audio_meta"] = {
                 "duration_s": meta.get("duration_s"),
                 "words": meta.get("words"),
@@ -314,6 +337,11 @@ def main(argv: list[str] | None = None) -> int:
         stats = dict(brief.get("stats") or {})
     else:
         items, errors = collect(config, no_cache=args.no_cache)
+        if config.get("archive"):  # study layer on (cloud config): skip stories used in the last 14 days
+            from src import study
+
+            items, repeats = study.filter_seen(items, ROOT / "seen.json", date)
+            LOG.info(f"no-repeat: skipped {repeats} stories already used")
         if not items:
             LOG.error("all sources failed - nothing to publish")
             return 1
@@ -326,6 +354,10 @@ def main(argv: list[str] | None = None) -> int:
             f"ranked: {brief['stats']['selected']} stories, ~{brief['read_minutes']} min read"
         )
 
+    if config.get("archive"):
+        from src import study
+
+        study.prepare(brief, ROOT, date)
     files = write_edition_files(brief, out_dir, config)
     artifacts, extra = build_artifacts(
         brief, config, out_dir, skip_audio=args.skip_audio, skip_pdf=args.skip_pdf
@@ -333,6 +365,13 @@ def main(argv: list[str] | None = None) -> int:
     # persist audio metadata learned during rendering
     fetch.save_json(out_dir / "brief.json", brief)
 
+    if config.get("archive") and not args.dry_run:
+        try:
+            from src import study
+
+            study.finish(brief, config, out_dir, ROOT, date, artifacts, log=LOG.info)
+        except Exception as exc:  # noqa: BLE001 - study extras must never block the edition
+            LOG.error(f"study layer FAILED: {exc}")
     pod = (config.get("delivery") or {}).get("podcast") or {}
     if pod.get("release_repo") and artifacts.get("mp3") and not args.dry_run:
         from src.publish import upload_release

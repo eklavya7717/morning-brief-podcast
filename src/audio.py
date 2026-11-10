@@ -872,13 +872,13 @@ def _render_edge(chunks: list[str], workdir: Path, voice: str, rate: str, budget
     return paths
 
 
-def synthesize(script: str, workdir: Path, config: dict | None = None) -> tuple[list[Path], str]:
+def synthesize(script: str, workdir: Path, config: dict | None = None, chunks: list[str] | None = None) -> tuple[list[Path], str]:
     """Render script chunks to audio files; gTTS first, Windows SAPI as fallback."""
     # gTTS/requests has no timeout of its own; a stalled TCP read must never hang
     # the morning run, so give every socket a hard ceiling.
     socket.setdefaulttimeout(25)
     cfg = _audio_config(config)
-    chunks = split_script(script)
+    chunks = chunks or split_script(script)
     if not chunks:
         raise RuntimeError("empty narration script")
     tld = cfg.get("tld") or "co.in"
@@ -902,10 +902,61 @@ def synthesize(script: str, workdir: Path, config: dict | None = None) -> tuple[
         ) from sapi_error
 
 
+_CHAPTER_RE = re.compile(r"^\[\[CH:(.*?)\]\]$")
+
+
+def split_chapters(script: str) -> tuple[list[str], list[tuple[int, str]]]:
+    """Script with [[CH:title]] marker paragraphs -> (TTS chunks, [(chunk index, chapter title)])."""
+    chunks: list[str] = []
+    chapters: list[tuple[int, str]] = []
+    block: list[str] = []
+
+    def flush() -> None:
+        if block:
+            chunks.extend(split_script("\n\n".join(block)))
+            block.clear()
+
+    for para in script.split("\n\n"):
+        match = _CHAPTER_RE.match(para.strip())
+        if match:
+            flush()
+            chapters.append((len(chunks), match.group(1).strip()))
+        elif para.strip():
+            block.append(para)
+    flush()
+    return chunks, chapters
+
+
+def strip_chapters(script: str) -> str:
+    return "\n\n".join(p for p in script.split("\n\n") if not _CHAPTER_RE.match(p.strip()))
+
+
+def _add_chapters(mp3: Path, starts_s: list[tuple[float, str]], total_s: float, workdir: Path, ffmpeg: str) -> None:
+    """Embed ID3 chapters (Apple Podcasts shows them as jump points). Never fatal."""
+    lines = [";FFMETADATA1"]
+    for i, (start, title) in enumerate(starts_s):
+        end = starts_s[i + 1][0] if i + 1 < len(starts_s) else total_s
+        safe = re.sub(r"[=;#\\\n]", " ", title)
+        lines += ["[CHAPTER]", "TIMEBASE=1/1000", f"START={int(start * 1000)}", f"END={int(end * 1000)}", f"title={safe}"]
+    meta = workdir / "chapters.txt"
+    meta.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    out = workdir / "with_chapters.mp3"
+    result = _run([ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-i", str(mp3), "-i", str(meta),
+                   "-map_metadata", "1", "-map_chapters", "1", "-c", "copy", "-id3v2_version", "3", str(out)], timeout=300)
+    if result.returncode == 0 and out.exists() and out.stat().st_size >= mp3.stat().st_size:
+        shutil.copyfile(out, mp3)
+    else:
+        print(f"[audio] chapters not embedded: {(result.stderr or '')[:200]}", file=sys.stderr)
+
+
 def render_audio(script: str, out_mp3: Path, workdir: Path, config: dict | None = None) -> tuple[float, str]:
     """Script -> MP3 on disk. Returns (duration_s, provider)."""
     ffmpeg = _ffmpeg_bin()
-    raw_segments, provider = synthesize(script, workdir, config)
+    chunks, chapters = split_chapters(script)
+    if chapters:
+        raw_segments, provider = synthesize(strip_chapters(script), workdir, config, chunks=chunks)
+    else:
+        raw_segments, provider = synthesize(script, workdir, config)
     segments: list[Path] = []
     for index, raw in enumerate(raw_segments):
         segments.append(_normalise_segment(raw, workdir / f"seg_{index:03d}.mp3", ffmpeg))
@@ -913,6 +964,19 @@ def render_audio(script: str, out_mp3: Path, workdir: Path, config: dict | None 
     _concat(segments, out_mp3, workdir, ffmpeg)
     duration = _duration_s(out_mp3, ffmpeg)
     _verify_decodable(out_mp3, ffmpeg)
+    if chapters and len(raw_segments) == len(chunks):
+        try:
+            starts, clock = [], 0.0
+            ch_at = {idx: title for idx, title in chapters}
+            for index, seg in enumerate(segments):
+                if index in ch_at:
+                    starts.append((clock, ch_at[index]))
+                clock += _duration_s(seg, ffmpeg) + (GAP_MS / 1000.0 if index else 0.0)
+            if starts:
+                _add_chapters(out_mp3, starts, duration, workdir, ffmpeg)
+                _verify_decodable(out_mp3, ffmpeg)
+        except Exception as exc:  # noqa: BLE001 - chapters are a nicety, the audio is the product
+            print(f"[audio] chapters skipped: {exc}", file=sys.stderr)
     return duration, provider
 
 
@@ -958,7 +1022,7 @@ def build_audio(brief: dict, out_dir: Path, config: dict | None = None) -> dict:
             )
 
     script_path = out_dir / "brief.script.txt"
-    script_path.write_text(script + "\n", encoding="utf-8")
+    script_path.write_text(strip_chapters(script) + "\n", encoding="utf-8")
     words = _word_count(script)
     meta = {
         "duration_s": round(duration, 3),

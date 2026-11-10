@@ -38,10 +38,17 @@ jobs:
           D=$(date -u -d "+5 hours 30 minutes" +%F)
           gh release list --limit 100 --json tagName -q '.[].tagName' | grep '^ed-' | sort -r | tail -n +15 | xargs -r -I{} gh release delete {} --cleanup-tag -y
           ls -d 20??-??-?? 2>/dev/null | sort | head -n -30 | xargs -r rm -rf
+          for d in pdf study; do ls $d/*.pdf 2>/dev/null | sort | head -n -30 | xargs -r rm -f; done
           git config user.name "morning-brief-bot"
           git config user.email "morning-brief-bot@users.noreply.github.com"
           git add -A
           git diff --cached --quiet || (git commit -m "Edition $D" && git pull -q --rebase && git push)
+      - name: Alert me if the run failed
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -s -H "Title: Morning Brief FAILED" -H "Priority: high" -H "Tags: warning"             -H "Click: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"             -d "Tonight's run failed. Tap to open the logs." "https://ntfy.sh/$NTFY_TOPIC"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
