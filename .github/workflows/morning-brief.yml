@@ -5,7 +5,6 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  models: read      # free GitHub Models, used to write the in-depth segments
 concurrency: morning-brief
 jobs:
   brief:
@@ -26,7 +25,9 @@ jobs:
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
           TG_SESSION: ${{ secrets.TG_SESSION }}
           TG_CHATS: ${{ secrets.TG_CHATS }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}          # optional free-tier keys; the first one set is used
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
           PYTHONUTF8: "1"
         run: python -m src.main --quiet
       - name: Publish podcast (audio as a release, last 14 kept)

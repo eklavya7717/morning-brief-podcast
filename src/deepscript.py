@@ -1,9 +1,9 @@
 """Long-form (30-60 min) audio script: each legal story explained, not just announced.
 
-For every legal item with full text, a free GitHub Models call (GITHUB_TOKEN, no
+For every legal item with full text, a free-tier LLM call (Groq/Gemini/OpenRouter key, no
 subscription) writes a spoken segment in its own words: what was decided, the
 legal question, the principle applied, and how it affects people and practice.
-Everything degrades safely: no token / rate limit / bad output -> that item is
+Everything degrades safely: no API key / rate limit / bad output -> that item is
 read from its summary and holdings instead; no usable items -> ``None`` and the
 caller uses the short extractive script.
 """
@@ -18,7 +18,12 @@ import requests
 
 from src.audio import SOURCE_NAMES, _court_phrase, naturalise
 
-ENDPOINT = "https://models.github.ai/inference/chat/completions"
+# Any OpenAI-compatible free-tier provider works; the key's env var picks it (all have a free tier, no card).
+PROVIDERS = (
+    ("GROQ_API_KEY", "https://api.groq.com/openai/v1/chat/completions", "llama-3.3-70b-versatile"),
+    ("GEMINI_API_KEY", "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "gemini-2.5-flash"),
+    ("OPENROUTER_API_KEY", "https://openrouter.ai/api/v1/chat/completions", "meta-llama/llama-3.3-70b-instruct:free"),
+)
 SYSTEM = (
     "You write one segment of a daily audio briefing for an Indian law student preparing for the "
     "judicial services exams. Write in your own words, grounded ONLY in the SOURCE: never add facts, "
@@ -35,17 +40,25 @@ SECTIONS = (
 _cache: dict[str, str] = {}
 
 
+def _provider():
+    for env, url, model in PROVIDERS:
+        if os.environ.get(env):
+            return os.environ[env], url, os.environ.get("LLM_MODEL") or model
+    return None
+
+
 def _chat(prompt: str, cfg: dict, max_tokens: int) -> str | None:
-    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_MODELS_TOKEN")
-    if not token:
+    prov = _provider()
+    if not prov:
         return None
-    body = {"model": cfg.get("llm_model") or "openai/gpt-4.1-mini", "max_tokens": max_tokens, "temperature": 0.4,
+    key, url, model = prov
+    body = {"model": model, "max_tokens": max_tokens, "temperature": 0.4,
             "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}]}
     for attempt in range(4):
         try:
-            r = requests.post(ENDPOINT, json=body, timeout=90, headers={"Authorization": f"Bearer {token}"})
-            if r.status_code == 429:  # free tier is rate limited: wait as told, then retry
-                time.sleep(min(60, int(r.headers.get("retry-after", 10 * (attempt + 1)))))
+            r = requests.post(url, json=body, timeout=120, headers={"Authorization": f"Bearer {key}"})
+            if r.status_code == 429:  # free tiers are rate limited: wait as told, then retry
+                time.sleep(min(60, int(float(r.headers.get("retry-after", 10 * (attempt + 1))))))
                 continue
             r.raise_for_status()
             return (r.json()["choices"][0]["message"]["content"] or "").strip()
