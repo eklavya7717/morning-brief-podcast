@@ -1,0 +1,255 @@
+{
+  "date": "2026-11-10",
+  "weekday": "Monday",
+  "generated_at": "2026-11-10T06:28:11+05:30",
+  "read_minutes": 5,
+  "sections": [
+    {
+      "name": "THE LEGAL LEDGER",
+      "slug": "legal",
+      "items": [
+        {
+          "id": "a1b2c3d4e5f6",
+          "source": "livelaw",
+          "category": "supreme-court",
+          "title": "Supreme Court Upholds Validity Of Section 45 PMLA, Says Twin Conditions For Bail Do Not Violate Article 21",
+          "url": "https://www.livelaw.in/top-stories/supreme-court-pmla-section-45-bail-twin-conditions-article-21-297831",
+          "published": "2026-11-09T18:42:00+05:30",
+          "summary": "A three-judge bench held that the twin conditions for bail under Section 45 of the Prevention of Money Laundering Act do not violate Article 21, but directed that the accused must be heard before remand.",
+          "bullets": [
+            "Bench: CJI Surya Kant, Justice Pankaj Mithal, Justice V. Mohana",
+            "Twin conditions read down to include right of hearing before remand",
+            "Court clarifies 'reasonable grounds to believe guilty' test"
+          ],
+          "priority": 95,
+          "tags": ["Supreme Court", "PMLA", "Article 21", "Bail"],
+          "image": null,
+          "court": "Supreme Court",
+          "case_name": "K. Vijay Kumar v. Union of India",
+          "ratio": "Section 45 PMLA twin conditions survive Article 21 scrutiny, but an accused must be heard before remand is extended.",
+          "read_seconds": 95
+        },
+        {
+          "id": "b7c8d9e0f1a2",
+          "source": "livelaw",
+          "category": "high-court",
+          "title": "Allahabad High Court: Registration Of FIR Cannot Be Refused Merely Because Dispute Is Civil In Nature",
+          "url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-fir-refusal-civil-dispute-297804",
+          "published": "2026-11-09T16:10:00+05:30",
+          "summary": "The court observed that a criminal case cannot be quashed at the FIR stage merely because the underlying transaction is contractual, and asked police to complete the investigation within three months.",
+          "bullets": [
+            "Single judge bench of Justice Manish Kumar Nigam",
+            "Directions issued for time-bound investigation",
+            "Reliance placed on Lalita Kumari v. State of UP"
+          ],
+          "priority": 68,
+          "tags": ["Allahabad High Court", "FIR", "Criminal Law"],
+          "image": null,
+          "court": "Allahabad High Court",
+          "case_name": "Rakesh Gupta v. State of UP",
+          "ratio": "A civil colour to the dispute is not by itself a ground to refuse registration of an FIR.",
+          "read_seconds": 55
+        },
+        {
+          "id": "c3d4e5f6a7b8",
+          "source": "livelaw",
+          "category": "legislation",
+          "title": "Lok Sabha Passes Bharatiya Sakshya (Second Amendment) Bill, Electronic Records Get Wider Admissibility",
+          "url": "https://www.livelaw.in/news-updates/bharatiya-sakshya-second-amendment-bill-lok-sabha-electronic-records-297776",
+          "published": "2026-11-09T14:05:00+05:30",
+          "summary": "The bill expands the definition of electronic records to include cloud-stored data and digital signatures while adding a certificate requirement for admissibility under the new evidence law.",
+          "bullets": [
+            "Certificate requirement retained for electronic evidence",
+            "Rajya Sabha to take up the bill on Tuesday"
+          ],
+          "priority": 78,
+          "tags": ["Parliament", "BSA", "Evidence", "Law Reform"],
+          "image": null,
+          "court": null,
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 40
+        },
+        {
+          "id": "d4e5f6a7b8c9",
+          "source": "livelaw",
+          "category": "judiciary",
+          "title": "Judicial Appointment: Supreme Court Collegium Recommends Two Chief Justices For Elevation To Top Court",
+          "url": "https://www.livelaw.in/news-updates/supreme-court-collegium-recommends-two-chief-justices-elevation-297750",
+          "published": "2026-11-09T12:20:00+05:30",
+          "summary": "The collegium recommended the Chief Justices of the Rajasthan and Kerala High Courts for appointment as judges of the Supreme Court, ending a two-month vacancy.",
+          "bullets": [
+            "Recommendation marks third set of SC appointments in 2026",
+            "Pending strength of the court drops from 34 to 32"
+          ],
+          "priority": 82,
+          "tags": ["Collegium", "Judiciary", "Supreme Court"],
+          "image": null,
+          "court": "Supreme Court",
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 40
+        }
+      ]
+    },
+    {
+      "name": "THE NATION",
+      "slug": "national",
+      "items": [
+        {
+          "id": "e5f6a7b8c9d0",
+          "source": "indianexpress",
+          "category": "national",
+          "title": "Cabinet Clears Data Protection Rules, Sets 18-Month Compliance Window For Platforms",
+          "url": "https://indianexpress.com/article/india/data-protection-rules-cabinet-clearance/",
+          "published": "2026-11-09T21:30:00+05:30",
+          "summary": "The Union Cabinet approved the rules under the DPDP Act, including a phased compliance timeline and a penalty framework that can reach Rs 250 crore for major breaches.",
+          "bullets": [
+            "Rules to be notified within a week",
+            "Consent managers get separate registration regime",
+            "Penalties up to Rs 250 crore for data breaches"
+          ],
+          "priority": 80,
+          "tags": ["DPDP", "Cabinet", "Technology", "Policy"],
+          "image": null,
+          "court": null,
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 45
+        },
+        {
+          "id": "f6a7b8c9d0e1",
+          "source": "thehindu",
+          "category": "national",
+          "title": "Centre Notifies Constitution Bench To Hear Pleas Seeking Review Of 'Basic Structure' Reference",
+          "url": "https://www.thehindu.com/news/national/constitution-bench-basic-structure-pleas/article69123456.ece",
+          "published": "2026-11-09T20:15:00+05:30",
+          "summary": "The Union government notified a nine-judge bench to hear petitions arising from the reference on judicial primacy, with hearings expected to begin in the first week of December.",
+          "bullets": [
+            "Nine-judge bench, led by the CJI",
+            "Hearings expected from December 2",
+            "Reference arises from NJAC judgment of 2015"
+          ],
+          "priority": 76,
+          "tags": ["Supreme Court", "Constitution", "Basic Structure"],
+          "image": null,
+          "court": "Supreme Court",
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 45
+        },
+        {
+          "id": "a7b8c9d0e1f2",
+          "source": "thehindu",
+          "category": "economy",
+          "title": "Retail Inflation Eases To 4.1% In October, Lowest In Four Years",
+          "url": "https://www.thehindu.com/business/Economy/retail-inflation-october-2026/article69123001.ece",
+          "published": "2026-11-09T17:45:00+05:30",
+          "summary": "Consumer price inflation eased to 4.1 per cent in October helped by falling food prices, staying below the RBI's 4 per cent tolerance midpoint and strengthening the case for a rate cut.",
+          "bullets": [
+            "Food inflation at 3.6 per cent, down from 5.2 per cent",
+            "RBI's next policy review on December 5"
+          ],
+          "priority": 58,
+          "tags": ["Inflation", "RBI", "Economy"],
+          "image": null,
+          "court": null,
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 35
+        }
+      ]
+    },
+    {
+      "name": "OPINION & ANALYSIS",
+      "slug": "editorial",
+      "items": [
+        {
+          "id": "b8c9d0e1f2a3",
+          "source": "thehindu",
+          "category": "editorial",
+          "title": "The Long Road To Judicial Vacancies: Collegium Reform Needs Transparency, Not Speed",
+          "url": "https://www.thehindu.com/opinion/editorial/judicial-vacancies-collegium-reform/article69123500.ece",
+          "published": "2026-11-10T01:20:00+05:30",
+          "summary": "With 32 vacancies in the higher judiciary, the editorial argues that faster appointments alone will not fix the system unless the collegium publishes reasons for its choices.",
+          "bullets": [
+            "Vacancies have hovered above 30 for two years",
+            "Editorial calls for published collegium resolutions"
+          ],
+          "priority": 62,
+          "tags": ["Editorial", "Judiciary", "Collegium"],
+          "image": null,
+          "court": null,
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 40
+        },
+        {
+          "id": "c9d0e1f2a3b4",
+          "source": "indianexpress",
+          "category": "editorial",
+          "title": "Why The New Evidence Law Needs A Digital Forensics Bench, Not Just Certificates",
+          "url": "https://indianexpress.com/article/opinion/columns/new-evidence-law-digital-forensics/",
+          "published": "2026-11-10T00:05:00+05:30",
+          "summary": "The column argues that admissibility reforms mean little without trained forensic examiners and a certification authority, and suggests a standing digital forensics cadre.",
+          "bullets": [
+            "Points to backlog of electronic evidence certificates",
+            "Proposes a standing digital forensics cadre"
+          ],
+          "priority": 55,
+          "tags": ["Opinion", "Evidence", "Cyber Law"],
+          "image": null,
+          "court": null,
+          "case_name": null,
+          "ratio": null,
+          "read_seconds": 45
+        }
+      ]
+    }
+  ],
+  "top_story": {
+    "id": "a1b2c3d4e5f6",
+    "source": "livelaw",
+    "category": "supreme-court",
+    "title": "Supreme Court Upholds Validity Of Section 45 PMLA, Says Twin Conditions For Bail Do Not Violate Article 21",
+    "url": "https://www.livelaw.in/top-stories/supreme-court-pmla-section-45-bail-twin-conditions-article-21-297831",
+    "published": "2026-11-09T18:42:00+05:30",
+    "summary": "A three-judge bench held that the twin conditions for bail under Section 45 of the Prevention of Money Laundering Act do not violate Article 21, but directed that the accused must be heard before remand.",
+    "bullets": [
+      "Bench: CJI Surya Kant, Justice Pankaj Mithal, Justice V. Mohana",
+      "Twin conditions read down to include right of hearing before remand"
+    ],
+    "priority": 95,
+    "tags": ["Supreme Court", "PMLA", "Article 21"],
+    "image": null,
+    "court": "Supreme Court",
+    "case_name": "K. Vijay Kumar v. Union of India",
+    "ratio": "Section 45 PMLA twin conditions survive Article 21 scrutiny, but an accused must be heard before remand is extended.",
+    "read_seconds": 95
+  },
+  "judiciary_capsule": [
+    {
+      "id": "a1b2c3d4e5f6",
+      "source": "livelaw",
+      "category": "supreme-court",
+      "title": "Supreme Court Upholds Validity Of Section 45 PMLA",
+      "url": "https://www.livelaw.in/top-stories/supreme-court-pmla-section-45-bail-twin-conditions-article-21-297831",
+      "published": "2026-11-09T18:42:00+05:30",
+      "summary": "Twin conditions for bail under PMLA do not violate Article 21, but hearing before remand is mandatory.",
+      "bullets": [],
+      "priority": 95,
+      "tags": ["Supreme Court", "PMLA"],
+      "image": null,
+      "court": "Supreme Court",
+      "case_name": "K. Vijay Kumar v. Union of India",
+      "ratio": "Section 45 PMLA twin conditions survive Article 21 scrutiny, but an accused must be heard before remand is extended.",
+      "read_seconds": 40
+    }
+  ],
+  "stats": {
+    "sources": {"livelaw": 24, "indianexpress": 30, "thehindu": 20},
+    "selected": 9,
+    "words": 780,
+    "generated_in_seconds": 21.4
+  }
+}

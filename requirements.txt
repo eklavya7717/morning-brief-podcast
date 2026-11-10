@@ -1,0 +1,11 @@
+requests>=2.32
+beautifulsoup4>=4.12
+lxml>=5.0
+feedparser>=6.0
+pypdf>=5.0
+gTTS>=2.5
+imageio-ffmpeg>=0.5
+telethon>=1.36
+edge-tts>=7.0
+pymupdf>=1.24
+rapidocr-onnxruntime>=1.3

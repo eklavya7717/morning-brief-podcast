@@ -1,0 +1,42 @@
+name: Morning Brief
+on:
+  schedule:
+    - cron: "55 0 * * *"   # 06:25 IST; GitHub may start it up to ~30 min late
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: morning-brief
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Build and deliver the edition
+        env:
+          BRIEF_OUT: "."          # episode folders live at the repo root, served by Pages
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TG_SESSION: ${{ secrets.TG_SESSION }}
+          TG_CHATS: ${{ secrets.TG_CHATS }}
+          PYTHONUTF8: "1"
+        run: python -m src.main --quiet
+      - name: Publish podcast (keep the last 30 episodes)
+        run: |
+          ls -d 20??-??-?? | sort | head -n -30 | xargs -r rm -rf
+          git config user.name "morning-brief-bot"
+          git config user.email "morning-brief-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "Edition $(date -u +%F)" && git push)
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: logs
+          path: logs/
+          retention-days: 7

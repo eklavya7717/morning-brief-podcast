@@ -1,0 +1,59 @@
+{
+  "edition": {
+    "read_minutes": 10,
+    "max_items": 18,
+    "lookback_hours": 30,
+    "sections": {
+      "legal": 9,
+      "national": 5,
+      "editorial": 4
+    }
+  },
+  "sources": {
+    "livelaw": true,
+    "indianexpress": true,
+    "thehindu": true,
+    "telegram_pdf": false
+  },
+  "delivery": {
+    "ntfy": {
+      "enabled": true,
+      "server": "https://ntfy.sh",
+      "topic": "",
+      "priority": 3,
+      "tags": [
+        "newspaper",
+        "scales"
+      ]
+    },
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    },
+    "podcast": {
+      "base_url": "https://eklavya7717.github.io/morning-brief-podcast"
+    }
+  },
+  "audio": {
+    "enabled": true,
+    "provider": "edge",
+    "tld": "co.in",
+    "max_seconds": 780,
+    "words_per_minute": 155,
+    "voice": "en-IN",
+    "build_timeout_s": 600,
+    "gtts_budget_s": 150,
+    "edge_voice": "en-IN-NeerjaNeural",
+    "min_words": 1500,
+    "max_words": 1750
+  },
+  "pdf": {
+    "enabled": true
+  },
+  "paths": {
+    "out": "out",
+    "cache": "cache",
+    "logs": "logs"
+  }
+}

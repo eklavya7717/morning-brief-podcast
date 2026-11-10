@@ -1,0 +1,8 @@
+__pycache__/
+cache/
+logs/
+out/
+*.session
+# episode folders: publish only the audio
+/20??-??-??/*
+!/20??-??-??/brief.mp3
