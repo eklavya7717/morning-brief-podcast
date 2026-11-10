@@ -28,6 +28,7 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}          # optional free-tier keys; the first one set is used
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PYTHONUTF8: "1"
         run: python -m src.main --quiet
       - name: Publish podcast (audio as a release, last 14 kept)
@@ -35,9 +36,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           D=$(date -u -d "+5 hours 30 minutes" +%F)
-          if [ -f "$D/brief.mp3" ]; then
-            gh release create "ed-$D" "$D/brief.mp3" --title "Edition $D" --notes "Audio for The Morning Brief, $D" || gh release upload "ed-$D" "$D/brief.mp3" --clobber
-          fi
           gh release list --limit 100 --json tagName -q '.[].tagName' | grep '^ed-' | sort -r | tail -n +15 | xargs -r -I{} gh release delete {} --cleanup-tag -y
           ls -d 20??-??-?? 2>/dev/null | sort | head -n -30 | xargs -r rm -rf
           git config user.name "morning-brief-bot"

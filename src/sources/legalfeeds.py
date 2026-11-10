@@ -7,6 +7,7 @@ script can explain the legal principle instead of echoing a headline.
 * SCO             : its RSS is stale, so the newest ``journal-sitemap*.xml`` URLs are read.
 * Bar & Bench     : RSS gives only titles; article pages are read, paywalled ones skipped.
 
+LiveLaw round-ups/digests are read from its news sitemap.
 Only text the sites serve openly is used; a paywalled page is dropped, not bypassed.
 """
 from __future__ import annotations
@@ -128,9 +129,30 @@ def barandbench(n: int = 6) -> list[dict]:
     return out[:n]
 
 
+def livelaw_digests(n: int = 3) -> list[dict]:
+    """LiveLaw weekly round-ups and monthly/quarterly digests, found via its daily news sitemap."""
+    sm = get("https://www.livelaw.in/news-sitemap-daily.xml", cache_ttl=1800)
+    urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if re.search(r"round-?ups?|digest", u) and "/amp/" not in u]
+    out = []
+    for url in urls[:8]:
+        try:
+            title, body = _article_paragraphs(url)
+            body = re.sub(r"Your support helps us[^.!]*[.!]*(\s*!+)?(\s*All payment options available)?", " ", body)
+            it = _item("livelaw", title, url, ["LiveLaw digest"], body, None)
+        except Exception:  # noqa: BLE001
+            it = None
+        if it:
+            it["category"] = "high-court" if "/high-court/" in url or "high court" in title.lower() else "supreme-court"
+            it["priority"] = 64
+            out.append(it)
+        if len(out) == n:
+            break
+    return out
+
+
 def fetch(n: int = 20, config: dict | None = None) -> list[dict]:
     items, errors = [], []
-    for fn in (sccblog, scobserver, barandbench):
+    for fn in (sccblog, scobserver, barandbench, livelaw_digests):
         try:
             items += fn()
         except Exception as exc:  # noqa: BLE001

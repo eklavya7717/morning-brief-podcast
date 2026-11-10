@@ -107,6 +107,10 @@ def push_ntfy(
         "tags": cfg.get("tags") or ["newspaper"],
         "click": (brief.get("top_story") or {}).get("url"),
     }
+    listen = artifacts.get("listen_url")
+    if listen:  # audio is too big to attach: one tap opens it in the browser player
+        mins = int((brief.get("audio_meta") or {}).get("duration_s") or 0) // 60
+        payload["actions"] = [{"action": "view", "label": f"Listen ({mins} min)" if mins else "Listen", "url": str(listen)}]
     payload = {k: v for k, v in payload.items() if v is not None}
     try:
         resp = requests.post(server, json=payload, timeout=30)

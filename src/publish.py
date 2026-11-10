@@ -51,3 +51,21 @@ def publish_podcast(out_root: Path, config: dict, *, log=print) -> dict:
     _git(site, "push")
     log(f"podcast: published {len(episodes)} episodes to {pod['base_url']}/feed.xml")
     return {"channel": "podcast", "status": "ok", "feed": f"{pod['base_url']}/feed.xml"}
+
+
+def upload_release(repo: str, date: str, mp3: Path, *, log=print) -> str | None:
+    """Host the episode audio as a GitHub release asset; returns its public URL (None on failure)."""
+    tag = f"ed-{date}"
+    base = ["gh", "release"]
+    try:
+        r = subprocess.run([*base, "create", tag, str(mp3), "--repo", repo, "--title", f"Edition {date}",
+                            "--notes", f"Audio for Eklavya's Morning Brief, {date}"], capture_output=True, text=True, timeout=600)
+        if r.returncode:  # tag exists (re-run): replace the asset instead
+            subprocess.run([*base, "upload", tag, str(mp3), "--repo", repo, "--clobber"],
+                           check=True, capture_output=True, text=True, timeout=600)
+        url = f"https://github.com/{repo}/releases/download/{tag}/{Path(mp3).name}"
+        log(f"podcast: audio uploaded -> {url}")
+        return url
+    except Exception as exc:  # noqa: BLE001 - delivery must not depend on hosting
+        log(f"podcast: release upload FAILED: {exc}")
+        return None

@@ -333,6 +333,12 @@ def main(argv: list[str] | None = None) -> int:
     # persist audio metadata learned during rendering
     fetch.save_json(out_dir / "brief.json", brief)
 
+    pod = (config.get("delivery") or {}).get("podcast") or {}
+    if pod.get("release_repo") and artifacts.get("mp3") and not args.dry_run:
+        from src.publish import upload_release
+
+        artifacts["listen_url"] = upload_release(pod["release_repo"], date, artifacts["mp3"], log=LOG.info)
+
     delivery = []
     if args.dry_run:
         LOG.info("dry-run: not pushing")

@@ -104,7 +104,17 @@ def explain(item: dict, cfg: dict, words: int) -> str:
         "question; (3) the legal principle and the reasoning the court or law applies; (4) how it affects "
         "litigants, authorities or legal practice, and what a student should take from it."
     )
-    if len(body.split()) >= 120:
+    digest = re.search(r"round-?up|digest", (item.get("title") or "").lower())
+    if digest and len(body.split()) >= 120:
+        words = int(words * 1.4)
+        prompt = (
+            f"This SOURCE is a LiveLaw digest listing many rulings. Write about {words} words as flowing speech: "
+            "pick the four most important rulings for a law student, and for each explain in two or three sentences "
+            "the legal principle and its practical effect; then say in one sentence how many other rulings the digest "
+            "covers. Use only what the source states.\n"
+            f"HEADLINE: {item.get('title')}\nSOURCE:\n{body[:12000]}"
+        )
+    elif len(body.split()) >= 120:
         prompt = (
             f"Write about {words} words on this item, {beats} If the source does not say something, skip it "
             "rather than guess.\n"
