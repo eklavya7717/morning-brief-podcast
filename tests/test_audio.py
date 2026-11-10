@@ -304,9 +304,9 @@ class PodcastFeedTests(unittest.TestCase):
         root = ET.parse(feed).getroot()
         self.assertEqual(root.tag, "rss")
         channel = root.find("channel")
-        self.assertEqual(channel.findtext("title"), "The Morning Brief")
+        self.assertEqual(channel.findtext("title"), "Eklavya's Morning Brief")
         self.assertEqual(channel.findtext("language"), "en-IN")
-        self.assertEqual(channel.findtext(f"{ITUNES}author"), "Eklav")
+        self.assertEqual(channel.findtext(f"{ITUNES}author"), "Eklavya")
         self.assertIsNotNone(channel.find(f"{ITUNES}category"))
 
     def test_items_newest_first_with_enclosures(self):

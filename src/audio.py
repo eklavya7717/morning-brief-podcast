@@ -275,8 +275,9 @@ def naturalise(text: str) -> str:
     out = re.sub(r"https?://\S+", "", out)
     out = re.sub(r"\bwww\.\S+", "", out)
     # quotation marks / dashes / colons / semicolons that read badly
-    for ch in "\u201c\u201d\u2018\u2019\"":
+    for ch in "\u201c\u201d\"":
         out = out.replace(ch, "")
+    out = out.replace("\u2018", "'").replace("\u2019", "'")  # keep possessives: Court's, grandfather's
     out = re.sub(r"\s*[\u2013\u2014]\s*", ", ", out)
     out = re.sub(r"\s*;\s*", ", ", out)
     out = re.sub(r"\s*:\s*", ", ", out)

@@ -35,7 +35,8 @@
     "podcast": {
       "base_url": "https://eklavya7717.github.io/morning-brief-podcast",
       "release_repo": "eklavya7717/morning-brief-podcast",
-      "max_items": 14
+      "max_items": 14,
+      "image_url": "https://eklavya7717.github.io/morning-brief-podcast/cover.jpg"
     }
   },
   "audio": {

@@ -38,12 +38,12 @@ ATOM_NS = "http://www.w3.org/2005/Atom"
 ET.register_namespace("itunes", ITUNES_NS)
 ET.register_namespace("atom", ATOM_NS)
 
-CHANNEL_TITLE = "The Morning Brief"
+CHANNEL_TITLE = "Eklavya's Morning Brief"
 CHANNEL_DESCRIPTION = (
     "A five to six minute daily audio digest of Supreme Court and High Court judgments, "
     "new laws, national news and editorials, for law students and judiciary aspirants in India."
 )
-CHANNEL_AUTHOR = "Eklav"
+CHANNEL_AUTHOR = "Eklavya"
 
 
 # --------------------------------------------------------------------- helpers
@@ -163,7 +163,8 @@ def collect_episodes(out_root: Path, limit: int = MAX_ITEMS) -> list[dict]:
     for date_str, e in _ledger(out_root).items():
         date = _edition_date(date_str)
         if date and not (out_root / date_str / "brief.mp3").exists():
-            episodes.append({**e, "date": date, "date_str": date_str, "mp3": None})
+            episodes.append({**e, "date": date, "date_str": date_str, "mp3": None,
+                             "title": f"{CHANNEL_TITLE}, {date.strftime('%A %d %B %Y')}"})
     for mp3 in out_root.glob("*/brief.mp3"):
         date = _edition_date(mp3.parent.name)
         if date is None or not mp3.is_file():
@@ -177,7 +178,7 @@ def collect_episodes(out_root: Path, limit: int = MAX_ITEMS) -> list[dict]:
                 "mp3": mp3,
                 "edition": edition,
                 "title": (
-                    f"The Morning Brief, {_edition_weekday(edition, date)} "
+                    f"{CHANNEL_TITLE}, {_edition_weekday(edition, date)} "
                     f"{date.strftime('%d %B %Y')}"
                 ),
                 "description": description,
@@ -267,6 +268,10 @@ def build_feed(out_root: Path, config: dict | None = None) -> Path:
     _itunes(owner, "email", owner_email)
     if image_url:
         _itunes(channel, "image", None, href=image_url)
+        img = _sub(channel, "image")  # plain RSS cover for players that ignore the iTunes tag
+        _sub(img, "url", image_url)
+        _sub(img, "title", CHANNEL_TITLE)
+        _sub(img, "link", base + "/")
     _sub(
         channel,
         f"{{{ATOM_NS}}}link",

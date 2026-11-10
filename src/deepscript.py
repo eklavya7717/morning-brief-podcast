@@ -87,6 +87,10 @@ def _fallback(item: dict) -> str:
     return naturalise(" ".join(bits))
 
 
+def facts_len(item: dict) -> list[str]:
+    return " ".join([item.get("summary") or ""] + list(item.get("bullets") or [])).split()
+
+
 def explain(item: dict, cfg: dict, words: int) -> str:
     """One spoken segment for a legal item (LLM when there is text to ground it)."""
     key = f"{item.get('id')}:{words}"
@@ -94,15 +98,32 @@ def explain(item: dict, cfg: dict, words: int) -> str:
         return _cache[key]
     text = ""
     body = item.get("body") or ""
+    meta = " | ".join(x for x in (item.get("court"), item.get("case_name")) if x)
+    beats = (
+        "as flowing speech in four beats: (1) what was decided or enacted, and by whom; (2) the legal "
+        "question; (3) the legal principle and the reasoning the court or law applies; (4) how it affects "
+        "litigants, authorities or legal practice, and what a student should take from it."
+    )
     if len(body.split()) >= 120:
-        meta = " | ".join(x for x in (item.get("court"), item.get("case_name")) if x)
         prompt = (
-            f"Write about {words} words on this item, as flowing speech in four beats: (1) what was decided "
-            "or enacted, and by whom; (2) the legal question; (3) the legal principle and the reasoning the "
-            "court or law applies; (4) how it affects litigants, authorities or legal practice, and what a "
-            "student should take from it. If the source does not say something, skip it rather than guess.\n"
-            f"HEADLINE: {item.get('title')}\n{('COURT/CASE: ' + meta) if meta else ''}\nSOURCE:\n{body[:12000]}"
+            f"Write about {words} words on this item, {beats} If the source does not say something, skip it "
+            "rather than guess.\n"
+            f"HEADLINE: {item.get('title')}\n{('COURT/CASE: ' + meta) if meta else ''}\n"
+            f"SOURCE:\n{body[:12000]}"
         )
+    else:
+        # gated or thin page: only a summary exists. The model may add settled background, clearly marked,
+        # but must not invent anything about this particular case.
+        facts = " ".join([item.get("summary") or ""] + list(item.get("bullets") or []) + [item.get("ratio") or ""])
+        words = int(words * 0.7)
+        prompt = (
+            f"Write about {words} words on this item, {beats} The SOURCE is only a short summary. State what "
+            "it says. You may then explain the settled legal background (the statute's purpose, the doctrine "
+            "involved) in general terms, introduced with a phrase like 'as background', but say nothing "
+            "about this particular case beyond the source.\n"
+            f"HEADLINE: {item.get('title')}\n{('COURT/CASE: ' + meta) if meta else ''}\nSOURCE:\n{facts}"
+        )
+    if len(body.split()) >= 120 or len(facts_len(item)) >= 25:
         got = _chat(prompt, cfg, max_tokens=int(words * 2.2))
         text = _clean_llm(got) if got and len(got.split()) >= words * 0.4 else ""
         time.sleep(float(cfg.get("llm_pause_s", 4.5)))  # stay under the free-tier requests-per-minute cap
@@ -135,7 +156,7 @@ def build_deep_script(brief: dict, config: dict | None = None) -> str | None:
     room = max(4, int((target_words * 0.78) / per_story))
     legal = legal[:room]
 
-    parts = [f"Good morning. This is The Morning Brief for {brief.get('weekday', '')}, {brief.get('date_pretty', '')}. "
+    parts = [f"Good morning. This is Eklavya's Morning Brief for {brief.get('weekday', '')}, {brief.get('date_pretty', '')}. "
              f"Today we go deep on {len(legal)} legal developments, then a quick run through the news, "
              "and the day's opinion pages. Let us begin."]
     if top and top in legal:
