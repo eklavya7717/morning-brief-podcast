@@ -10,17 +10,17 @@ jobs:
       - run: pip install -r requirements.txt
       - run: |
           python - <<'PY'
-          import logging, json
+          import traceback, collections
           from src.sources import livelaw as L
-          from src.core.fetch import now_ist
-          print("now_ist", now_ist())
           cands, pos = L._collect_candidates(None)
-          print("candidates", len(cands), "positions", len(pos))
-          pub = [c.get("published") for c in cands.values()][:5]
-          print("sample published", pub)
-          fresh = [c for c in cands.values() if L._candidate_fresh(c, 30)]
-          print("fresh", len(fresh))
-          items = L.fetch(n=18, config={})
-          print("items", len(items))
-          for i in items[:6]: print(i["priority"], i["title"][:70])
+          errs = collections.Counter(); ok = 0
+          for c in list(cands.values())[:14]:
+              c["_position"] = pos.get(c["url"])
+              try:
+                  it = L._build_item(c, None, c["_position"])
+                  ok += 1 if it else 0
+                  if not it: errs["returned None"] += 1
+              except Exception as e:
+                  errs[f"{type(e).__name__}: {str(e)[:110]}"] += 1
+          print("RESULT ok", ok, dict(errs))
           PY
