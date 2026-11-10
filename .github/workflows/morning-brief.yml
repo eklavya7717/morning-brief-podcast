@@ -1,7 +1,7 @@
 name: Morning Brief
 on:
   schedule:
-    - cron: "55 0 * * *"   # 06:25 IST; GitHub may start it up to ~30 min late
+    - cron: "0 22 * * *"   # 03:30 IST (22:00 UTC); GitHub may start it up to ~30 min late
   workflow_dispatch:
 permissions:
   contents: write
