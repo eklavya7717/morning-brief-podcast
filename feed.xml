@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 20:52:08 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 07:15:34 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Wednesday 11 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-11/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Wednesday, 11 November 2026. In this edition: Balance Sheet Entries Can Count As Acknowledgment Of Debt Under S.18 Of Limitation Act: Supreme Court; LiveLaw Andhra Pradesh High Court Monthly Digest: October 2026; LiveLaw Delhi High Court Monthly Digest: October 2026 [Citations 939 - 1054]; LiveLaw Allahabad High Court Weekly Round-Up: November 02 To November 08, 2026; Top Legal Developments [2-8 Nov 2026]: OBC creamy layer Criteria, green crackers, OCI Card holder deportation, bonded labour; and more; Being Natural Guardian Doesn't Entitle Father To Take Child's Custody By Force: Madras High Court; and 22 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Wednesday 11 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Wednesday, 11 November 2026. In this edition: Balance Sheet Entries Can Count As Acknowledgment Of Debt Under S.18 Of Limitation Act: Supreme Court; LiveLaw Andhra Pradesh High Court Monthly Digest: October 2026; LiveLaw Delhi High Court Monthly Digest: October 2026 [Citations 939 - 1054]; LiveLaw Allahabad High Court Weekly Round-Up: November 02 To November 08, 2026; Top Legal Developments [2-8 Nov 2026]: OBC creamy layer Criteria, green crackers, OCI Card holder deportation, bonded labour; and more; Being Natural Guardian Doesn't Entitle Father To Take Child's Custody By Force: Madras High Court; and 22 more stories.</itunes:summary>
+      <itunes:duration>41:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-11/brief.mp3" length="19977430" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Tuesday 10 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-10/</link>
