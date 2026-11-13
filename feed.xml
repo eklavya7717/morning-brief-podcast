@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 08:15:02 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 07:55:35 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Friday 13 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-13/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-13</guid>
+      <pubDate>Fri, 13 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Friday, 13 November 2026. In this edition: Caste status after conversion: Did the Supreme Court overlook a balancing approach? - Supreme Court Observer; Union’s long fight over foreign arbitral awards tests India’s credibility - Supreme Court Observer; Leaving all disputes to arbitration could stall growth of law: Former Supreme Court Justice Ravindra Bhat; Digital Arrest Scams: Supreme Court calls for mandatory compensation by financial institutions for victims of cyber frauds, emphasises preventive safeguards; FSSAI milk logo: all milk and milk products to carry a prescribed logo from 1 July 2028; LiveLaw Bombay High Court Monthly Digest: October 2026; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Friday 13 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Friday, 13 November 2026. In this edition: Caste status after conversion: Did the Supreme Court overlook a balancing approach? - Supreme Court Observer; Union’s long fight over foreign arbitral awards tests India’s credibility - Supreme Court Observer; Leaving all disputes to arbitration could stall growth of law: Former Supreme Court Justice Ravindra Bhat; Digital Arrest Scams: Supreme Court calls for mandatory compensation by financial institutions for victims of cyber frauds, emphasises preventive safeguards; FSSAI milk logo: all milk and milk products to carry a prescribed logo from 1 July 2028; LiveLaw Bombay High Court Monthly Digest: October 2026; and 28 more stories.</itunes:summary>
+      <itunes:duration>41:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-13/brief.mp3" length="19932972" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Thursday 12 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-12/</link>
