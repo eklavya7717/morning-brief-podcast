@@ -9,12 +9,33 @@
 "ratio": null,
 "summary": "The Supreme Court’s latest report on gender asks a question that appeals rarely do: how do judges learn to write? One of the first briefs I worked on as an Advocate at the Calcutta High Court was a matrimonial dispute. The counsel for the husband had argued that the wife did not deserve maintenance as.",
 "url": "https://www.scobserver.in/journal/learning-and-unlearning/",
-"priority": 84,
+"priority": 98,
 "topics": [
-"Constitutional law",
-"Property & land",
-"Family & succession"
+"BNS / IPC",
+"Hindu / Muslim law",
+"Constitution"
 ],
+"note": {
+"Facts": "A Calcutta High Court judge dismissed a wife’s maintenance claim on the basis that drinking and smoking were “not part of our culture,” and an Allahabad High Court held that a minor girl’s breast-grabbing was merely “preparation” to rape, not an “attempt.”",
+"Issue": "Whether judicial language that reflects gender stereotypes should be curtailed and guided by sensitivity and constitutional dignity.",
+"Held": "The Supreme Court intervened, observing that efforts to sensitize judges had “not borne the fruit that was expected” and directed the National Judicial Academy to recommend changes, emphasizing compassionate, gender-sensitive writing.",
+"Principle": "Judgments must be free of stereotypical, pejorative language and should reflect compassion, humanity, and respect for bodily autonomy and constitutional dignity; judges should limit descriptions to facts necessary for decision-making.",
+"Provisions": "Not stated (the source references the 2023 Handbook on Combating Gender Stereotypes, the 2023 Supreme Court judgment in *Joseph Shine v. Union of India*, *Bharwada Bhoginbhai Hirjibhai v. State of Gujarat* (1983), *Lillu @ Rajesh v. State of Haryana* (2013), and *Aparna Bhat v. State of Madhya Pradesh* (2021) but gives no specific statutory sections).",
+"Exam angle": "Criminal Procedure Code / IPC – gender-sensitisation of judicial officers; could be asked as an issue-framing question on how the Supreme Court’s directives on language affect the interpretation of offences like rape and dowry death."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Personal, local and constitutional"
+],
+"acts": [
+"BNS / IPC",
+"Hindu / Muslim law",
+"Constitution"
+],
+"landmark": false,
+"boost": 14
+},
 "date": "2026-11-14"
 },
 {
@@ -27,59 +48,103 @@
 "ratio": null,
 "summary": "",
 "url": "https://www.scobserver.in/journal/tejpal-returns-to-the-supreme-court/",
-"priority": 84,
+"priority": 96,
 "topics": [
-"General"
+"BNS / IPC",
+"BNSS / CrPC"
 ],
+"note": {
+"Facts": "Tarun Tejpal, former editor-in-chief of *Tehelka*, was arrested in November 2013 for alleged rape of a 27-year-old employee; after a trial, acquittal (May 2021) and later conviction by the Bombay High Court, he appealed to the Supreme Court, which dismissed his interim-bail plea and agreed to hear the appeal.",
+"Issue": "Whether the conviction (and sentencing) of Tejpal can stand in view of the evidentiary standards for complainant testimony, the admissibility of extensive digital data from the complainant’s phone, and the applicability of the amended 2013 rape law.",
+"Held": "The Supreme Court dismissed Tejpal’s interim-bail application, granted leave to the State of Goa to seek enhancement of the sentence, and issued notice to hear the appeal against the High Court’s conviction.",
+"Principle": "A conviction for rape may rest on “unshaken” testimony of the prosecutrix, provided the court follows the standards articulated in *Aparna Bhat v State of Madhya Pradesh* that exclude consideration of the survivor’s sexual history; digital evidence must be relevant to the incident and its surrounding circumstances, and its extraction must respect the right to privacy under Article 21.",
+"Provisions": "- Article 21, Constitution of India (right to a fair trial). - Section 376, IPC (punishment for rape). - *Aparna Bhat v State of Madhya Pradesh* (Supreme Court precedent on survivor testimony). - No other statutes or sections are expressly cited in the source.",
+"Exam angle": "Questions may test the **Criminal Law – IPC** (Section 376) and **Constitutional Law** (Article 21) by asking: (i) how the Supreme Court’s standards for survivor testimony and exclusion of sexual-history evidence affect the conviction; (ii) the limits on admissibility of digital evidence in rape trials; or (iii) the sentencing discretion under Section 376 in light of mitigating/aggravating factors."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
-"id": "27de92b1e901",
-"source": "sccblog",
-"category": "legislation",
-"title": "India rationalises visa regime: Visitor Visa replaces Tourist Visa; categories cut from 13 to 9",
+"id": "365a2d34dee1",
+"source": "livelaw",
+"category": "high-court",
+"title": "Deity's Status As 'Perpetual Minor' Doesn't Bar Adverse Possession Claims Over Its Property: Orissa High Court",
+"court": "Orissa High Court",
+"case_name": "LRs v. Commissioner of Endowments",
+"ratio": null,
+"summary": "The Orissa High Court has reiterated that a deity, despite being a perpetual minor in the eyes of law, is neither exempted from the application of the periods of limitation, nor from the claims of adverse possession against its properties.",
+"url": "https://www.livelaw.in/high-court/orissa-high-court/orissa-high-court-deity-status-perpetual-minor-exemption-adverse-possession-claims-558423",
+"priority": 94,
+"topics": [
+"CPC",
+"Contract / Specific Relief",
+"Transfer of Property"
+],
+"note": {
+"Facts": "The suit land belongs to the deity Maa Sureswari Devi; the plaintiff’s father possessed it for over fifty years and the plaintiff continued possession, seeking settlement which was refused, and then filed suit for adverse possession.",
+"Issue": "Whether a deity, deemed a perpetual minor, is exempt from the operation of limitation periods and thus from an adverse-possession claim over its property.",
+"Held": "The Orissa High Court held that a deity is not exempt from limitation; however, the appellant’s claim failed because his long possession was permissive, not hostile, and therefore did not satisfy the requirements for adverse possession.",
+"Principle": "A deity’s status as a perpetual minor does not create an exemption from the law of limitation; adverse possession can be invoked against deity-owned property only if the possession is hostile and continuous, not merely permissive or under lease.",
+"Provisions": "not stated.",
+"Exam angle": "Limitation Act (periods of limitation) and the doctrine of adverse possession – could be asked on whether the minority of a deity bars limitation or on the ingredients of hostile, continuous possession for adverse possession."
+},
+"syllabus": {
+"clusters": [
+"Civil procedure",
+"Obligations",
+"Property",
+"Personal, local and constitutional"
+],
+"acts": [
+"CPC",
+"Contract / Specific Relief",
+"Transfer of Property",
+"Limitation / Registration",
+"Constitution"
+],
+"landmark": true,
+"boost": 24
+},
+"date": "2026-11-14"
+},
+{
+"id": "6bd0d6b20d4e",
+"source": "barandbench",
+"category": "judiciary",
+"title": "Decorum and protocol in virtual proceedings",
 "court": null,
 "case_name": null,
 "ratio": null,
-"summary": "On 11 November 2026, the Ministry of Home Affairs announced a major rationalisation of India’s visa regime aimed at making it more compact, coherent and user-friendly. Under the revised framework, the number of main visa categories has been reduced from 13 to 9 , while sub-categories have been brought down from 49 to 23 .",
-"url": "https://www.scconline.com/blog/post/2026/11/13/india-visa-regime-rationalised-2026/",
-"priority": 74,
+"summary": "Virtual hearings are fast becoming a norm in the Indian judicial system and became routine during the covid pandemic. It has not only given Advocates the freedom and flexibility to appear in various courts and expand their practice without having to travel long distances, the litigants have been provided greater access to courts with the.",
+"url": "https://www.barandbench.com/law-firms/view-point/decorum-and-protocol-in-virtual-proceedings",
+"priority": 85,
 "topics": [
-"General"
+"BSA / Evidence",
+"Constitution"
 ],
-"date": "2026-11-14"
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Personal, local and constitutional"
+],
+"acts": [
+"BSA / Evidence",
+"Constitution"
+],
+"landmark": true,
+"boost": 22
 },
-{
-"id": "41802c038299",
-"source": "livelaw",
-"category": "high-court",
-"title": "'Permanent Lok Adalat Has No Jurisdiction To Record Compromise In Land Disputes': Patna High Court",
-"court": "Patna High Court",
-"case_name": "Bigan Shah v. State of Bihar through the District Collector",
-"ratio": null,
-"summary": "Patna High Court judgment in Bigan Shah v. State of Bihar through the District Collector.",
-"url": "https://www.livelaw.in/high-court/patna-high-court/patna-high-court-permanent-lok-adalat-jurisdiction-record-compromise-land-disputes-558268",
-"priority": 70,
-"topics": [
-"General"
-],
-"date": "2026-11-14"
-},
-{
-"id": "f7f63a86d16f",
-"source": "livelaw",
-"category": "high-court",
-"title": "Telangana High Court Refuses To Exempt HYDRAA Commissioner From Personal Appearance In Contempt Case, Asks DGP To Ensure Presence",
-"court": "Telangana High Court",
-"case_name": "Moinuddin Khan v. Narayan Reddy IAS",
-"ratio": null,
-"summary": "The Telangana High Court refused to dispense with the personal appearance of the Commissioner of the Hyderabad Disaster Response and Assets Protection Agency (HYDRAA)- A V Ranganath, in a contempt plea over the alleged forcible dispossession of an individual's property in violation of a 2024 court order.",
-"url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-refuses-exempt-hydraa-commissioner-personal-appearance-contempt-plea-558404",
-"priority": 69,
-"topics": [
-"Property & land",
-"Judiciary & profession"
-],
 "date": "2026-11-14"
 },
 {
@@ -92,59 +157,32 @@
 "ratio": null,
 "summary": "SUPREME COURT Delhi Protest | Supreme Court Refuses To Examine Challenge To Section 163 BNSS, Issues Notice On Plea Challenging S. 172 BNSS Case Title: Samriddhi Das v. Union of India and Ors.",
 "url": "https://www.livelaw.in/digests/monthly-digests/bnss-bns-monthly-digest-october-2026-557861",
-"priority": 68,
+"priority": 82,
 "topics": [
-"Criminal law (BNS)",
-"Criminal procedure (BNSS)"
+"BNS / IPC",
+"BNSS / CrPC",
+"Constitution"
 ],
-"date": "2026-11-14"
+"note": {
+"Facts": "Petitioners challenged the constitutional validity of Section 163 BNSS, which authorises executive magistrates to issue prohibitory orders, and also sought relief against Section 172 BNSS, which permits police to detain persons who resist or disregard police directions, arising from the Delhi protests.",
+"Issue": "Whether the Supreme Court will examine the constitutional validity of Section 163 BNSS and the challenge to Section 172 BNSS.",
+"Held": "The Court declined to examine the validity of Section 163 BNSS, relying on its earlier upholding of the analogous Section 144 CrPC in *Babulal Parate v. State of Maharashtra* (1961). The Court issued a notice on the challenge to Section 172 BNSS and directed the Union Government to file a reply within two weeks.",
+"Principle": "The validity of a provision analogous to an earlier upheld provision (Section 144 CrPC) need not be re-examined, but a fresh challenge to a distinct provision (Section 172 BNSS) must be entertained, with the Union required to respond.",
+"Provisions": "Section 163 BNSS; Section 172 BNSS; *Babulal Parate v. State of Maharashtra* (1961) 3 SCR 423."
 },
-{
-"id": "0aee9f29a22d",
-"source": "livelaw",
-"category": "supreme-court",
-"title": "Supreme Court Quarterly Digest 2026 - Consumer Law [July To September]",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "",
-"url": "https://www.livelaw.in/supreme-court/supreme-court-quarterly-digest-2026-consumer-law-558316",
-"priority": 68,
-"topics": [
-"Tort, consumer & motor"
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Personal, local and constitutional"
 ],
-"date": "2026-11-14"
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC",
+"Constitution"
+],
+"landmark": false,
+"boost": 14
 },
-{
-"id": "1e28e91a131b",
-"source": "livelaw",
-"category": "high-court",
-"title": "LiveLaw Karnataka High Court Monthly Digest: October 2026",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "Citation: 2026 LiveLaw (Kar) 399 - 2026 LiveLaw (Kar) 480Nominal IndexState of Karnataka & Ors. v. Vemanna G., 2026 LiveLaw (Kar) 399Sri Priyank M.",
-"url": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-monthly-digest-october-2026-557737",
-"priority": 68,
-"topics": [
-"General"
-],
-"date": "2026-11-14"
-},
-{
-"id": "2ed044c79bf1",
-"source": "sccblog",
-"category": "high-court",
-"title": "Undertaking missionary activities without requisite permission violative of Citizenship Act: Madras HC upholds cancellation of American Citizen’s OCI registration",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "Madras High Court: Upholding the cancellation of Overseas Citizen of India (OCI) registration, a Single Judge Bench of D. Bharatha Chakravarthy, J. , held that to carry out any missionary activity as an OCI cardholder, special permission is required under Notification S.O.1050(E), dated 4 March 2021 (Notification).",
-"url": "https://www.scconline.com/blog/post/2026/11/13/madras-hc-american-citizen-oci-registration-cancellation-missionary-activities/",
-"priority": 68,
-"topics": [
-"General"
-],
 "date": "2026-11-14"
 },
 {
@@ -157,10 +195,31 @@
 "ratio": null,
 "summary": "Delhi High Court: While examining a review petition, a Division Bench comprising Vivek Chaudhary and Tejas Karia * , JJ., reiterated that review under Order 47 Rule 1 , Civil Procedure Code (CPC), 1908 is limited to examining any error apparent on the face of record or upon discovery of new and important matter or.",
 "url": "https://www.scconline.com/blog/post/2026/11/13/delhi-hc-scope-of-review-order-47-rule-1-cpc/",
-"priority": 68,
+"priority": 82,
 "topics": [
-"Civil procedure (CPC)"
+"CPC",
+"Constitution"
 ],
+"note": {
+"Facts": "A review petition was filed in the Delhi High Court challenging a suspension order and seeking enhancement of subsistence allowance, which had not been specifically pleaded in the original writ petition.",
+"Issue": "Whether a review under Order 47 Rule 1 CPC can be used to reassess the merits of the case or to serve as an appeal in disguise.",
+"Held": "The Division Bench dismissed the review petition, holding that no error apparent on the face of the record existed and that the review could not be employed to re-examine the merits or act as an appeal.",
+"Principle": "Review under Order 47 Rule 1 CPC is confined to correcting errors apparent on the face of the record or considering newly discovered, important evidence; it cannot be used to re-try the case or to convert a review into an appeal.",
+"Provisions": "Order 47 Rule 1, Civil Procedure Code, 1908; no other statutes, articles or cases cited.",
+"Exam angle": "CPC – Order 47 Rule 1 review; could be asked to frame the scope of review (error apparent on record / new evidence) versus an appeal, focusing on the limited ingredients for a valid review."
+},
+"syllabus": {
+"clusters": [
+"Civil procedure",
+"Personal, local and constitutional"
+],
+"acts": [
+"CPC",
+"Constitution"
+],
+"landmark": false,
+"boost": 14
+},
 "date": "2026-11-14"
 },
 {
@@ -173,27 +232,28 @@
 "ratio": null,
 "summary": "Delhi High Court: While adjudicating a suit filed by Amitabh Bachchan seeking protection of his personality and publicity rights against unauthorised commercial exploitation of his name, image, voice and likeness, a Single Judge Bench of Purushaindra Kumar Kaurav, J. , decreed the suit against the defendants, including unidentified infringers (John Does). The Court held that.",
 "url": "https://www.scconline.com/blog/post/2026/11/13/amitabh-bachchan-personality-publicity-rights-delhi-high-court/",
-"priority": 68,
+"priority": 80,
 "topics": [
-"Civil procedure (CPC)"
+"CPC"
 ],
-"date": "2026-11-14"
+"note": {
+"Facts": "Amitabh Bachchan sued several defendants for unauthorised commercial use of his name, image, voice and likeness in apps, messages, books, T-shirts, posters and domain names.",
+"Issue": "Whether the defendants’ unauthorised exploitation of the plaintiff’s persona infringes his right of publicity.",
+"Held": "The Court found infringement of publicity rights and decreed the suit, granting permanent injunctions against all defendants, including the John Does.",
+"Principle": "Infringement of the right of publicity occurs when (i) the plaintiff has a valid, enforceable right in his identity and (ii) the defendant’s unauthorised use makes the celebrity identifiable, thereby exploiting the identity for commercial gain without consent.",
+"Provisions": "Order 23 Rule 3 CPC; Order 8 Rule 10 CPC; Rule 27 Delhi High Court Intellectual Property Rights Division Rules, 2022; cited *Titan Industries Ltd. v. Ramkumar Jewellers*.",
+"Exam angle": "Right-to-publicity under the CPC (Order 23 Rule 3 & Order 8 Rule 10) and IP law; could be asked as “What are the ingredients for establishing infringement of publicity rights and which procedural provisions empower the court to grant injunctions?”"
 },
-{
-"id": "6f797546bb21",
-"source": "sccblog",
-"category": "high-court",
-"title": "Public purpose cannot be a pretext for private benefit: Bombay HC quashes acquisition of 84 hectares of Tata Power Bhivpuri Hydro Project Land under MID Act",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "Bombay High Court: In a significant ruling on land acquisition for private entities under the Maharashtra Industrial Development Act, 1961 (MID Act), the Division Bench of Manish Pitale* and Shreeram V. Shirsat, JJ., examined the legality of the State’s decision to acquire 84 hectares of Tata Power Company Limited’s land for the benefit of a.",
-"url": "https://www.scconline.com/blog/post/2026/11/13/bombay-hc-tata-power-bhivpuri-hydro-land-acquisition-mid-act/",
-"priority": 68,
-"topics": [
-"Criminal procedure (BNSS)",
-"Property & land"
+"syllabus": {
+"clusters": [
+"Civil procedure"
 ],
+"acts": [
+"CPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
@@ -206,77 +266,273 @@
 "ratio": null,
 "summary": "The Gauhati High Court has quashed an order of the Pollution Control Board, Assam extending the validity of a provisional consent granted to M/s M M Carbon Products Pvt. Ltd. for establishing a Calcined Petroleum Coke (CPC) unit (petroleum processing facility) at Amingaon.",
 "url": "https://www.livelaw.in/high-court/gauhati-high-court/gauhati-high-court-quashes-assam-pollution-board-extensioncpc-unit-consent-558373",
-"priority": 68,
+"priority": 80,
 "topics": [
-"Criminal procedure (BNSS)",
-"Civil procedure (CPC)",
-"Environment"
+"CPC"
 ],
+"note": {
+"Facts": "The Pollution Control Board, Assam extended a provisional consent (PCTE) granted in Dec 2012 for a calcined petroleum coke unit, even though the consent had expired on 9 Oct 2013; the company applied for fresh consent in 2019 and 2021, which the Board treated as an extension.",
+"Issue": "Whether a Pollution Control Board can revive or extend a provisional environmental consent that expired six years earlier without any statutory authority.",
+"Held": "The Gauhati High Court quashed the Board’s order dated 31 Dec 2022 extending the expired consent, holding that the Board acted beyond its power.",
+"Principle": "An expired provisional consent cannot be revived or extended after a long lapse unless a specific statutory provision authorises such extension; absent such provision, the extension is “bad in law and not sustainable.”",
+"Provisions": "not stated.",
+"Exam angle": "Environmental law – applicability of the Water (Prevention and Control of Pollution) Act/Air Act provisions on consent validity; could be asked on the requirement of statutory authority for extending environmental consents and the limits of PCB powers."
+},
+"syllabus": {
+"clusters": [
+"Civil procedure"
+],
+"acts": [
+"CPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
-"id": "cd34ca374fbf",
+"id": "41802c038299",
 "source": "livelaw",
 "category": "high-court",
-"title": "Calcutta High Court Upholds Life Sentence Of BSF Constable For Killing Colleague Over Relationship With Woman",
-"court": "Calcutta High Court",
+"title": "'Permanent Lok Adalat Has No Jurisdiction To Record Compromise In Land Disputes': Patna High Court",
+"court": "Patna High Court",
+"case_name": "Bigan Shah v. State of Bihar through the District Collector",
+"ratio": null,
+"summary": "Patna High Court judgment in Bigan Shah v. State of Bihar through the District Collector.",
+"url": "https://www.livelaw.in/high-court/patna-high-court/patna-high-court-permanent-lok-adalat-jurisdiction-record-compromise-land-disputes-558268",
+"priority": 80,
+"topics": [
+"CPC",
+"Constitution"
+],
+"note": {
+"Facts": "A land partition dispute led the parties to a compromise, and the Permanent Lok Adalat (PLA) in Sasaram passed an award on 7 July 2011, which the petitioner later sought to modify for a typographical omission.",
+"Issue": "Whether a Permanent Lok Adalat has jurisdiction to record a compromise in a land dispute under the Legal Services Authorities Act, 1987.",
+"Held": "The award is void ab initio; the PLA had no jurisdiction to record a compromise in a land dispute and the award is set aside.",
+"Principle": "A Permanent Lok Adalat can adjudicate only disputes concerning public utility services; it cannot record compromises in matters outside that domain, such as land disputes.",
+"Provisions": "Sections 22-A and 22-B(1) of the Legal Services Authorities Act, 1987; no other statutes or cases cited.",
+"Exam angle": "Test the scope of Sections 22-A/22-B of the Legal Services Authorities Act – whether a PLA can entertain land-related compromises; focus on statutory jurisdiction versus subject-matter limitation."
+},
+"syllabus": {
+"clusters": [
+"Civil procedure",
+"Personal, local and constitutional"
+],
+"acts": [
+"CPC",
+"Constitution"
+],
+"landmark": false,
+"boost": 14
+},
+"date": "2026-11-14"
+},
+{
+"id": "3d433c639929",
+"source": "livelaw",
+"category": "high-court",
+"title": "Surgical Needle Found In Woman's Abdomen 12 Years After Surgery: Madras High Court Orders Probe",
+"court": "Madras High Court",
 "case_name": null,
 "ratio": null,
-"summary": "The Court held that the testimony of the sole eyewitness, Dasami Modak, was sufficiently credible to sustain the conviction, particularly as it was supported by the ballistic report, inquest report, forensic evidence and call detail records.",
-"url": "https://www.livelaw.in/high-court/calcutta-high-court/calcutta-high-court-upholds-life-sentence-of-bsf-constable-for-killing-colleague-over-relationship-with-woman-558385",
-"priority": 68,
+"summary": "The Madras High Court has directed the Tamil Nadu Medical Council to conduct an enquiry after a woman alleged that a surgical needle was left inside her abdomen in a surgery.",
+"url": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-inquiry-surgical-needle-abdomen-12-years-558425",
+"priority": 80,
 "topics": [
-"General"
+"BNSS / CrPC"
 ],
+"note": {
+"Facts": "A woman underwent LSCS with tubectomy in 2010; 12 years later an X-ray revealed a 5 cm surgical needle left in her abdomen, causing pain, weight loss and requiring another operation.",
+"Issue": "Whether the delay of 12 years in approaching the court bars an enquiry into alleged medical negligence.",
+"Held": "The Madras High Court refused to accept the belated-approach argument and directed the Tamil Nadu Medical Council to conduct an enquiry and pass appropriate orders.",
+"Principle": "Delay in filing a petition does not preclude investigation of alleged medical negligence where the plaintiff’s socioeconomic conditions explain the delay and the injury is evident.",
+"Provisions": "not stated."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
-"id": "f267668c6ed2",
+"id": "f7f63a86d16f",
 "source": "livelaw",
 "category": "high-court",
-"title": "Article 371A Doesn't Protect Naga Customs Violating Fundamental Rights: Gauhati High Court Quashes Villagers' Excommunication",
-"court": "Gauhati High Court",
-"case_name": "Temjenchiba Longkumer & 37 Ors. v. Yaongyimsen Riongsanger Putu Menden & 6 Ors",
-"ratio": "Traditional village institutions cannot invoke customary laws to socially ostracise individuals and their families or impose restrictions affecting their movement and identity in violation of…",
-"summary": "The Gauhati High Court has held that traditional village institutions cannot invoke customary laws to socially ostracise individuals and their families or impose restrictions affecting their movement.",
-"url": "https://www.livelaw.in/high-court/gauhati-high-court/gauhati-high-court-article371a-shield-naga-customary-bodies-judicial-review-violating-fundamental-rights-558315",
-"priority": 67,
+"title": "Telangana High Court Refuses To Exempt HYDRAA Commissioner From Personal Appearance In Contempt Case, Asks DGP To Ensure Presence",
+"court": "Telangana High Court",
+"case_name": "Moinuddin Khan v. Narayan Reddy IAS",
+"ratio": null,
+"summary": "The Telangana High Court refused to dispense with the personal appearance of the Commissioner of the Hyderabad Disaster Response and Assets Protection Agency (HYDRAA)- A V Ranganath, in a contempt plea over the alleged forcible dispossession of an individual's property in violation of a 2024 court order.",
+"url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-refuses-exempt-hydraa-commissioner-personal-appearance-contempt-plea-558404",
+"priority": 79,
 "topics": [
-"Criminal procedure (BNSS)",
-"Constitutional law"
+"BNSS / CrPC",
+"Contract / Specific Relief"
 ],
+"note": {
+"Facts": "The petitioner alleges that the HYDRAA Commissioner and the Tahsildar forcibly dispossessed his property in violation of a 2024 court order and dismantled structures without prior notice. Both officers were served Form-I notices to appear personally and answer charges of wilful disobedience.",
+"Issue": "Whether the personal appearance of public officers can be exempted on the ground of official duties in a contempt of court proceeding.",
+"Held": "The Telangana High Court refused to dispense with personal appearance of the HYDRAA Commissioner and the Tahsildar, directing the DGP and the Hyderabad City Police Commissioner to ensure their presence on the next hearing date.",
+"Principle": "Officers holding public office must comply with specific directions of the Court and cannot rely on official engagements or pending administrative work as a ground to avoid personal appearance in contempt proceedings.",
+"Provisions": "not stated."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Obligations"
+],
+"acts": [
+"BNSS / CrPC",
+"Contract / Specific Relief"
+],
+"landmark": false,
+"boost": 14
+},
 "date": "2026-11-14"
 },
 {
-"id": "163993ee0a0f",
+"id": "0d5695b6b3d0",
 "source": "livelaw",
 "category": "high-court",
-"title": "Not Every Act Of Bravery By Police Personnel Qualifies For Out-Of-Turn Promotion: MP High Court",
-"court": "Madhya Pradesh High Court",
-"case_name": "State of MP v. Santosh Dubey",
-"ratio": "Not every act of bravery entitles a police constable to out-of-turn promotion under Rule 56(3) of MP Vishesh Sashastra Bal Niyam [Special Armed Force Act]…",
-"summary": "The Madhya Pradesh High Court has observed that not every act of bravery entitles a police constable to out-of-turn promotion under Rule 56(3) of MP Vishesh Sashastra Bal Niyam [Special Armed Force Act] and that the act must be interpreted in the context of police duties and functions.",
-"url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-reverses-out-of-turn-promotion-of-police-constable-notes-not-brave-act-sufficient-558372",
-"priority": 67,
-"topics": [
-"Service & administrative"
-],
-"date": "2026-11-14"
-},
-{
-"id": "1333ec3c47af",
-"source": "livelaw",
-"category": "high-court",
-"title": "Human Rights Commission's Recommendation Of Compensation For Prisoner's Suicide Following Discriminatory Treatment Is Binding: Tripura High Court",
-"court": "Tripura High Court",
+"title": "Cruel Transportation Of Cattle No Ground To Presume They Were Being Taken For Slaughter: Gujarat High Court",
+"court": "Gujarat High Court",
 "case_name": null,
 "ratio": null,
-"summary": "Tripura High Court judgment in Tripura v. Tripura Human Rights Commission & Anr.",
-"url": "https://www.livelaw.in/high-court/tripura-high-court/tripura-high-court-human-rights-commission-compensation-recommendations-binding-state-558403",
-"priority": 67,
+"summary": "The Gujarat High Court granted bail to two men who were booked under Prevention of Cruelty to Animals Act, observing that merely because an animal is found in an inhuman condition would not be a ground to presume that the cattle seized was being transported for slaughtering.",
+"url": "https://www.livelaw.in/high-court/gujarat-high-court/gujarat-high-court-animal-slaughter-inhuman-condition-558371",
+"priority": 78,
 "topics": [
-"Tort, consumer & motor"
+"BNS / IPC",
+"BNSS / CrPC"
 ],
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-14"
+},
+{
+"id": "b7d0811ed9b8",
+"source": "sccblog",
+"category": "high-court",
+"title": "Political satire crosses line when it attacks individual dignity: Inside Delhi HC order directing takedown of CM Rekha Gupta’s defamatory AI-generated deepfakes",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Disclaimer: This has been reported after the availability of the order of the Court and not on media reports so as to give an accurate report to our readers. Delhi High Court: In a suit instituted by sitting Chief Minister of National Capital Territory of Delhi, Rekha Gupta, seeking permanent injunction restraining the defendants from.",
+"url": "https://www.scconline.com/blog/post/2026/11/14/del-hc-orders-takedown-cm-rekha-gupta-defamatory-ai-generated-deepfakes/",
+"priority": 78,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-14"
+},
+{
+"id": "f01460854171",
+"source": "livelaw",
+"category": "high-court",
+"title": "'High Time For Legislature To Consider Reducing Age Of Juveniles To 16 Years': Kerala High Court",
+"court": "Kerala High Court",
+"case_name": "Vinod Vikraman Pillai v. State of Kerala and Ors",
+"ratio": null,
+"summary": "Kerala High Court judgment in Vinod Vikraman Pillai v. State of Kerala and Ors.",
+"url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-juvenile-justice-age-16-years-558418",
+"priority": 78,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-14"
+},
+{
+"id": "a72e9af06a90",
+"source": "livelaw",
+"category": "high-court",
+"title": "Longstanding Practice Of Organising Chhath Puja Can't Justify Use Of Public Green Area: Delhi High Court",
+"court": "Delhi High Court",
+"case_name": null,
+"ratio": "Longstanding practice of organising Chhath Puja at a particular location cannot, by itself…",
+"summary": "The ruling: Longstanding practice of organising Chhath Puja at a particular location cannot, by itself….",
+"url": "https://www.livelaw.in/high-court/delhi-high-court/longstanding-practice-of-organising-chhath-puja-cant-justify-use-of-public-green-area-delhi-high-court-558427",
+"priority": 78,
+"topics": [
+"Hindu / Muslim law"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Hindu / Muslim law"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-14"
+},
+{
+"id": "11fb96a9251b",
+"source": "livelaw",
+"category": "high-court",
+"title": "'Absence Of Weapon, Lack Of Prior Enmity Relevant In Determining Whether Fatal Assault Constitutes Murder': Jharkhand High Court",
+"court": "Jharkhand High Court",
+"case_name": "Tasleem Khan v. State of Jharkhand",
+"ratio": null,
+"summary": "The Bench discussed the distinction between intention and knowledge under the IPC, observing that knowledge of the possible consequences of an act is not necessarily equivalent to an intention that those consequences should occur. The Court also considered Exception 4 to Section 300 IPC, which concerns sudden fights without premeditation, where the act is committed in the heat of passion without the assailant taking undue advantage or acting cruelly. On examining the prosecution witnesses' testimonies, the Court found that Tasleem Khan was unarmed and that the assault consisted of fist blows and kicks directed towards the deceased's stomach.",
+"url": "https://www.livelaw.in/high-court/jharkhand-high-court/absence-weapon-prior-enmity-premeditation-relevant-determining-fatal-assault-constitutes-murder-558332",
+"priority": 77,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
@@ -289,10 +545,77 @@
 "ratio": "The petitioner must first be supplied the relevant material so that he could examine it and thereafter avail an appropriate remedy under law",
 "summary": "Justice Shahzad Azeem observed that the petitioner must first be supplied the relevant material so that he could examine it and thereafter avail an appropriate remedy under law. The Court, however, clarified that the direction would not confer immunity upon him if he was found involved in any act warranting prosecution.",
 "url": "https://www.livelaw.in/high-court/jammu-kashmir/jkl-hc-directs-police-to-supply-material-behind-militant-remarks-against-a-complainant-in-police-report-558337",
-"priority": 66,
+"priority": 77,
 "topics": [
-"Property & land"
+"BNSS / CrPC"
 ],
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-14"
+},
+{
+"id": "0aee9f29a22d",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Quarterly Digest 2026 - Consumer Law [July To September]",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.livelaw.in/supreme-court/supreme-court-quarterly-digest-2026-consumer-law-558316",
+"priority": 76,
+"topics": [
+"Contract / Specific Relief"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Obligations"
+],
+"acts": [
+"Contract / Specific Relief"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-14"
+},
+{
+"id": "cd34ca374fbf",
+"source": "livelaw",
+"category": "high-court",
+"title": "Calcutta High Court Upholds Life Sentence Of BSF Constable For Killing Colleague Over Relationship With Woman",
+"court": "Calcutta High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Court held that the testimony of the sole eyewitness, Dasami Modak, was sufficiently credible to sustain the conviction, particularly as it was supported by the ballistic report, inquest report, forensic evidence and call detail records.",
+"url": "https://www.livelaw.in/high-court/calcutta-high-court/calcutta-high-court-upholds-life-sentence-of-bsf-constable-for-killing-colleague-over-relationship-with-woman-558385",
+"priority": 76,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
 "date": "2026-11-14"
 },
 {
@@ -309,6 +632,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -323,9 +648,10 @@
 "url": "tg://-1002114906180/8310#1",
 "priority": 77,
 "topics": [
-"Civil procedure (CPC)",
-"Environment"
+"General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -342,6 +668,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -358,6 +686,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -374,6 +704,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -390,6 +722,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -404,8 +738,11 @@
 "url": "https://www.thehindu.com/news/national/kerala/kerala-high-court-seeks-states-response-to-pil-seeking-mechanism-to-implement-cyber-laws/article71641007.ece/",
 "priority": 75,
 "topics": [
-"Criminal law (BNS)"
+"BNS / IPC",
+"NDPS / SC-ST / PC / others"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -420,8 +757,11 @@
 "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-secures-988-lakh-crore-investment-commitments-at-cii-partnership-summit-in-vizag/article71699029.ece/",
 "priority": 75,
 "topics": [
-"General"
+"Sale of Goods / Partnership",
+"Interpretation of statutes"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -436,8 +776,10 @@
 "url": "https://www.thehindu.com/news/national/west-bengal/file-fir-against-those-who-tarnish-partys-image-says-bengal-bjp-chief/article71699315.ece/",
 "priority": 75,
 "topics": [
-"Criminal procedure (BNSS)"
+"BNSS / CrPC"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -454,6 +796,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -468,8 +812,10 @@
 "url": "https://www.thehindu.com/business/markets/rupee-falls-8-paise-to-close-at-9420-against-us-dollar/article71697687.ece/",
 "priority": 73,
 "topics": [
-"Constitutional law"
+"General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -486,39 +832,8 @@
 "topics": [
 "General"
 ],
-"date": "2026-11-14"
-},
-{
-"id": "b0604035fe56",
-"source": "thehindu",
-"category": "international",
-"title": "Turkiye, Qatar sign mutual defence agreement, Turkish presidency says",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "Turkiye and Qatar were working to develop and diversify their energy partnership, and that their cooperation ‌in the defence industry would continue to grow, a statement from the Turkish presidency quoted President Erdogan as saying.",
-"url": "https://www.thehindu.com/news/international/turkiye-qatar-sign-mutual-defence-agreement-turkish-presidency-says/article71699542.ece/",
-"priority": 71,
-"topics": [
-"General"
-],
-"date": "2026-11-14"
-},
-{
-"id": "6b5fd4e98b94",
-"source": "thehindu",
-"category": "editorial",
-"title": "To strengthen the Supreme Court, divide it",
-"court": null,
-"case_name": null,
-"ratio": null,
-"summary": "Advocates splitting India’s Supreme Court into a lean Constitutional Court and regional appeals to reduce backlog and restore decisive constitutional judgment.",
-"url": "https://www.thehindu.com/opinion/lead/to-strengthen-the-supreme-court-divide-it/article71698099.ece/",
-"priority": 83,
-"topics": [
-"Constitutional law",
-"Judiciary & profession"
-],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -535,6 +850,26 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
+"date": "2026-11-14"
+},
+{
+"id": "6b5fd4e98b94",
+"source": "thehindu",
+"category": "editorial",
+"title": "To strengthen the Supreme Court, divide it",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Advocates splitting India’s Supreme Court into a lean Constitutional Court and regional appeals to reduce backlog and restore decisive constitutional judgment.",
+"url": "https://www.thehindu.com/opinion/lead/to-strengthen-the-supreme-court-divide-it/article71698099.ece/",
+"priority": 83,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 },
 {
@@ -551,6 +886,8 @@
 "topics": [
 "General"
 ],
+"note": null,
+"syllabus": null,
 "date": "2026-11-14"
 }
 ]
