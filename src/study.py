@@ -41,8 +41,9 @@ TOPICS = (
 
 
 def topics_for(item: dict, limit: int = 3) -> list[str]:
-    text = f"{item.get('title', '')} {item.get('summary', '')} {' '.join(item.get('bullets') or [])} {item.get('case_name') or ''}".lower()
-    return [label for label, rx in TOPICS if re.search(rx, text)][:limit] or ["General"]
+    from src import syllabus
+
+    return syllabus.match(item)["acts"][:limit] or ["General"]
 
 
 def annotate(brief: dict) -> None:
@@ -89,7 +90,7 @@ def mark_seen(brief: dict, seen_path: Path, today: str) -> None:
 
 
 # -------------------------------------------------------------------- archive
-KEEP = ("id", "date", "source", "category", "title", "court", "case_name", "ratio", "summary", "url", "priority", "topics")
+KEEP = ("id", "date", "source", "category", "title", "court", "case_name", "ratio", "summary", "url", "priority", "topics", "note", "syllabus")
 
 
 def archive_edition(brief: dict, root: Path, date: str) -> Path:
@@ -147,7 +148,8 @@ def cards_append(brief: dict, root: Path, date: str) -> int:
     rows = []
     for sec in brief.get("sections", []):
         for item in sec.get("items", []):
-            back = item.get("ratio") or ((item.get("bullets") or [""])[0])
+            note = item.get("note") or {}
+            back = note.get("Principle") or item.get("ratio") or ((item.get("bullets") or [""])[0])
             if item["id"] in have or not back or not (item.get("case_name") or item.get("court")):
                 continue
             front = f"{item.get('case_name') or item['title']} ({item.get('court') or 'court'}, {date}): what was held / the principle?"
@@ -253,7 +255,7 @@ def daily_material(date: str) -> dict:
     n = datetime.strptime(date, "%Y-%m-%d").toordinal()
     maxim, article = MAXIMS[n % len(MAXIMS)], ARTICLES[n % len(ARTICLES)]
     terms = [TERMS[(n * 5 + i) % len(TERMS)] for i in range(5)]
-    return {"maxim": maxim, "article": article, "terms": terms}
+    return {"maxim": maxim, "article": article, "terms": terms, "oldnew": OLD_NEW[n % len(OLD_NEW)]}
 
 
 STUDY_SYSTEM = (
@@ -302,6 +304,81 @@ def drill(brief: dict, date: str) -> str | None:
     return f"{top['title']}\n\n{got}" if got else None
 
 
+# ------------------------------------------------------------------ case notes
+NOTE_FIELDS = ("Facts", "Issue", "Held", "Principle", "Provisions", "Exam angle")
+NOTE_SYSTEM = (
+    "You write case notes for an Indian judiciary (RJS) aspirant. Use ONLY the SOURCE: never add facts, "
+    "case names, section numbers or holdings that are not in it. Be brief and exact; the principle (ratio) matters most."
+)
+
+
+def _parse_note(text: str) -> dict:
+    out = {}
+    pattern = r"(?im)^\s*\**(" + "|".join(NOTE_FIELDS) + r")\**\s*:\s*(.+?)(?=^\s*\**(?:" + "|".join(NOTE_FIELDS) + r")\**\s*:|\Z)"
+    for key, val in re.findall(pattern, text, flags=re.S):
+        out[key.title() if key != "Exam angle" else "Exam angle"] = re.sub(r"\s+", " ", val).strip(" *")
+    return out
+
+
+def _fallback_note(item: dict) -> dict:
+    prov = [b for b in item.get("bullets") or [] if re.search(r"provision|section|article|act", b, re.I)]
+    return {k: v for k, v in {
+        "Facts": item.get("summary") or "",
+        "Held": item.get("ratio") or ((item.get("bullets") or [""])[0]),
+        "Principle": item.get("ratio") or "",
+        "Provisions": "; ".join(prov[:2]),
+    }.items() if v}
+
+
+def case_notes(brief: dict, limit: int = 10) -> int:
+    """Structured notes (facts, issue, held, principle, provisions, exam angle) for the top syllabus rulings."""
+    from src.deepscript import guard
+
+    legal = [i for s in brief.get("sections", []) for i in s.get("items", [])
+             if i.get("category") in {"supreme-court", "high-court", "legislation"}
+             and (i.get("syllabus") or {}).get("clusters") and (i.get("body") or i.get("ratio") or i.get("bullets"))]
+    legal.sort(key=lambda i: -(i.get("priority") or 0))
+    done = 0
+    for it in legal[:limit]:
+        source = (it.get("body") or "")[:9000] or " ".join([it.get("summary") or "", it.get("ratio") or ""] + (it.get("bullets") or []))
+        note = {}
+        if llm.available() and len(source.split()) >= 40:
+            got = llm.chat(
+                "Write a case note as exactly these labelled lines, each one or two short sentences: "
+                "Facts: (brief facts) / Issue: (the legal question) / Held: (the decision) / Principle: (the ratio "
+                "decidendi as a rule of law) / Provisions: (sections, articles and cases named in the source, else "
+                "'not stated') / Exam angle: (which Act and how it could be asked, e.g. issue framing or ingredients).\n"
+                f"HEADLINE: {it.get('title')}\nSOURCE:\n{source}",
+                system=NOTE_SYSTEM, max_tokens=500)
+            parsed = _parse_note(got or "")
+            clean = {}
+            for k, v in parsed.items():
+                v = v.replace("‑", "-").replace("‐", "-")
+                g = guard(v, f"{it.get('title')} {source} {' '.join((it.get('syllabus') or {}).get('acts') or [])}", max_drop=0.34)
+                if g:  # unsupported section/year/number sentences are dropped; an emptied field is omitted
+                    clean[k] = g
+            if {"Facts", "Held", "Principle"} <= set(clean):
+                note = clean
+        it["note"] = note or _fallback_note(it)
+        done += 1
+    return done
+
+
+OLD_NEW = (
+    ("IPC 302, punishment for murder", "BNS 103"), ("IPC 300, murder", "BNS 101"), ("IPC 299, culpable homicide", "BNS 100"),
+    ("IPC 304B, dowry death", "BNS 80"), ("IPC 307, attempt to murder", "BNS 109"), ("IPC 375 and 376, rape", "BNS 63 and 64"),
+    ("IPC 420, cheating", "BNS 318(4)"), ("IPC 498A, cruelty by husband or relatives", "BNS 85 and 86"),
+    ("IPC 34, common intention", "BNS 3(5)"), ("IPC 120B, criminal conspiracy", "BNS 61(2)"),
+    ("CrPC 154, FIR", "BNSS 173"), ("CrPC 41, arrest without warrant", "BNSS 35"), ("CrPC 125, maintenance", "BNSS 144"),
+    ("CrPC 161, police examination of witnesses", "BNSS 180"), ("CrPC 164, confession before a Magistrate", "BNSS 183"),
+    ("CrPC 313, examination of the accused", "BNSS 351"), ("CrPC 437, bail in non-bailable cases", "BNSS 480"),
+    ("CrPC 438, anticipatory bail", "BNSS 482"), ("CrPC 439, special bail powers of High Court and Sessions Court", "BNSS 483"),
+    ("CrPC 482, inherent powers of the High Court", "BNSS 528"), ("Evidence Act 27, discovery", "BSA 23 (proviso)"),
+    ("Evidence Act 32, dying declaration", "BSA 26"), ("Evidence Act 65B, electronic records", "BSA 63"),
+    ("Evidence Act 106, fact especially within knowledge", "BSA 109"), ("Evidence Act 114, presumptions", "BSA 119"),
+)
+
+
 # ------------------------------------------------------------------ study sheet
 CSS = """
 @page{size:A4;margin:14mm}
@@ -335,6 +412,18 @@ def sheet_html(brief: dict, date: str, qa: list, daily: dict, drill_text: str | 
     ans = "".join(f"<div class='a'>{i}. {e(a)}</div>" for i, (_, a) in enumerate(qa, 1))
     (mx, mm), (an, am) = daily["maxim"], daily["article"]
     terms = "".join(f"<tr><td>{e(en)}</td><td>{e(hi)}</td></tr>" for en, hi in daily["terms"])
+    notes = []
+    for sec in brief.get("sections", []):
+        for it in sec.get("items", []):
+            n = it.get("note")
+            if n:
+                body = "".join(f"<div><b>{k}:</b> {e(n[k])}</div>" for k in NOTE_FIELDS
+                               if n.get(k) and not (k == "Principle" and n.get("Held") == n[k]))
+                tag = e(" · ".join((it.get("syllabus") or {}).get("acts") or []))
+                notes.append(f"<div class='q'><b>{e(it.get('case_name') or it['title'])}</b> <span class='tag'>{tag}</span>{body}</div>")
+    notes_html = "<h2>Case notes for your syllabus</h2>" + "".join(notes) if notes else ""
+    old, new = daily["oldnew"]
+    oldnew_html = f"<h2>Old and new criminal codes</h2><div><b>{e(old)}</b> is now <b>{e(new)}</b>. <span class='tag'>Verify against the BPR&amp;D comparison tables.</span></div>"
     drill_html = f"<h2>Sunday answer-writing drill</h2><div class='pre'>{e(drill_text)}</div>" if drill_text else ""
     return (f"<!doctype html><meta charset='utf-8'><title>Study sheet {date}</title><style>{CSS}</style>"
             f"<h1>Study sheet</h1><div class='sub'>Eklavya's Morning Brief · {e(brief.get('weekday', ''))}, {e(brief.get('date_pretty', date))}"
@@ -343,7 +432,7 @@ def sheet_html(brief: dict, date: str, qa: list, daily: dict, drill_text: str | 
             f"<h2>Recall quiz</h2>{qs}<h2>Answers</h2>{ans}"
             f"<h2>Maxim of the day</h2><div><b>{e(mx)}</b>: {e(mm)}</div>"
             f"<h2>Article of the day</h2><div><b>Article {e(an)}</b>: {e(am)}</div>"
-            f"<h2>Legal terms, English and Hindi</h2><table>{terms}</table>"
+            f"{oldnew_html}{notes_html}<h2>Legal terms, English and Hindi</h2><table>{terms}</table>"
             f"<h2>Flashcards from today</h2><table>{''.join(rows) or '<tr><td>None today.</td></tr>'}</table>{drill_html}")
 
 
@@ -403,6 +492,7 @@ def build_site(root: Path, release_repo: str = "") -> Path:
 def prepare(brief: dict, root: Path, date: str) -> None:
     """Before audio: topics + the week/month recap material the script may use."""
     annotate(brief)
+    case_notes(brief)
     recap = recap_for(root, date)
     if recap:
         brief["recap"] = recap

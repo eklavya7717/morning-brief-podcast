@@ -48,7 +48,7 @@ class MemoryTests(unittest.TestCase):
 
 class TopicTests(unittest.TestCase):
     def test_topics(self):
-        self.assertIn("Criminal procedure (BNSS)", study.topics_for({"title": "SC grants bail under BNSS", "summary": ""}))
+        self.assertIn("BNSS / CrPC", study.topics_for({"title": "SC grants bail under BNSS", "summary": ""}))
         self.assertEqual(study.topics_for({"title": "weather", "summary": ""}), ["General"])
 
 
@@ -94,3 +94,32 @@ class ChapterTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SyllabusTests(unittest.TestCase):
+    def test_match_boosts_core_acts_and_landmarks(self):
+        from src import syllabus
+
+        cpc = syllabus.match({"title": "Order VII Rule 11 CPC: plaint rejected", "summary": ""})
+        self.assertIn("CPC", cpc["acts"])
+        self.assertGreaterEqual(cpc["boost"], 12)
+        none = syllabus.match({"title": "Tax tribunal allows depreciation", "summary": ""})
+        self.assertLess(none["boost"], 0)
+        land = syllabus.match({"title": "Constitution Bench overrules earlier ruling on Article 14", "summary": ""})
+        self.assertTrue(land["landmark"])
+
+    def test_police_custody_is_not_family_law(self):
+        from src import syllabus
+
+        self.assertNotIn("Hindu / Muslim law", syllabus.match({"title": "Public servant kept in custody for 48 hours", "summary": ""})["acts"])
+
+    def test_case_note_parse_and_fallback(self):
+        text = "Facts: A sued B.\nIssue: Is the suit barred?\nHeld: Yes.\nPrinciple: Limitation bars the remedy.\nProvisions: not stated"
+        self.assertEqual(study._parse_note(text)["Principle"], "Limitation bars the remedy.")
+        self.assertIn("Held", study._fallback_note({"summary": "s", "ratio": "r"}))
+
+    def test_sheet_includes_notes_and_old_new(self):
+        it = item(1, syllabus={"acts": ["CPC"], "clusters": ["Civil procedure"]}, note={"Facts": "F", "Held": "H", "Principle": "P"})
+        html = study.sheet_html(brief([it]), "2026-11-15", [("q", "a")], study.daily_material("2026-11-15"), None)
+        self.assertIn("Case notes for your syllabus", html)
+        self.assertIn("Old and new criminal codes", html)

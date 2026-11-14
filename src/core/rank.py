@@ -214,6 +214,11 @@ def enhance_priority(item: dict) -> int:
     else:
         # legal news leads the edition; everything else tops out below it
         score = min(score, 80)
+    if _is_legal(item):  # steer the legal ledger toward the RJS Mains syllabus and landmark rulings
+        from src import syllabus
+
+        item["syllabus"] = syllabus.match(item)
+        score += item["syllabus"]["boost"]
     score += _recency_bonus(item.get("published"))
     return max(0, min(100, score))
 

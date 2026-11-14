@@ -96,10 +96,14 @@ def explain(item: dict, cfg: dict, words: int) -> str:
     text = ""
     body = item.get("body") or ""
     meta = " | ".join(x for x in (item.get("court"), item.get("case_name")) if x)
+    acts = ", ".join(((item.get("syllabus") or {}).get("acts") or [])[:3])
     beats = (
-        "as flowing speech in four beats: (1) what was decided or enacted, and by whom; (2) the legal "
-        "question; (3) the legal principle and the reasoning the court or law applies; (4) how it affects "
-        "litigants, authorities or legal practice, and what a student should take from it."
+        "as flowing speech in five beats, giving the most time to beats 3 and 4: (1) the brief facts in two or "
+        "three sentences, just enough to understand the dispute; (2) the legal question; (3) what the court held; "
+        "(4) the ratio, the legal principle laid down and the reasoning behind it, stated as a rule a student can "
+        "write in an answer, with the Act and section only if the source names them; (5) one closing sentence on "
+        "why it matters for exam answers"
+        + (f" under {acts}" if acts else "") + "."
     )
     facts = " ".join([item.get("summary") or ""] + list(item.get("bullets") or []) + [item.get("ratio") or ""])
     digest = re.search(r"round-?up|digest", (item.get("title") or "").lower())
