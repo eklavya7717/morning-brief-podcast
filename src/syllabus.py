@@ -20,9 +20,9 @@ CLUSTERS = (
                            r"circumstantial evidence|last seen|burden of proof|electronic evidence|65b|admissib|"
                            r"test identification|hostile witness"),
         ("BNS / IPC", r"bharatiya nyaya sanhita|\bbns\b|indian penal code|\bipc\b|murder|culpable homicide|common intention|"
-                      r"conspiracy|abetment|cheating|criminal breach of trust|forgery|rape|dowry death|attempt to murder"),
+                      r"conspiracy|abetment|cheating|criminal breach of trust|forgery|rape|dowry death|attempt to murder|homicide|killing|life imprisonment|life sentence"),
         ("BNSS / CrPC", r"bharatiya nagarik suraksha|\bbnss\b|\bcrpc\b|code of criminal procedure|\bbail\b|anticipatory|"
-                        r"framing of charge|discharge|quashing|section 482|section 528|chargesheet|investigation|remand|"
+                        r"framing of charge|discharge|quashing|section 482|section 528|chargesheet|"
                         r"acquit|conviction|sentenc|remission|custodial|\bfir\b"),
     ]),
     ("Obligations", 8, [
@@ -45,7 +45,7 @@ CLUSTERS = (
     ]),
     ("Special criminal Acts", 8, [
         ("NI Act s.138", r"negotiable instruments|section 138|cheque dishonour|cheque bounce"),
-        ("Probation / JJ / POCSO / DV", r"probation of offenders|juvenile justice|\bpocso\b|protection of children from sexual|domestic violence"),
+        ("Probation / JJ / POCSO / DV", r"probation of offenders|juvenile|child in conflict with law|\bpocso\b|protection of children from sexual|domestic violence"),
         ("NDPS / SC-ST / PC / others", r"\bndps\b|narcotic|sc/st|scheduled castes and (?:the )?scheduled tribes|prevention of corruption|"
                                        r"excise act|arms act|dowry prohibition|information technology act|\bit act\b"),
     ]),
@@ -62,7 +62,7 @@ NO_MATCH_PENALTY = 10
 
 def _text(item: dict) -> str:
     parts = [item.get("title"), item.get("summary"), " ".join(item.get("bullets") or []), item.get("case_name"),
-             item.get("ratio"), " ".join(item.get("tags") or []), (item.get("body") or "")[:1500]]
+             item.get("ratio"), " ".join(item.get("tags") or [])]  # not the body: it contains every common legal word
     return " ".join(p for p in parts if p).lower()
 
 
@@ -78,7 +78,7 @@ def match(item: dict) -> dict:
             weights.append(weight)
     landmark = bool(LANDMARK_RE.search(text))
     if weights:
-        boost = max(weights) + 2 * min(len(weights) - 1, 2)
+        boost = max(weights) + min(len(weights) - 1, 2)
     else:
         boost = -NO_MATCH_PENALTY
     if landmark:
