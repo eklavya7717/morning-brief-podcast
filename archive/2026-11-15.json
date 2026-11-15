@@ -1,0 +1,831 @@
+[
+{
+"id": "95b33229fc64",
+"source": "livelaw",
+"category": "high-court",
+"title": "Mere Abusive Expressions Do Not Constitute Offence U/S 299 BNS Unless Intended To Outrage Religious Feelings: Bombay High Court",
+"court": "Bombay High Court",
+"case_name": "Mohammad Hisham Osmani Mohammad Yusuf Osmani v. State of Maharashtra",
+"ratio": null,
+"summary": "The Bombay High Court has quashed criminal proceedings under Section 299 of the Bharatiya Nyaya Sanhita (BNS), 2023, observing that merely using insulting or abusive expressions against certain.",
+"url": "https://www.livelaw.in/high-court/bombay-high-court/mere-use-insulting-abusive-expressions-not-constitute-offence-section-299-bns-558452",
+"priority": 80,
+"topics": [
+"BNS / IPC"
+],
+"note": {
+"Facts": "The applicant was alleged to have posted an objectionable message on Facebook; an FIR was filed under Section 299 of the Bharatiya Nyaya Sanhita, 2023, and the applicant sought quashing of the criminal proceedings.",
+"Issue": "Whether the Facebook post, consisting of insulting or abusive expressions, amounts to an offence under Section 299 BNS requiring deliberate and malicious intent to outrage the religious feelings of a particular class.",
+"Held": "The Bombay High Court quashed the FIR, holding that the post did not satisfy the essential ingredients of Section 299 and therefore did not constitute an offence.",
+"Principle": "Mere use of insulting or abusive expressions, without a deliberate and malicious intention to outrage the religious feelings of a specific class, does not attract liability under Section 299 of the Bharatiya Nyaya Sanhita.",
+"Provisions": "Section 299, Bharatiya Nyaya Sanhita, 2023; no other statutes or cases cited.",
+"Exam angle": "Bharatiya Nyaya Sanhita – focus on the ingredients of the offence under Section 299 (deliberate, malicious intent to outrage religious feelings of a class); could be asked to differentiate between general insult and punishable religious outrage."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-15"
+},
+{
+"id": "94cd0ea37537",
+"source": "livelaw",
+"category": "high-court",
+"title": "Rape Victim Need Not Resist By Biting Or Kicking Accused For Her Testimony To Be Believed: Gauhati High Court",
+"court": "Gauhati High Court",
+"case_name": "Damba Rabidas v. State of Assam & Anr",
+"ratio": "Different victims react differently to sexual assault and that the absence of active physical resistance cannot by itself be a ground to discard the survivor…",
+"summary": "The Gauhati High Court has held that there is no hard and fast rule requiring a rape survivor to physically resist an assault by biting, kicking or pushing the accused for her testimony to be.",
+"url": "https://www.livelaw.in/high-court/gauhati-high-court/gauhati-high-court-upholds-20year-pocso-sentence-558447",
+"priority": 80,
+"topics": [
+"BNSS / CrPC",
+"Probation / JJ / POCSO / DV"
+],
+"note": {
+"Facts": "The accused was convicted under the POCSO Act for sexually assaulting a 14-year-old girl; the victim did not physically resist by biting, kicking or pushing, and there were alleged contradictions with her sister’s testimony.",
+"Issue": "Whether the absence of active physical resistance by a rape survivor bars acceptance of her testimony.",
+"Held": "The High Court dismissed the appeal, upheld the conviction and ruled that lack of violent resistance is not a ground to discard the survivor’s testimony.",
+"Principle": "A survivor’s testimony cannot be rejected merely because she did not physically resist the assault; reactions vary with age, personality and circumstances, and no hard-and-fast rule mandates active resistance.",
+"Provisions": "not stated.",
+"Exam angle": "POCSO Act – could be asked on the evidentiary test for survivor testimony, focusing on the principle that physical resistance is not essential for conviction."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"Probation / JJ / POCSO / DV"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-15"
+},
+{
+"id": "d5c61be30eb9",
+"source": "livelaw",
+"category": "high-court",
+"title": "Travel Time To Reach Magistrate Court Excluded From 24-Hour Detention Period Before Arrestee's Production: Telangana High Court",
+"court": "Telangana High Court",
+"case_name": "Ummidi Samuel v. State of Telangana and Others",
+"ratio": null,
+"summary": "Notably the Supreme Court had also ruled against the artificial distinction between 'arrest' and 'detention' and held that the 24-hour period for production before the Magistrate, in terms of Article 22(2) of the Constitution, will run from the period of 'detention' and not just from the time of formal arrest.",
+"url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-dismisses-habeas-corpus-plea-ndps-case-holds-detention-limit-558446",
+"priority": 79,
+"topics": [
+"BNSS / CrPC",
+"Constitution",
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "Two persons arrested under the NDPS Act were apprehended at 11:30 a.m. on 3 Sept 2026, formally arrested at 4 p.m., and left the police station at 11:00 a.m. on 4 Sept 2026; they were produced before the Judicial Magistrate at 1:42 p.m. on the same day, totalling 23 hours 45 minutes of detention after excluding travel time.",
+"Issue": "Whether the detention exceeded the 24-hour limit prescribed by Article 22(2) of the Constitution and Section 58 of the BNSS, considering the time required for travel from the police station to the Magistrate’s Court.",
+"Held": "The High Court dismissed the habeas corpus petition, holding that the detention was within the permissible period because the 24-hour limit is computed from the time of apprehension up to the commencement of the journey, and travel time is excluded.",
+"Principle": "The 24-hour period for producing an arrested person before a Magistrate runs from the moment of apprehension (detention) to the start of the journey to the Court; the time taken for travel is not counted toward the statutory/constitutional limit.",
+"Provisions": "Article 22(2) Constitution; Section 58, BNSS; Directorate of Enforcement v. Deepak Mahajan (1994); Sujit Das v. Union of India (2026).",
+"Exam angle": "Application of Article 22(2) and Section 58 BNSS on the “24-hour production” rule; could be asked to frame the issue of “when does the 24-hour clock start and does travel time count?” or to list the ingredients for compliance with the constitutional and statutory mandate."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Personal, local and constitutional",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"Constitution",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 14
+},
+"date": "2026-11-15"
+},
+{
+"id": "a29d12ba2a3d",
+"source": "livelaw",
+"category": "high-court",
+"title": "Country-Made Pistol Cannot Be Classified As 'Prohibited Arm' U/S 7 Arms Act Merely Because It Is Dangerous Or Unlicensed: Bombay High Court",
+"court": "Bombay High Court",
+"case_name": "Vikas Kamal Yadav v. State of Maharashtra",
+"ratio": null,
+"summary": "The Court noted that the prosecution need not establish that the weapon was actually fired before an accusation of unlawful possession can be considered. The absence of firing or injury was held to be relevant to the circumstances of this occurrence, but did not render unlawful possession innocuous.",
+"url": "https://www.livelaw.in/high-court/bombay-high-court/country-made-pistol-cannot-be-classified-prohibited-arm-under-arms-act-merely-because-dangerous-unlicensed-558455",
+"priority": 78,
+"topics": [
+"BNSS / CrPC",
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "The applicant was arrested with a country-made pistol, live cartridges and a mobile phone; a co-accused was found with additional cartridges and a phone. He claimed the weapon was not fired and that a country-made pistol does not automatically fall within the definition of “prohibited arm” under the Arms Act.",
+"Issue": "Whether a country-made pistol can be classified as a “prohibited arm” under Section 7 of the Arms Act, 1959 merely because it is dangerous or unlicensed.",
+"Held": "The Bombay High Court held that such a pistol cannot be deemed a prohibited arm solely on the basis of danger or lack of licence; the statutory definition requires specific characteristics or a Central Government notification. Bail was granted.",
+"Principle": "A weapon is a “prohibited arm” under Section 7 only if it possesses the characteristics enumerated in Section 2(1)(i) or is listed in a notification by the Central Government; mere danger or unlicensed status is insufficient.",
+"Provisions": "Sections 2(1)(i), 3, 5, 7, 25(1), 25(1B)(a), 25(1) of the Arms Act, 1959; Section 483 of the Bharatiya Nagarik Suraksha Sanhita, 2023; case cited – *Sunderlal Tuhiram Parashar v. National Investigation Agency & Anr.",
+"Exam angle": "Arms Act – interpretation of “prohibited arm” under Section 7; could be asked to frame the issue of statutory definition versus factual danger, or to list the ingredients (characteristics/notification) required for classification as a prohibited arm."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-15"
+},
+{
+"id": "1dc8e464b0f9",
+"source": "livelaw",
+"category": "high-court",
+"title": "HP High Court Acquits Postmaster In Misappropriation Case, Finds Audit Records Insufficient To Prove Depositors' Money Was Entrusted To Him",
+"court": "Himachal Pradesh High Court",
+"case_name": null,
+"ratio": "Audit reports and entries in account books alone cannot establish entrustment of money in the absence of independent evidence",
+"summary": "The Himachal Pradesh High Court has acquitted a former Extra Departmental Branch Postmaster accused of misappropriating depositors' money, holding that audit reports and entries in account books.",
+"url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-acquits-postmaster-finding-audit-records-account-books-insufficient-558462",
+"priority": 78,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "The former Extra Departmental Branch Postmaster was alleged to have received depositors’ money, recorded entries in passbooks, forged signatures and withdrawn amounts, leading to conviction under Sections 409 and 420 IPC.",
+"Issue": "Whether the prosecution proved the essential element of entrustment and dishonest misappropriation required for criminal breach of trust under Section 409 IPC.",
+"Held": "The High Court acquitted the petitioner, holding that audit reports, account-book entries and the statement of a witness, without any depositor testimony, do not establish entrustment; thus the ingredients of Section 409 IPC were not proved.",
+"Principle": "Entrustment of property must be proved by independent evidence; mere documentary records cannot alone establish criminal breach of trust.",
+"Provisions": "Sections 409 and 420 IPC; audit report (Ex.PW-2/A) and witness statement (PW-2) cited.",
+"Exam angle": "IPC – Section 409 (criminal breach of trust); could be asked on the requirement of entrustment and the need for corroborative evidence beyond official records."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-15"
+},
+{
+"id": "af0189135dc3",
+"source": "livelaw",
+"category": "high-court",
+"title": "LiveLaw Himachal Pradesh High Court Monthly Digest : October 2026",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Cheque Bounce Complaint Filed Before Deemed Service & Expiry Of 15-Day Payment Period Is Premature: HP High Court Case Name: Basant v/s Virender Singh Citation:2026 LiveLaw (HP) 128The Himachal Pradesh High Court has held that a complaint under Section 138 of the Negotiable Instruments Act, 1881filed before the drawer is deemed to have received the.",
+"url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/himachal-pradesh-high-court-monthly-digest-october2026-557874",
+"priority": 76,
+"topics": [
+"NI Act s.138"
+],
+"note": {
+"Facts": "The complainant filed a criminal complaint under Section 138 of the Negotiable Instruments Act, 1881 before the drawer had received the statutory notice and before the expiry of the 15-day period prescribed for payment.",
+"Issue": "Whether a complaint under Section 138 filed before the deemed service of notice and before the 15-day payment period lapses is maintainable, i.e., can the Magistrate take cognizance of such a premature complaint?",
+"Held": "The High Court held the complaint premature and said the Magistrate lacked jurisdiction to take cognizance because the statutory notice had not been deemed served and the 15-day period had not expired.",
+"Principle": "A complaint under Section 138 of the Negotiable Instruments Act is barred if filed before the drawer is deemed to have received the notice and before the completion of the 15-day payment period; such a complaint cannot confer jurisdiction on the Magistrate.",
+"Provisions": "Section 138, Negotiable Instruments Act, 1881 (no other statutes or cases cited).",
+"Exam angle": "Negotiable Instruments Act – test the requirement of deemed service of notice and the 15-day period as a jurisdictional prerequisite for filing a Section 138 complaint."
+},
+"syllabus": {
+"clusters": [
+"Special criminal Acts"
+],
+"acts": [
+"NI Act s.138"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-15"
+},
+{
+"id": "827d64ddb7c2",
+"source": "livelaw",
+"category": "high-court",
+"title": "Encrypted App, VPN Use Cannot By Themselves Justify Preventive Detention Without Supporting Material: J&K&L High Court",
+"court": "Jammu & Kashmir and Ladakh High Court",
+"case_name": null,
+"ratio": "Serious allegations cannot substitute for specific particulars and supporting material when personal liberty is sought to be curtailed",
+"summary": "The Jammu and Kashmir and Ladakh High Court has quashed the preventive detention of a man accused of maintaining contact with a Pakistan-based terrorist handler through an encrypted application and providing logistical support to active terrorists, holding that serious allegations cannot substitute for specific particulars and supporting material when personal liberty is sought to be curtailed.",
+"url": "https://www.livelaw.in/high-court/jammu-kashmir/encrypted-app-vpn-use-cannot-by-themselves-justify-preventive-detention-without-supporting-material-jk-high-court-558453",
+"priority": 76,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "Ajaz Ahmad Seh was detained under Section 8 of the Jammu & Kashmir Public Safety Act, 1978 on grounds that he allegedly used the encrypted app Zangi via a VPN to contact a Pakistan-based terrorist handler and acted as an over-ground worker for terrorists, but the detention order contained no specific dates, content of communications or concrete acts.",
+"Issue": "Whether an order of preventive detention can be sustained on vague, unspecific allegations of terrorist contact and logistical support without supporting material and independent judicial satisfaction.",
+"Held": "The High Court quashed the detention order, holding that the grounds were materially deficient and the detaining authority had not exercised an independent mind; mere assertions about encrypted-app or VPN use cannot by themselves justify preventive detention.",
+"Principle": "Preventive detention is an extraordinary measure that requires specific, intelligible grounds and supporting material; general or speculative allegations, even if serious, cannot replace the need for particular facts and independent assessment by the authority.",
+"Provisions": "Section 8, Jammu & Kashmir Public Safety Act 1978; Sections 126 & 170, Bharatiya Nagarik Suraksha Sanhita 2023; cited cases: *Rekha v. State of Tamil Nadu* (2011) 5 SCC 244, *Vijay Narain Singh v. State of Bihar* (1984) 3 SCC 14, *Noor-ud-Din Shah v. State of J&K & Ors.* (1989 SLJ 1).",
+"Exam angle": "Questions may test the J&K Public Safety Act’s preventive-detention clause, focusing on the requirement of particularised grounds and the distinction between ordinary criminal prosecution (e.g., under UAPA 1967) and preventive detention."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-15"
+},
+{
+"id": "b557c1c8f178",
+"source": "livelaw",
+"category": "high-court",
+"title": "HP High Court Upholds Acquittal In 2 Kg Charas Case, Cites Discrepancy In Colour Of Tape Used During Seizure & Produced In Court",
+"court": "Himachal Pradesh High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Himachal Pradesh High Court has upheld the acquittal of three accused persons in a case involving the alleged recovery of 2.002 kg of charas under the NDPS Act, observing that a discrepancy in the colour of the tape used to seal the seized contraband raised doubts regarding the identity and safe custody of the case property.",
+"url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-yellow-tape-seizure-records-brown-tape-court-558464",
+"priority": 76,
+"topics": [
+"BNSS / CrPC",
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "The police seized 2.002 kg of charas from a backpack on a Mahindra XYLO vehicle on 26 December 2016 and sealed it with yellow tape; when opened in court it was found in brown-taped packets, leading to doubts about identity and custody. The accused were charged under Sections 20 and 29 of the NDPS Act, but the Special Judge acquitted them on grounds of inconsistencies; the State appealed.",
+"Issue": "Whether the prosecution proved recovery of the charas from the accused’s conscious possession despite the discrepancies in the sealing tape and other material contradictions.",
+"Held": "The Himachal Pradesh High Court dismissed the appeal, upheld the acquittal and held that the prosecution failed to establish recovery from conscious possession.",
+"Principle": "A discrepancy in the sealing/taping of seized narcotics that creates doubt about the identity or safe custody of the property defeats the prosecution’s burden to prove recovery from the accused’s conscious possession.",
+"Provisions": "Sections 20, 29 and 42(2) of the NDPS Act; no other statutes or cases cited.",
+"Exam angle": "NDPS Act – focus on Sections 20, 29 (offences) and 42(2) (reasons of belief) – could be asked on the evidentiary requirement of “conscious possession” and the importance of proper sealing/custody of seized narcotics."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-15"
+},
+{
+"id": "0fd5e6a2ce41",
+"source": "livelaw",
+"category": "high-court",
+"title": "Plea Moved Before Kerala High Court Challenging Clean Chit To Chief Minister VD Satheesan In Punarjani-FCRA Case",
+"court": "Kerala High Court",
+"case_name": "Adv. K.M. Shajahan v. State of Kerala and Ors",
+"ratio": null,
+"summary": "The plea states that Satheesan took a private trip to the UK in October 2018 to actively solicit foreign funds of £22,500. It is stated that then Vigilance and Anti-Corruption Bureau (VACB) Director recommended for a CBI enquiry after noting suspicious financial movements totalling over ₹1.22 crore distributed across the FCRA, current, and personal bank accounts of Ahammed. However, he was replaced and the preliminary report was closed claiming “no vigilance angle”. It is further stated that the corruption charges against Satheesan were dropped shortly after the 2026 Legislative Assembly election results were declared.",
+"url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-vd-satheesan-punarjani-fcra-vigilance-case-558437",
+"priority": 73,
+"topics": [
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "The petition challenges the clean chit given to Kerala CM V.D. Satheesan and Manappat Foundation Chairman Ameer Ahamed in the Punarjani-FCRA vigilance case, alleging that Satheesan solicited foreign funds for a flood-rehabilitation scheme in violation of the FCRA and that a preliminary vigilance report recommending a CBI enquiry was improperly closed.",
+"Issue": "Whether the Kerala High Court can set aside the vigilance department’s closure of the preliminary report and direct enforcement of the recommendation for a CBI inquiry on the ground of abuse of power and violation of FCRA provisions.",
+"Held": "(Not stated in the source – the matter is listed for hearing; no decision yet).",
+"Principle": "(Not stated in the source – the petition relies on the proposition that a vigilance authority’s closure of a report recommending CBI investigation, despite clear evidence of wrongdoing, constitutes an abuse of administrative power and may be reviewed by the High Court under its inherent jurisdiction).",
+"Provisions": "Section 3(2)(a) of the Foreign Contribution (Regulation) Act, 2010; Rules of Procedure and Conduct of Business of the Kerala Legislative Assembly (as mentioned); no case law cited.",
+"Exam angle": "Questions may be framed on the FCRA (especially Section 3(2)(a) prohibiting MLAs from soliciting foreign contributions) and the scope of vigilance/anti-corruption authority powers versus judicial review under inherent jurisdiction of the High Court."
+},
+"syllabus": {
+"clusters": [
+"Special criminal Acts"
+],
+"acts": [
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-15"
+},
+{
+"id": "19f59f6e4782",
+"source": "livelaw",
+"category": "high-court",
+"title": "Allahabad High Court Upholds Dismissal Of Court Employee For Manipulating Convict's Age In Records To Make Him Eligible For Release",
+"court": "Allahabad High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Allahabad High Court recently upheld the dismissal of a court employee who was found guilty of manipulating the age of a convicted prisoner in the judicial record to enable him to claim the benefit of a government scheme for the release of elderly prisoners.",
+"url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-hc-court-employee-dismissal-convict-age-manipulation-558471",
+"priority": 71,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "A court employee, Seema Sharma, altered the age of a convicted prisoner in a 1977 Sessions record from 19 years to 38 years to make him eligible for a 2000 government scheme releasing prisoners over 60 years.",
+"Issue": "Whether the dismissal of the employee for manipulating a judicial record constitutes a valid disciplinary action under service rules and is maintainable on a writ petition under Article 226.",
+"Held": "The Allahabad High Court upheld the dismissal, finding the manipulation a serious misconduct amounting to direct interference with the administration of justice and refusing to interfere with the departmental findings.",
+"Principle": "Manipulation of a judicial record is a grave misconduct that justifies dismissal; courts will not substitute their view for factual findings of departmental inquiries when those findings are affirmed by disciplinary authorities.",
+"Provisions": "Section 313 CrPC (age recorded in statement); Rule 4(d) U.P. Subordinate Court Staff Punishment and Appeal Rules, 1976 (punishment provision); Article 226 Constitution (judicial review).",
+"Exam angle": "Service law – disciplinary action under the U.P. Subordinate Court Staff Rules; could be asked on the scope of judicial review of departmental inquiries (Article 226) and the test for “serious misconduct” warranting dismissal."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-15"
+},
+{
+"id": "4b13e87f5c13",
+"source": "sccblog",
+"category": "legislation",
+"title": "Centre notifies Fourth Amendment to Gold Hallmarking Order, 2020; expands district-wise coverage to 398 in 26 States and UTs",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "On 2 Nov 2026, the Ministry of Consumer Affairs, Food and Public Distribution (Department of Consumer Affairs) notified the Hallmarking of Gold Jewellery and Gold Artefacts (Fourth Amendment) Order, 2026 . Issued in consultation with the Bureau of Indian Standards (BIS) under the BIS Act, 2016 , the order amends the Hallmarking of Gold Jewellery.",
+"url": "https://www.scconline.com/blog/post/2026/11/14/gold-hallmarking-district-list-fourth-amendment-order-2026/",
+"priority": 64,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "2c3b82adbb30",
+"source": "livelaw",
+"category": "high-court",
+"title": "Jammu & Kashmir And Ladakh High Court Monthly Digest: October 2026",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Nominal Index:Tabinda Nazir v. Union Territory through Police Station Baramulla 2026 LiveLaw (JKL) 423Nusrat Jan And Another v. Union Territory of J&K (Home) And Others 2026 LiveLaw (JKL) 424Ali Hussain Shah v.",
+"url": "https://www.livelaw.in/high-court/jammu-kashmir/jammu-kashmir-and-ladakh-high-court-monthly-digest-october-2026-557285",
+"priority": 58,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "f98ece59ec4f",
+"source": "livelaw",
+"category": "high-court",
+"title": "Assistant Professors Absorbed Into Cadre Entitled To Same Advance Increments As Direct Recruits: Tripura High Court",
+"court": "Tripura High Court",
+"case_name": "Dr. Tripti Saha & Ors. v. State of Tripura & Ors",
+"ratio": "Assistant Professors absorbed into the cadre are entitled to the same advance increments as directly recruited Assistant Professors and cannot be discriminated against merely because…",
+"summary": "Division Bench: Justice M.S. Ramachandra Rao, Justice S. Datta Purkayastha",
+"url": "https://www.livelaw.in/high-court/tripura-high-court/tripura-high-court-assistant-professors-absorbed-cadre-entitled-same-advance-increments-direct-recruits-558444",
+"priority": 57,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "d91b418b855e",
+"source": "livelaw",
+"category": "high-court",
+"title": "'Very Grim Picture': Gauhati High Court Expresses Concern Over 1.16 Lakh Declared Foreigners Yet To Be Apprehended In Assam",
+"court": "Gauhati High Court",
+"case_name": "Smt. Hamida Begum v. Union of India & Ors",
+"ratio": "The Central and State Governments have a duty to preserve the country's unity and integrity",
+"summary": "The Gauhati High Court has expressed concern over the failure to apprehend and expel 1,16,946 declared foreign nationals across Assam's 36 districts describing the situation as a “very grim picture” and observing that the Central and State Governments have a duty to preserve the country's unity and integrity.",
+"url": "https://www.livelaw.in/high-court/gauhati-high-court/gauhati-high-court-upholds-detention-pending-expulsion-558445",
+"priority": 57,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "2427cf5f63b7",
+"source": "livelaw",
+"category": "high-court",
+"title": "National Highways Act | Landowners Entitled To Interest For Delay In Deposit Of Compensation: HP High Court",
+"court": "Himachal Pradesh High Court",
+"case_name": null,
+"ratio": "Landowners are entitled to interest on compensation for the period during which the authorities delayed depositing the awarded amount…",
+"summary": "The Himachal Pradesh High Court has held that landowners are entitled to interest on compensation for the period during which the authorities delayed depositing the awarded amount, observing that compensation cannot be withheld in the absence of a stay order by a competent court.",
+"url": "https://www.livelaw.in/high-court/himachal-pradesh-high-court/hp-high-court-landowners-entitled-interest-delay-deposit-compensation-558459",
+"priority": 57,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "22714ddba018",
+"source": "livelaw",
+"category": "high-court",
+"title": "'Individual Member Of Minorities Commission Has No Authority To Issue Orders On Behalf Of Commission': Patna High Court",
+"court": "Patna High Court",
+"case_name": "Bihar Public Service Commission v. Bihar State Minorities Commission and Ors",
+"ratio": null,
+"summary": "The Court set aside an order issued by a member of the Commission directing the Bihar Public Service Commission (BPSC) to consider recommending a candidate for appointment as Assistant Professor (Physics).",
+"url": "https://www.livelaw.in/high-court/patna-high-court/patna-high-court-individual-member-minorities-commission-authority-issue-orders-558460",
+"priority": 55,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "568417e3ec5c",
+"source": "livelaw",
+"category": "high-court",
+"title": "Waiting-List Appointee Cannot Claim Seniority From Date Of Original Select List: J&K&L High Court",
+"court": "Jammu & Kashmir and Ladakh High Court",
+"case_name": null,
+"ratio": "A candidate appointed against a vacancy arising due to the non-joining of a selected candidate cannot claim seniority from the date on which candidates from…",
+"summary": "The Court clarified that the merit-based principle under the proviso to Rule 24(1) applies to candidates appointed simultaneously. It cannot be invoked by a candidate whose appointment takes place subsequently against a vacancy that becomes available after the original selection process has concluded.",
+"url": "https://www.livelaw.in/high-court/jammu-kashmir/jkl-high-court-holds-waiting-list-appointee-cannot-claim-seniority-from-date-of-original-select-list-says-merit-alone-does-not-determine-inter-se-seniority-558454",
+"priority": 55,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "c4778a67ff12",
+"source": "livelaw",
+"category": "high-court",
+"title": "Anganwadi Centres Are Educational Institutions Under Excise Rules, Liquor Shops Cannot Be Within 1000 Feet: Calcutta High Court",
+"court": "Calcutta High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Calcutta High Court has held that Anganwadi centres qualify as recognised educational institutions for the purpose of Rule 8 of the West Bengal Excise (New Sites and Grant of Licence) Rules.",
+"url": "https://www.livelaw.in/high-court/calcutta-high-court/anganwadi-centres-are-educational-institutions-under-excise-rules-liquor-shops-cannot-be-within-1000-feet-calcutta-high-court-558485",
+"priority": 55,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-15"
+},
+{
+"id": "301b7ca5a8c8",
+"source": "indianexpress",
+"category": "national",
+"title": "Centre asks states to fix officers to track pollution curbs, seals 191 units",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Following a hearing on November 3, the CAQM had earlier this month directed the MCG Commissioner to file a complaint against the engineer before the Judicial Magistrate.",
+"url": "https://indianexpress.com/article/india/delhi-air-pollution-bhupender-yadav-caqm-crackdown-191-industries-sealed-officials-accountability-10963249/",
+"priority": 84,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "ef37700ab2bd",
+"source": "telegram-pdf",
+"category": "national",
+"title": "safer for kids and teens",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "tg://-1002114906180/8318#0",
+"priority": 80,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "75a92351ef31",
+"source": "indianexpress",
+"category": "national",
+"title": "Uttarakhand CM in attendance, Congress MLA throws microphone, challenges him to contest",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "A political confrontation erupted at the Jauljibi fair in Uttarakhand’s Pithoragarh district on Saturday after Congress MLA Harish Singh Dhami from Dharchula threw a microphone and confronted sound staff on stage, alleging that he had been prevented from addressing the gathering in the presence of Chief Minister Pushkar Singh Dhami.",
+"url": "https://indianexpress.com/article/india/uttarakhand-harish-pushkar-singh-dhami-microphone-thrown-10963407/",
+"priority": 78,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "ac9ed3ef2157",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Tools designed to let your",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Preeti Share location, manage apps, screen limits and more on your child's device.",
+"url": "tg://-1002114906180/8318#1",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "cf12f39d0736",
+"source": "thehindu",
+"category": "national",
+"title": "‘Alive’ to voters’ need to find their names on the electoral roll, ECI assures Supreme Court",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "ECI assures Supreme Court it will reinstate voters missing from rolls, detailing forms, exemptions, and IT oversight measures.",
+"url": "https://www.thehindu.com/news/national/alive-to-voters-need-to-find-their-names-on-the-electoral-roll-eci-assures-supreme-court/article71702627.ece/",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "28f6b484df23",
+"source": "indianexpress",
+"category": "national",
+"title": "Pakistan minister to attend Delhi SCO meet, Islamabad announces",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Pakistan has nominated Minister Musadik Masood Malik to attend the SCO Civilisational Dialogue Forum in Delhi from November 20-22, 2026.",
+"url": "https://indianexpress.com/article/india/pakistan-minister-attend-delhi-sco-meet-islamabad-announces-10963150/",
+"priority": 76,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "c1119fb219a9",
+"source": "thehindu",
+"category": "national",
+"title": "Centre operationalises portal for online declaration of rice, paddy stock",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Units that are not registered on the portal or that violate stock limits will face action under Sections 6 and 7 of the Essential Commodities Act, 1955.",
+"url": "https://www.thehindu.com/news/national/centre-operationalises-portal-for-online-declaration-of-rice-paddy-stock/article71702654.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "2320c9106ef8",
+"source": "thehindu",
+"category": "national",
+"title": "Take necessary steps to control inflation, Dhinakaran tells T.N. govt.",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "AMMK leader Dhinakaran urges Tamil Nadu government to curb rising prices, accusing negligence and demanding decisive anti-inflation action.",
+"url": "https://www.thehindu.com/news/national/tamil-nadu/take-necessary-steps-to-control-inflation-dhinakaran-tells-tn-govt/article71701530.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "761f8d783504",
+"source": "telegram-pdf",
+"category": "national",
+"title": "family explore with confidence",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Preeti Share location, manage apps, screen limits and more on your child's device Shorts feed limit.",
+"url": "tg://-1002114906180/8318#2",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "1c8b5f0c2dd6",
+"source": "indianexpress",
+"category": "economy",
+"title": "Noel Tata warns listing Tata Sons could alter ‘Tata way of working’",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "With a crucial Tata Sons board meeting less than two weeks away, Tata Trusts Chairman Noel Tata on Saturday raised concerns over the possibility of listing Tata Sons, the principal holding company of the Tata group. He warned that such a move could fundamentally alter the way the conglomerate functions and potentially shift its priorities from philanthropy towards profitability.",
+"url": "https://indianexpress.com/article/business/noel-tata-warns-tata-sons-listing-could-alter-tata-way-of-working-philanthropy-10963180/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "ff1673b4fba8",
+"source": "thehindu",
+"category": "national",
+"title": "Police question Abhishek Banerjee for three hours over post against CEC",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "An FIR was registered against the TMC MP following a complaint about his social media post in May that allegedly targeted Chief Election Commissioner Gyanesh Kumar and Gujaratis during the Assembly poll period.",
+"url": "https://www.thehindu.com/news/national/west-bengal/tmcs-abhishek-appears-at-police-station-for-questioning-over-social-media-post/article71701190.ece/",
+"priority": 74,
+"topics": [
+"BNSS / CrPC"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "d1957549b995",
+"source": "thehindu",
+"category": "national",
+"title": "Villagers in 25 districts cast votes for panchayat elections’ final phase in Rajasthan",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Rajasthan votes: Final phase polling across 25 districts for Zila Parishad and Panchayat Samiti, facing EVM glitches, boycotts, and 72% turnout.",
+"url": "https://www.thehindu.com/news/national/rajasthan/rajasthan-panchayat-local-elections-2026-final-phase-voting/article71700929.ece/",
+"priority": 74,
+"topics": [
+"Rajasthan laws"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "5210bbaaed46",
+"source": "indianexpress",
+"category": "editorial",
+"title": "Inflation is settling in. Now for the interest rate hike",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The latest consumer price index (CPI) numbers for October— a year-on-year increase of 6.09 per cent overall and 8.94 per cent for food — carry a sobering message. Retail inflation, the highest since the 6.21 per cent of October 2024 and above the Reserve Bank of India’s (RBI) 6 per cent upper tolerance limit, is getting generalised.",
+"url": "https://indianexpress.com/article/opinion/editorials/inflation-is-settling-in-now-for-the-interest-rate-hike-10962304/",
+"priority": 79,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "80993252289c",
+"source": "indianexpress",
+"category": "editorial",
+"title": "Dear Prime Minister, a majority does not own the national interest",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Opposition members enter Parliament with democratic mandates. When debate is curtailed, Parliament risks losing the very quality that distinguishes it from an executive gathering.",
+"url": "https://indianexpress.com/article/opinion/columns/dear-prime-minister-a-majority-does-not-own-the-national-interest-10962301/",
+"priority": 79,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "a41b9e8e59a2",
+"source": "thehindu",
+"category": "editorial",
+"title": "Strong sense of smell",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Dogs chase vehicles in a small town due to strong scent cues, territorial behavior, and a truck hauling dead carcasses triggering ferocity.",
+"url": "https://www.thehindu.com/opinion/open-page/strong-sense-of-smell/article71694193.ece/",
+"priority": 72,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+},
+{
+"id": "2ba5ba940f42",
+"source": "indianexpress",
+"category": "editorial",
+"title": "As Jensen Huang leaves Nvidia, what really is the threat to the AI economy?",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Jensen Huang didn’t invent artificial intelligence, but few people have done more to translate its scientific promise into a global technological and industrial revolution. By advancing GPU computing, creating CUDA (Compute Unified Device Architecture) and building an ecosystem of chips, software, developers and infrastructure, he helped provide the computational foundations on which modern AI has scaled.",
+"url": "https://indianexpress.com/article/opinion/columns/jensen-huang-leaves-nvidia-threat-to-ai-circular-economy-10963063/",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-15"
+}
+]
