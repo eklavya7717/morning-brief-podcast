@@ -423,6 +423,212 @@
     ]
    ],
    "description": "End-semester exam notes explained simply: Labour Law.\n\nChapters:\n0:00 Welcome and how ma'am marks answers\n2:39 How questions came in October 2025\n7:34 The International Labour Organisation\n11:58 History of labour law in India\n15:45 IR Code definitions: employer, employee, worker\n18:55 Cases: who is a workman\n20:30 Industry, section 2(p), and its cases\n25:36 Industrial dispute, section 2(q), and other definitions\n32:04 Bipartite forums: Works Committee and Grievance Redressal Committee\n36:43 Trade unions: registration, rules, certificate\n42:30 Incorporation, negotiating union, funds\n46:22 Immunities, agreements, members' rights\n50:03 Name change, amalgamation, dissolution, returns, Registrar's powers\n52:56 Cases on trade unions\n55:10 Standing orders: what, why, and the scheme\n1:00:08 First Schedule and cases on standing orders\n1:04:02 Notice of change and the Third Schedule\n1:08:22 Dispute resolution: voluntary arbitration and conciliation\n1:12:29 Recovery of money, Industrial Tribunal, National Industrial Tribunal\n1:15:47 Tribunal decisions, powers, and relief\n1:18:03 Awards and settlements: sections 55 to 58\n1:22:19 Strikes and lock outs: basics\n1:24:03 Section 62: when a strike is barred\n1:26:18 Illegal strikes, strike wages, penalties, and the checklist\n1:30:04 Chapter 9: which regime applies, and the three terms\n1:32:46 Continuous service and lay off compensation\n1:36:51 Retrenchment, closure, and sections 71 to 76\n1:40:37 The class problem: lay off then retrenchment\n1:42:48 Chapter 10: 300 plus worker establishments\n1:48:10 Chapter 9 versus Chapter 10, in one table\n1:49:29 Unfair labour practices: Part I, by employers\n1:52:18 Unfair labour practices: Part II, by workers and unions\n1:54:05 IR Code Part 11: offences and miscellaneous, in brief\n1:55:57 Code on Wages: why minimum wages, and the norms\n1:58:41 Wages, section 2(y), and the 50 percent rule\n2:01:46 Chapter 2: equal pay and fixing minimum wages\n2:05:52 Hours, overtime, and Chapter 3: payment of wages\n2:07:58 Deductions: section 18, the 50 percent ceiling, fines, absence\n2:13:32 Bonus: who is covered and eligibility\n2:19:43 From profit to bonus pool, set on and set off\n2:23:20 Adjustments, payment time, and the bonus chain\n2:26:00 Advisory Boards, section 42\n2:27:31 Payment of dues: sections 43 and 44\n2:30:50 Section 45: claims, the most important section\n2:34:45 Sections 46 to 49: bonus disputes, audited accounts, appeal\n2:40:17 Sections 50 and 51: records, and the Inspector cum Facilitator\n2:43:38 Code on Wages offences and miscellaneous, in brief\n2:46:11 Model answers, October 2025: question 1\n2:54:23 Model answers, October 2025: question 2\n3:02:54 Question bank and wrap up"
+  },
+  {
+   "n": 3,
+   "slug": "company-law",
+   "title": "Company Law",
+   "duration_s": 10076.0,
+   "size_bytes": 50384703,
+   "chapters": [
+    [
+     0.0,
+     "Welcome, how to use these notes, and how the exam goes"
+    ],
+    [
+     245.4,
+     "Chapter 1: Why company law, and the definition"
+    ],
+    [
+     431.7,
+     "Essential features of a company"
+    ],
+    [
+     606.3,
+     "Salomon, Bacha Guzdar, and lifting the veil"
+    ],
+    [
+     767.9,
+     "Chapter 2: Types of companies"
+    ],
+    [
+     899.1,
+     "Incorporation: the eight stages"
+    ],
+    [
+     1198.3,
+     "Chapter 3: Promoters"
+    ],
+    [
+     1541.1,
+     "Chapter 4: The Memorandum of Association"
+    ],
+    [
+     1783.0,
+     "Articles of Association, and M O A versus A O A"
+    ],
+    [
+     1892.1,
+     "Doctrine of ultra vires"
+    ],
+    [
+     1994.6,
+     "Constructive notice and indoor management"
+    ],
+    [
+     2247.7,
+     "Chapter 5: Prospectus, meaning and types"
+    ],
+    [
+     2480.4,
+     "Public issue versus private placement, and contents"
+    ],
+    [
+     2690.8,
+     "Liability for misstatement in a prospectus"
+    ],
+    [
+     2917.9,
+     "Public issue procedure, and the connected sections chart"
+    ],
+    [
+     3093.4,
+     "Chapter 6: Share capital, five layers"
+    ],
+    [
+     3275.3,
+     "Kinds of shares, bonus, sweat equity, rights issue"
+    ],
+    [
+     3582.1,
+     "Allotment and forfeiture"
+    ],
+    [
+     3744.4,
+     "Chapter 7: Debentures"
+    ],
+    [
+     3946.0,
+     "Shares versus debentures, and exam angle"
+    ],
+    [
+     4082.8,
+     "Chapter 8: Directors, the Board and composition"
+    ],
+    [
+     4290.6,
+     "Categories of directors"
+    ],
+    [
+     4400.9,
+     "Independent directors: criteria, duties, and Satyam"
+    ],
+    [
+     4637.0,
+     "Limits, powers, and duties of directors"
+    ],
+    [
+     4926.0,
+     "Liabilities of directors"
+    ],
+    [
+     4983.8,
+     "Chapter 9: Meetings, kinds"
+    ],
+    [
+     5124.3,
+     "Meetings comparison table, minutes, resolutions, and the trick question"
+    ],
+    [
+     5396.0,
+     "Chapter 10: Board committees, the Audit Committee"
+    ],
+    [
+     5661.4,
+     "Nomination and Remuneration Committee, Stakeholders Relationship Committee"
+    ],
+    [
+     5830.0,
+     "Chapter 11: Corporate reconstruction, the idea"
+    ],
+    [
+     5910.8,
+     "Merger, amalgamation and acquisition"
+    ],
+    [
+     6059.9,
+     "Demerger"
+    ],
+    [
+     6311.4,
+     "Section 230: compromise and arrangement"
+    ],
+    [
+     6482.6,
+     "Disclosure, informed voting, and notice to regulators"
+    ],
+    [
+     6615.8,
+     "The three thresholds in section 230"
+    ],
+    [
+     6813.7,
+     "Regular merger process, fast track, appointed date"
+    ],
+    [
+     7110.6,
+     "Chapter 12: Winding up, the four stages"
+    ],
+    [
+     7280.3,
+     "Grounds for winding up by the Tribunal, section 271"
+    ],
+    [
+     7549.4,
+     "Distribution of assets: the section 53 I B C waterfall"
+    ],
+    [
+     7765.6,
+     "Chapter 13: Corporate governance and accountability"
+    ],
+    [
+     7970.1,
+     "Control mechanisms: conflicts, audit, Board reporting"
+    ],
+    [
+     8138.0,
+     "Clause 49 to LODR, and the leading case Dale and Carrington"
+    ],
+    [
+     8354.6,
+     "Chapter 14: Corporate Social Responsibility, section 135"
+    ],
+    [
+     8649.3,
+     "Chapter 15: Corporate criminal liability"
+    ],
+    [
+     8917.4,
+     "Chapter 16: How to write a 10 mark answer, and likely questions"
+    ],
+    [
+     9106.7,
+     "Solved frames 1 and 2: prospectus misstatement, borrowing without resolution"
+    ],
+    [
+     9294.9,
+     "Solved frames 3, 4 and 5: quorum, winding up petition, CSR"
+    ],
+    [
+     9500.3,
+     "Board versus Act corrections at a glance"
+    ],
+    [
+     9723.8,
+     "Section finder and cases at a glance"
+    ]
+   ],
+   "description": "End-semester exam notes explained simply: Company Law.\n\nChapters:\n0:00 Welcome, how to use these notes, and how the exam goes\n4:05 Chapter 1: Why company law, and the definition\n7:12 Essential features of a company\n10:06 Salomon, Bacha Guzdar, and lifting the veil\n12:48 Chapter 2: Types of companies\n14:59 Incorporation: the eight stages\n19:58 Chapter 3: Promoters\n25:41 Chapter 4: The Memorandum of Association\n29:43 Articles of Association, and M O A versus A O A\n31:32 Doctrine of ultra vires\n33:15 Constructive notice and indoor management\n37:28 Chapter 5: Prospectus, meaning and types\n41:20 Public issue versus private placement, and contents\n44:51 Liability for misstatement in a prospectus\n48:38 Public issue procedure, and the connected sections chart\n51:33 Chapter 6: Share capital, five layers\n54:35 Kinds of shares, bonus, sweat equity, rights issue\n59:42 Allotment and forfeiture\n1:02:24 Chapter 7: Debentures\n1:05:46 Shares versus debentures, and exam angle\n1:08:03 Chapter 8: Directors, the Board and composition\n1:11:31 Categories of directors\n1:13:21 Independent directors: criteria, duties, and Satyam\n1:17:17 Limits, powers, and duties of directors\n1:22:06 Liabilities of directors\n1:23:04 Chapter 9: Meetings, kinds\n1:25:24 Meetings comparison table, minutes, resolutions, and the trick question\n1:29:56 Chapter 10: Board committees, the Audit Committee\n1:34:21 Nomination and Remuneration Committee, Stakeholders Relationship Committee\n1:37:10 Chapter 11: Corporate reconstruction, the idea\n1:38:31 Merger, amalgamation and acquisition\n1:41:00 Demerger\n1:45:11 Section 230: compromise and arrangement\n1:48:03 Disclosure, informed voting, and notice to regulators\n1:50:16 The three thresholds in section 230\n1:53:34 Regular merger process, fast track, appointed date\n1:58:31 Chapter 12: Winding up, the four stages\n2:01:20 Grounds for winding up by the Tribunal, section 271\n2:05:49 Distribution of assets: the section 53 I B C waterfall\n2:09:26 Chapter 13: Corporate governance and accountability\n2:12:50 Control mechanisms: conflicts, audit, Board reporting\n2:15:38 Clause 49 to LODR, and the leading case Dale and Carrington\n2:19:15 Chapter 14: Corporate Social Responsibility, section 135\n2:24:09 Chapter 15: Corporate criminal liability\n2:28:37 Chapter 16: How to write a 10 mark answer, and likely questions\n2:31:47 Solved frames 1 and 2: prospectus misstatement, borrowing without resolution\n2:34:55 Solved frames 3, 4 and 5: quorum, winding up petition, CSR\n2:38:20 Board versus Act corrections at a glance\n2:42:04 Section finder and cases at a glance"
   }
  ]
 }

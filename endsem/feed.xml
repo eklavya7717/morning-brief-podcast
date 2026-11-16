@@ -6,7 +6,7 @@
     <description>Spoken, simply explained end-semester notes for B.Sc. LL.B. (Hons.) Semester V: one episode per subject, with chapter timestamps.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 11:53:11 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 17:39:08 +0530</lastBuildDate>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
@@ -465,6 +465,222 @@ Chapters:
       <itunes:episode>2</itunes:episode>
       <itunes:explicit>false</itunes:explicit>
       <enclosure url="https://github.com/eklavya7717/endsem-audio/releases/download/endsem-labour-law/labour-law.mp3" length="55888189" type="audio/mpeg" />
+    </item>
+    <item>
+      <title>Company Law</title>
+      <guid isPermaLink="false">endsem-company-law</guid>
+      <pubDate>Sun, 15 Nov 2026 11:00:00 +0530</pubDate>
+      <description>End-semester exam notes explained simply: Company Law.
+
+Chapters:
+0:00 Welcome, how to use these notes, and how the exam goes
+4:05 Chapter 1: Why company law, and the definition
+7:12 Essential features of a company
+10:06 Salomon, Bacha Guzdar, and lifting the veil
+12:48 Chapter 2: Types of companies
+14:59 Incorporation: the eight stages
+19:58 Chapter 3: Promoters
+25:41 Chapter 4: The Memorandum of Association
+29:43 Articles of Association, and M O A versus A O A
+31:32 Doctrine of ultra vires
+33:15 Constructive notice and indoor management
+37:28 Chapter 5: Prospectus, meaning and types
+41:20 Public issue versus private placement, and contents
+44:51 Liability for misstatement in a prospectus
+48:38 Public issue procedure, and the connected sections chart
+51:33 Chapter 6: Share capital, five layers
+54:35 Kinds of shares, bonus, sweat equity, rights issue
+59:42 Allotment and forfeiture
+1:02:24 Chapter 7: Debentures
+1:05:46 Shares versus debentures, and exam angle
+1:08:03 Chapter 8: Directors, the Board and composition
+1:11:31 Categories of directors
+1:13:21 Independent directors: criteria, duties, and Satyam
+1:17:17 Limits, powers, and duties of directors
+1:22:06 Liabilities of directors
+1:23:04 Chapter 9: Meetings, kinds
+1:25:24 Meetings comparison table, minutes, resolutions, and the trick question
+1:29:56 Chapter 10: Board committees, the Audit Committee
+1:34:21 Nomination and Remuneration Committee, Stakeholders Relationship Committee
+1:37:10 Chapter 11: Corporate reconstruction, the idea
+1:38:31 Merger, amalgamation and acquisition
+1:41:00 Demerger
+1:45:11 Section 230: compromise and arrangement
+1:48:03 Disclosure, informed voting, and notice to regulators
+1:50:16 The three thresholds in section 230
+1:53:34 Regular merger process, fast track, appointed date
+1:58:31 Chapter 12: Winding up, the four stages
+2:01:20 Grounds for winding up by the Tribunal, section 271
+2:05:49 Distribution of assets: the section 53 I B C waterfall
+2:09:26 Chapter 13: Corporate governance and accountability
+2:12:50 Control mechanisms: conflicts, audit, Board reporting
+2:15:38 Clause 49 to LODR, and the leading case Dale and Carrington
+2:19:15 Chapter 14: Corporate Social Responsibility, section 135
+2:24:09 Chapter 15: Corporate criminal liability
+2:28:37 Chapter 16: How to write a 10 mark answer, and likely questions
+2:31:47 Solved frames 1 and 2: prospectus misstatement, borrowing without resolution
+2:34:55 Solved frames 3, 4 and 5: quorum, winding up petition, CSR
+2:38:20 Board versus Act corrections at a glance
+2:42:04 Section finder and cases at a glance
+
+Chapters:
+0:00 Welcome, how to use these notes, and how the exam goes
+4:05 Chapter 1: Why company law, and the definition
+7:12 Essential features of a company
+10:06 Salomon, Bacha Guzdar, and lifting the veil
+12:48 Chapter 2: Types of companies
+14:59 Incorporation: the eight stages
+19:58 Chapter 3: Promoters
+25:41 Chapter 4: The Memorandum of Association
+29:43 Articles of Association, and M O A versus A O A
+31:32 Doctrine of ultra vires
+33:15 Constructive notice and indoor management
+37:28 Chapter 5: Prospectus, meaning and types
+41:20 Public issue versus private placement, and contents
+44:51 Liability for misstatement in a prospectus
+48:38 Public issue procedure, and the connected sections chart
+51:33 Chapter 6: Share capital, five layers
+54:35 Kinds of shares, bonus, sweat equity, rights issue
+59:42 Allotment and forfeiture
+1:02:24 Chapter 7: Debentures
+1:05:46 Shares versus debentures, and exam angle
+1:08:03 Chapter 8: Directors, the Board and composition
+1:11:31 Categories of directors
+1:13:21 Independent directors: criteria, duties, and Satyam
+1:17:17 Limits, powers, and duties of directors
+1:22:06 Liabilities of directors
+1:23:04 Chapter 9: Meetings, kinds
+1:25:24 Meetings comparison table, minutes, resolutions, and the trick question
+1:29:56 Chapter 10: Board committees, the Audit Committee
+1:34:21 Nomination and Remuneration Committee, Stakeholders Relationship Committee
+1:37:10 Chapter 11: Corporate reconstruction, the idea
+1:38:31 Merger, amalgamation and acquisition
+1:41:00 Demerger
+1:45:11 Section 230: compromise and arrangement
+1:48:03 Disclosure, informed voting, and notice to regulators
+1:50:16 The three thresholds in section 230
+1:53:34 Regular merger process, fast track, appointed date
+1:58:31 Chapter 12: Winding up, the four stages
+2:01:20 Grounds for winding up by the Tribunal, section 271
+2:05:49 Distribution of assets: the section 53 I B C waterfall
+2:09:26 Chapter 13: Corporate governance and accountability
+2:12:50 Control mechanisms: conflicts, audit, Board reporting
+2:15:38 Clause 49 to LODR, and the leading case Dale and Carrington
+2:19:15 Chapter 14: Corporate Social Responsibility, section 135
+2:24:09 Chapter 15: Corporate criminal liability
+2:28:37 Chapter 16: How to write a 10 mark answer, and likely questions
+2:31:47 Solved frames 1 and 2: prospectus misstatement, borrowing without resolution
+2:34:55 Solved frames 3, 4 and 5: quorum, winding up petition, CSR
+2:38:20 Board versus Act corrections at a glance
+2:42:04 Section finder and cases at a glance</description>
+      <itunes:title>Company Law</itunes:title>
+      <itunes:summary>End-semester exam notes explained simply: Company Law.
+
+Chapters:
+0:00 Welcome, how to use these notes, and how the exam goes
+4:05 Chapter 1: Why company law, and the definition
+7:12 Essential features of a company
+10:06 Salomon, Bacha Guzdar, and lifting the veil
+12:48 Chapter 2: Types of companies
+14:59 Incorporation: the eight stages
+19:58 Chapter 3: Promoters
+25:41 Chapter 4: The Memorandum of Association
+29:43 Articles of Association, and M O A versus A O A
+31:32 Doctrine of ultra vires
+33:15 Constructive notice and indoor management
+37:28 Chapter 5: Prospectus, meaning and types
+41:20 Public issue versus private placement, and contents
+44:51 Liability for misstatement in a prospectus
+48:38 Public issue procedure, and the connected sections chart
+51:33 Chapter 6: Share capital, five layers
+54:35 Kinds of shares, bonus, sweat equity, rights issue
+59:42 Allotment and forfeiture
+1:02:24 Chapter 7: Debentures
+1:05:46 Shares versus debentures, and exam angle
+1:08:03 Chapter 8: Directors, the Board and composition
+1:11:31 Categories of directors
+1:13:21 Independent directors: criteria, duties, and Satyam
+1:17:17 Limits, powers, and duties of directors
+1:22:06 Liabilities of directors
+1:23:04 Chapter 9: Meetings, kinds
+1:25:24 Meetings comparison table, minutes, resolutions, and the trick question
+1:29:56 Chapter 10: Board committees, the Audit Committee
+1:34:21 Nomination and Remuneration Committee, Stakeholders Relationship Committee
+1:37:10 Chapter 11: Corporate reconstruction, the idea
+1:38:31 Merger, amalgamation and acquisition
+1:41:00 Demerger
+1:45:11 Section 230: compromise and arrangement
+1:48:03 Disclosure, informed voting, and notice to regulators
+1:50:16 The three thresholds in section 230
+1:53:34 Regular merger process, fast track, appointed date
+1:58:31 Chapter 12: Winding up, the four stages
+2:01:20 Grounds for winding up by the Tribunal, section 271
+2:05:49 Distribution of assets: the section 53 I B C waterfall
+2:09:26 Chapter 13: Corporate governance and accountability
+2:12:50 Control mechanisms: conflicts, audit, Board reporting
+2:15:38 Clause 49 to LODR, and the leading case Dale and Carrington
+2:19:15 Chapter 14: Corporate Social Responsibility, section 135
+2:24:09 Chapter 15: Corporate criminal liability
+2:28:37 Chapter 16: How to write a 10 mark answer, and likely questions
+2:31:47 Solved frames 1 and 2: prospectus misstatement, borrowing without resolution
+2:34:55 Solved frames 3, 4 and 5: quorum, winding up petition, CSR
+2:38:20 Board versus Act corrections at a glance
+2:42:04 Section finder and cases at a glance
+
+Chapters:
+0:00 Welcome, how to use these notes, and how the exam goes
+4:05 Chapter 1: Why company law, and the definition
+7:12 Essential features of a company
+10:06 Salomon, Bacha Guzdar, and lifting the veil
+12:48 Chapter 2: Types of companies
+14:59 Incorporation: the eight stages
+19:58 Chapter 3: Promoters
+25:41 Chapter 4: The Memorandum of Association
+29:43 Articles of Association, and M O A versus A O A
+31:32 Doctrine of ultra vires
+33:15 Constructive notice and indoor management
+37:28 Chapter 5: Prospectus, meaning and types
+41:20 Public issue versus private placement, and contents
+44:51 Liability for misstatement in a prospectus
+48:38 Public issue procedure, and the connected sections chart
+51:33 Chapter 6: Share capital, five layers
+54:35 Kinds of shares, bonus, sweat equity, rights issue
+59:42 Allotment and forfeiture
+1:02:24 Chapter 7: Debentures
+1:05:46 Shares versus debentures, and exam angle
+1:08:03 Chapter 8: Directors, the Board and composition
+1:11:31 Categories of directors
+1:13:21 Independent directors: criteria, duties, and Satyam
+1:17:17 Limits, powers, and duties of directors
+1:22:06 Liabilities of directors
+1:23:04 Chapter 9: Meetings, kinds
+1:25:24 Meetings comparison table, minutes, resolutions, and the trick question
+1:29:56 Chapter 10: Board committees, the Audit Committee
+1:34:21 Nomination and Remuneration Committee, Stakeholders Relationship Committee
+1:37:10 Chapter 11: Corporate reconstruction, the idea
+1:38:31 Merger, amalgamation and acquisition
+1:41:00 Demerger
+1:45:11 Section 230: compromise and arrangement
+1:48:03 Disclosure, informed voting, and notice to regulators
+1:50:16 The three thresholds in section 230
+1:53:34 Regular merger process, fast track, appointed date
+1:58:31 Chapter 12: Winding up, the four stages
+2:01:20 Grounds for winding up by the Tribunal, section 271
+2:05:49 Distribution of assets: the section 53 I B C waterfall
+2:09:26 Chapter 13: Corporate governance and accountability
+2:12:50 Control mechanisms: conflicts, audit, Board reporting
+2:15:38 Clause 49 to LODR, and the leading case Dale and Carrington
+2:19:15 Chapter 14: Corporate Social Responsibility, section 135
+2:24:09 Chapter 15: Corporate criminal liability
+2:28:37 Chapter 16: How to write a 10 mark answer, and likely questions
+2:31:47 Solved frames 1 and 2: prospectus misstatement, borrowing without resolution
+2:34:55 Solved frames 3, 4 and 5: quorum, winding up petition, CSR
+2:38:20 Board versus Act corrections at a glance
+2:42:04 Section finder and cases at a glance</itunes:summary>
+      <itunes:duration>2:47:56</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/endsem-audio/releases/download/endsem-company-law/company-law.mp3" length="50384703" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
