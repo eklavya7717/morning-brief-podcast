@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Eklavya's End-Sem Notes</title>
+    <link>https://eklavya7717.github.io/morning-brief-podcast/endsem/</link>
+    <description>Spoken, simply explained end-semester notes for B.Sc. LL.B. (Hons.) Semester V: one episode per subject, with chapter timestamps.</description>
+    <language>en-IN</language>
+    <itunes:author>Eklavya</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>serial</itunes:type>
+    <itunes:category text="Education" />
+    <itunes:image href="https://eklavya7717.github.io/morning-brief-podcast/endsem/cover.jpg" />
+    <itunes:owner>
+      <itunes:name>Eklavya</itunes:name>
+    </itunes:owner>
+    <image>
+      <url>https://eklavya7717.github.io/morning-brief-podcast/endsem/cover.jpg</url>
+      <title>Eklavya's End-Sem Notes</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/endsem/</link>
+    </image>
+    <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/endsem/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>R Programming for Law</title>
+      <guid isPermaLink="false">endsem-r-programming</guid>
+      <pubDate>Sun, 15 Nov 2026 09:00:00 +0530</pubDate>
+      <description>End-semester exam notes explained simply: R Programming for Law.
+
+Chapters:
+0:00 Welcome and how this paper is asked
+3:18 Unit 1: What is R and why use it
+7:35 R versus Python, asked in October 2025
+11:03 RStudio and the console
+12:17 Workspace and help commands, asked in October 2025
+15:04 Variables and basic data types
+17:36 Checking and converting types
+19:57 Operators, including question 3
+24:04 Vectors: creating, sequences, names
+26:00 Vectors: indexing, arithmetic, recycling, repetition
+30:03 Matrices
+33:38 Arrays
+34:47 Lists
+38:35 Data input
+43:20 Data frames
+45:37 Basic statistics, mode, regression, time series
+51:35 Unit 2: User defined functions, asked in October 2025
+56:42 Passing functions and variable scope
+59:19 Functional programming and function objects
+1:01:32 Flow control: if, ifelse, switch
+1:04:05 Loops: for, while, repeat
+1:05:34 The repeat loop and infinite loops, asked in October 2025
+1:08:57 l apply, s apply and looping over lists and matrices
+1:11:08 Strings: construction, formatting, special characters
+1:14:19 Strings: case, substrings, splitting, paths, functions
+1:18:39 Factors
+1:24:23 Unit 3: Packages and the search path
+1:27:01 Dates and times
+1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel
+1:33:29 Database connectivity with R M y S Q L: the idea
+1:34:43 Database connectivity: the full worked example
+1:37:08 Charts and graphs in R
+1:43:47 Unit 4: What is legal data science, and regular expressions
+1:49:50 Legal network analysis: finding citations
+1:54:04 Dictionary analysis: corpus and pre-processing
+1:56:03 Term document matrix, word frequency, bigrams
+1:58:28 Dictionary approach, term mapping, sentiment analysis
+2:00:19 Similarity of legal texts
+2:03:26 Automated document analysis: topic models and Naive Bayes
+2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN
+2:10:46 Important programs: how to answer them
+2:12:14 Decision making programs
+2:16:13 Loop programs: counting, sums, factorial, primes
+2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome
+2:22:40 Fibonacci, squares, and the formula programs
+2:24:50 Vector programs
+2:27:54 Matrix programs
+2:30:02 String and function programs, and the vector and list set
+2:33:21 Model answers for the October 2025 paper
+2:37:31 Question bank overview
+2:41:16 Last minute revision sheet
+
+Chapters:
+0:00 Welcome and how this paper is asked
+3:18 Unit 1: What is R and why use it
+7:35 R versus Python, asked in October 2025
+11:03 RStudio and the console
+12:17 Workspace and help commands, asked in October 2025
+15:04 Variables and basic data types
+17:36 Checking and converting types
+19:57 Operators, including question 3
+24:04 Vectors: creating, sequences, names
+26:00 Vectors: indexing, arithmetic, recycling, repetition
+30:03 Matrices
+33:38 Arrays
+34:47 Lists
+38:35 Data input
+43:20 Data frames
+45:37 Basic statistics, mode, regression, time series
+51:35 Unit 2: User defined functions, asked in October 2025
+56:42 Passing functions and variable scope
+59:19 Functional programming and function objects
+1:01:32 Flow control: if, ifelse, switch
+1:04:05 Loops: for, while, repeat
+1:05:34 The repeat loop and infinite loops, asked in October 2025
+1:08:57 l apply, s apply and looping over lists and matrices
+1:11:08 Strings: construction, formatting, special characters
+1:14:19 Strings: case, substrings, splitting, paths, functions
+1:18:39 Factors
+1:24:23 Unit 3: Packages and the search path
+1:27:01 Dates and times
+1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel
+1:33:29 Database connectivity with R M y S Q L: the idea
+1:34:43 Database connectivity: the full worked example
+1:37:08 Charts and graphs in R
+1:43:47 Unit 4: What is legal data science, and regular expressions
+1:49:50 Legal network analysis: finding citations
+1:54:04 Dictionary analysis: corpus and pre-processing
+1:56:03 Term document matrix, word frequency, bigrams
+1:58:28 Dictionary approach, term mapping, sentiment analysis
+2:00:19 Similarity of legal texts
+2:03:26 Automated document analysis: topic models and Naive Bayes
+2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN
+2:10:46 Important programs: how to answer them
+2:12:14 Decision making programs
+2:16:13 Loop programs: counting, sums, factorial, primes
+2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome
+2:22:40 Fibonacci, squares, and the formula programs
+2:24:50 Vector programs
+2:27:54 Matrix programs
+2:30:02 String and function programs, and the vector and list set
+2:33:21 Model answers for the October 2025 paper
+2:37:31 Question bank overview
+2:41:16 Last minute revision sheet</description>
+      <itunes:title>R Programming for Law</itunes:title>
+      <itunes:summary>End-semester exam notes explained simply: R Programming for Law.
+
+Chapters:
+0:00 Welcome and how this paper is asked
+3:18 Unit 1: What is R and why use it
+7:35 R versus Python, asked in October 2025
+11:03 RStudio and the console
+12:17 Workspace and help commands, asked in October 2025
+15:04 Variables and basic data types
+17:36 Checking and converting types
+19:57 Operators, including question 3
+24:04 Vectors: creating, sequences, names
+26:00 Vectors: indexing, arithmetic, recycling, repetition
+30:03 Matrices
+33:38 Arrays
+34:47 Lists
+38:35 Data input
+43:20 Data frames
+45:37 Basic statistics, mode, regression, time series
+51:35 Unit 2: User defined functions, asked in October 2025
+56:42 Passing functions and variable scope
+59:19 Functional programming and function objects
+1:01:32 Flow control: if, ifelse, switch
+1:04:05 Loops: for, while, repeat
+1:05:34 The repeat loop and infinite loops, asked in October 2025
+1:08:57 l apply, s apply and looping over lists and matrices
+1:11:08 Strings: construction, formatting, special characters
+1:14:19 Strings: case, substrings, splitting, paths, functions
+1:18:39 Factors
+1:24:23 Unit 3: Packages and the search path
+1:27:01 Dates and times
+1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel
+1:33:29 Database connectivity with R M y S Q L: the idea
+1:34:43 Database connectivity: the full worked example
+1:37:08 Charts and graphs in R
+1:43:47 Unit 4: What is legal data science, and regular expressions
+1:49:50 Legal network analysis: finding citations
+1:54:04 Dictionary analysis: corpus and pre-processing
+1:56:03 Term document matrix, word frequency, bigrams
+1:58:28 Dictionary approach, term mapping, sentiment analysis
+2:00:19 Similarity of legal texts
+2:03:26 Automated document analysis: topic models and Naive Bayes
+2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN
+2:10:46 Important programs: how to answer them
+2:12:14 Decision making programs
+2:16:13 Loop programs: counting, sums, factorial, primes
+2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome
+2:22:40 Fibonacci, squares, and the formula programs
+2:24:50 Vector programs
+2:27:54 Matrix programs
+2:30:02 String and function programs, and the vector and list set
+2:33:21 Model answers for the October 2025 paper
+2:37:31 Question bank overview
+2:41:16 Last minute revision sheet
+
+Chapters:
+0:00 Welcome and how this paper is asked
+3:18 Unit 1: What is R and why use it
+7:35 R versus Python, asked in October 2025
+11:03 RStudio and the console
+12:17 Workspace and help commands, asked in October 2025
+15:04 Variables and basic data types
+17:36 Checking and converting types
+19:57 Operators, including question 3
+24:04 Vectors: creating, sequences, names
+26:00 Vectors: indexing, arithmetic, recycling, repetition
+30:03 Matrices
+33:38 Arrays
+34:47 Lists
+38:35 Data input
+43:20 Data frames
+45:37 Basic statistics, mode, regression, time series
+51:35 Unit 2: User defined functions, asked in October 2025
+56:42 Passing functions and variable scope
+59:19 Functional programming and function objects
+1:01:32 Flow control: if, ifelse, switch
+1:04:05 Loops: for, while, repeat
+1:05:34 The repeat loop and infinite loops, asked in October 2025
+1:08:57 l apply, s apply and looping over lists and matrices
+1:11:08 Strings: construction, formatting, special characters
+1:14:19 Strings: case, substrings, splitting, paths, functions
+1:18:39 Factors
+1:24:23 Unit 3: Packages and the search path
+1:27:01 Dates and times
+1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel
+1:33:29 Database connectivity with R M y S Q L: the idea
+1:34:43 Database connectivity: the full worked example
+1:37:08 Charts and graphs in R
+1:43:47 Unit 4: What is legal data science, and regular expressions
+1:49:50 Legal network analysis: finding citations
+1:54:04 Dictionary analysis: corpus and pre-processing
+1:56:03 Term document matrix, word frequency, bigrams
+1:58:28 Dictionary approach, term mapping, sentiment analysis
+2:00:19 Similarity of legal texts
+2:03:26 Automated document analysis: topic models and Naive Bayes
+2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN
+2:10:46 Important programs: how to answer them
+2:12:14 Decision making programs
+2:16:13 Loop programs: counting, sums, factorial, primes
+2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome
+2:22:40 Fibonacci, squares, and the formula programs
+2:24:50 Vector programs
+2:27:54 Matrix programs
+2:30:02 String and function programs, and the vector and list set
+2:33:21 Model answers for the October 2025 paper
+2:37:31 Question bank overview
+2:41:16 Last minute revision sheet</itunes:summary>
+      <itunes:duration>2:45:59</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/endsem-audio/releases/download/endsem-r-programming/r-programming.mp3" length="49797557" type="audio/mpeg" />
+    </item>
+  </channel>
+</rss>

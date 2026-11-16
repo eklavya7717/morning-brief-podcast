@@ -1,0 +1,218 @@
+{
+ "episodes": [
+  {
+   "n": 1,
+   "slug": "r-programming",
+   "title": "R Programming for Law",
+   "duration_s": 9958.6,
+   "size_bytes": 49797557,
+   "chapters": [
+    [
+     0.0,
+     "Welcome and how this paper is asked"
+    ],
+    [
+     198.3,
+     "Unit 1: What is R and why use it"
+    ],
+    [
+     454.8,
+     "R versus Python, asked in October 2025"
+    ],
+    [
+     662.7,
+     "RStudio and the console"
+    ],
+    [
+     736.8,
+     "Workspace and help commands, asked in October 2025"
+    ],
+    [
+     904.0,
+     "Variables and basic data types"
+    ],
+    [
+     1055.5,
+     "Checking and converting types"
+    ],
+    [
+     1197.1,
+     "Operators, including question 3"
+    ],
+    [
+     1444.5,
+     "Vectors: creating, sequences, names"
+    ],
+    [
+     1560.2,
+     "Vectors: indexing, arithmetic, recycling, repetition"
+    ],
+    [
+     1802.9,
+     "Matrices"
+    ],
+    [
+     2017.8,
+     "Arrays"
+    ],
+    [
+     2087.2,
+     "Lists"
+    ],
+    [
+     2314.6,
+     "Data input"
+    ],
+    [
+     2600.3,
+     "Data frames"
+    ],
+    [
+     2736.9,
+     "Basic statistics, mode, regression, time series"
+    ],
+    [
+     3094.8,
+     "Unit 2: User defined functions, asked in October 2025"
+    ],
+    [
+     3401.7,
+     "Passing functions and variable scope"
+    ],
+    [
+     3559.0,
+     "Functional programming and function objects"
+    ],
+    [
+     3692.3,
+     "Flow control: if, ifelse, switch"
+    ],
+    [
+     3844.8,
+     "Loops: for, while, repeat"
+    ],
+    [
+     3934.4,
+     "The repeat loop and infinite loops, asked in October 2025"
+    ],
+    [
+     4137.4,
+     "l apply, s apply and looping over lists and matrices"
+    ],
+    [
+     4267.8,
+     "Strings: construction, formatting, special characters"
+    ],
+    [
+     4459.3,
+     "Strings: case, substrings, splitting, paths, functions"
+    ],
+    [
+     4719.3,
+     "Factors"
+    ],
+    [
+     5062.9,
+     "Unit 3: Packages and the search path"
+    ],
+    [
+     5220.9,
+     "Dates and times"
+    ],
+    [
+     5359.5,
+     "Reading external data: C S V, X M L, web, J S O N, Excel"
+    ],
+    [
+     5608.8,
+     "Database connectivity with R M y S Q L: the idea"
+    ],
+    [
+     5683.3,
+     "Database connectivity: the full worked example"
+    ],
+    [
+     5828.3,
+     "Charts and graphs in R"
+    ],
+    [
+     6227.3,
+     "Unit 4: What is legal data science, and regular expressions"
+    ],
+    [
+     6590.5,
+     "Legal network analysis: finding citations"
+    ],
+    [
+     6844.3,
+     "Dictionary analysis: corpus and pre-processing"
+    ],
+    [
+     6962.9,
+     "Term document matrix, word frequency, bigrams"
+    ],
+    [
+     7107.5,
+     "Dictionary approach, term mapping, sentiment analysis"
+    ],
+    [
+     7219.1,
+     "Similarity of legal texts"
+    ],
+    [
+     7405.7,
+     "Automated document analysis: topic models and Naive Bayes"
+    ],
+    [
+     7567.2,
+     "Prediction of court decisions: Naive Bayes, SVM, KNN"
+    ],
+    [
+     7846.2,
+     "Important programs: how to answer them"
+    ],
+    [
+     7934.3,
+     "Decision making programs"
+    ],
+    [
+     8173.0,
+     "Loop programs: counting, sums, factorial, primes"
+    ],
+    [
+     8396.0,
+     "Digit programs: reverse, count, sum, Armstrong, palindrome"
+    ],
+    [
+     8559.9,
+     "Fibonacci, squares, and the formula programs"
+    ],
+    [
+     8689.8,
+     "Vector programs"
+    ],
+    [
+     8874.1,
+     "Matrix programs"
+    ],
+    [
+     9001.9,
+     "String and function programs, and the vector and list set"
+    ],
+    [
+     9200.8,
+     "Model answers for the October 2025 paper"
+    ],
+    [
+     9451.4,
+     "Question bank overview"
+    ],
+    [
+     9675.9,
+     "Last minute revision sheet"
+    ]
+   ],
+   "description": "End-semester exam notes explained simply: R Programming for Law.\n\nChapters:\n0:00 Welcome and how this paper is asked\n3:18 Unit 1: What is R and why use it\n7:35 R versus Python, asked in October 2025\n11:03 RStudio and the console\n12:17 Workspace and help commands, asked in October 2025\n15:04 Variables and basic data types\n17:36 Checking and converting types\n19:57 Operators, including question 3\n24:04 Vectors: creating, sequences, names\n26:00 Vectors: indexing, arithmetic, recycling, repetition\n30:03 Matrices\n33:38 Arrays\n34:47 Lists\n38:35 Data input\n43:20 Data frames\n45:37 Basic statistics, mode, regression, time series\n51:35 Unit 2: User defined functions, asked in October 2025\n56:42 Passing functions and variable scope\n59:19 Functional programming and function objects\n1:01:32 Flow control: if, ifelse, switch\n1:04:05 Loops: for, while, repeat\n1:05:34 The repeat loop and infinite loops, asked in October 2025\n1:08:57 l apply, s apply and looping over lists and matrices\n1:11:08 Strings: construction, formatting, special characters\n1:14:19 Strings: case, substrings, splitting, paths, functions\n1:18:39 Factors\n1:24:23 Unit 3: Packages and the search path\n1:27:01 Dates and times\n1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel\n1:33:29 Database connectivity with R M y S Q L: the idea\n1:34:43 Database connectivity: the full worked example\n1:37:08 Charts and graphs in R\n1:43:47 Unit 4: What is legal data science, and regular expressions\n1:49:50 Legal network analysis: finding citations\n1:54:04 Dictionary analysis: corpus and pre-processing\n1:56:03 Term document matrix, word frequency, bigrams\n1:58:28 Dictionary approach, term mapping, sentiment analysis\n2:00:19 Similarity of legal texts\n2:03:26 Automated document analysis: topic models and Naive Bayes\n2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN\n2:10:46 Important programs: how to answer them\n2:12:14 Decision making programs\n2:16:13 Loop programs: counting, sums, factorial, primes\n2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome\n2:22:40 Fibonacci, squares, and the formula programs\n2:24:50 Vector programs\n2:27:54 Matrix programs\n2:30:02 String and function programs, and the vector and list set\n2:33:21 Model answers for the October 2025 paper\n2:37:31 Question bank overview\n2:41:16 Last minute revision sheet"
+  }
+ ]
+}
