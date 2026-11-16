@@ -5,6 +5,8 @@
     <link>https://eklavya7717.github.io/morning-brief-podcast/endsem/</link>
     <description>Spoken, simply explained end-semester notes for B.Sc. LL.B. (Hons.) Semester V: one episode per subject, with chapter timestamps.</description>
     <language>en-IN</language>
+    <copyright>Eklavya</copyright>
+    <lastBuildDate>Mon, 16 Nov 2026 11:53:11 +0530</lastBuildDate>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>serial</itunes:type>
@@ -12,6 +14,7 @@
     <itunes:image href="https://eklavya7717.github.io/morning-brief-podcast/endsem/cover.jpg" />
     <itunes:owner>
       <itunes:name>Eklavya</itunes:name>
+      <itunes:email>eklav@example.invalid</itunes:email>
     </itunes:owner>
     <image>
       <url>https://eklavya7717.github.io/morning-brief-podcast/endsem/cover.jpg</url>
