@@ -213,6 +213,216 @@
     ]
    ],
    "description": "End-semester exam notes explained simply: R Programming for Law.\n\nChapters:\n0:00 Welcome and how this paper is asked\n3:18 Unit 1: What is R and why use it\n7:35 R versus Python, asked in October 2025\n11:03 RStudio and the console\n12:17 Workspace and help commands, asked in October 2025\n15:04 Variables and basic data types\n17:36 Checking and converting types\n19:57 Operators, including question 3\n24:04 Vectors: creating, sequences, names\n26:00 Vectors: indexing, arithmetic, recycling, repetition\n30:03 Matrices\n33:38 Arrays\n34:47 Lists\n38:35 Data input\n43:20 Data frames\n45:37 Basic statistics, mode, regression, time series\n51:35 Unit 2: User defined functions, asked in October 2025\n56:42 Passing functions and variable scope\n59:19 Functional programming and function objects\n1:01:32 Flow control: if, ifelse, switch\n1:04:05 Loops: for, while, repeat\n1:05:34 The repeat loop and infinite loops, asked in October 2025\n1:08:57 l apply, s apply and looping over lists and matrices\n1:11:08 Strings: construction, formatting, special characters\n1:14:19 Strings: case, substrings, splitting, paths, functions\n1:18:39 Factors\n1:24:23 Unit 3: Packages and the search path\n1:27:01 Dates and times\n1:29:20 Reading external data: C S V, X M L, web, J S O N, Excel\n1:33:29 Database connectivity with R M y S Q L: the idea\n1:34:43 Database connectivity: the full worked example\n1:37:08 Charts and graphs in R\n1:43:47 Unit 4: What is legal data science, and regular expressions\n1:49:50 Legal network analysis: finding citations\n1:54:04 Dictionary analysis: corpus and pre-processing\n1:56:03 Term document matrix, word frequency, bigrams\n1:58:28 Dictionary approach, term mapping, sentiment analysis\n2:00:19 Similarity of legal texts\n2:03:26 Automated document analysis: topic models and Naive Bayes\n2:06:07 Prediction of court decisions: Naive Bayes, SVM, KNN\n2:10:46 Important programs: how to answer them\n2:12:14 Decision making programs\n2:16:13 Loop programs: counting, sums, factorial, primes\n2:19:56 Digit programs: reverse, count, sum, Armstrong, palindrome\n2:22:40 Fibonacci, squares, and the formula programs\n2:24:50 Vector programs\n2:27:54 Matrix programs\n2:30:02 String and function programs, and the vector and list set\n2:33:21 Model answers for the October 2025 paper\n2:37:31 Question bank overview\n2:41:16 Last minute revision sheet"
+  },
+  {
+   "n": 2,
+   "slug": "labour-law",
+   "title": "Labour Law",
+   "duration_s": 11176.6,
+   "size_bytes": 55888189,
+   "chapters": [
+    [
+     0.0,
+     "Welcome and how ma'am marks answers"
+    ],
+    [
+     159.3,
+     "How questions came in October 2025"
+    ],
+    [
+     453.6,
+     "The International Labour Organisation"
+    ],
+    [
+     718.3,
+     "History of labour law in India"
+    ],
+    [
+     945.0,
+     "IR Code definitions: employer, employee, worker"
+    ],
+    [
+     1135.2,
+     "Cases: who is a workman"
+    ],
+    [
+     1230.3,
+     "Industry, section 2(p), and its cases"
+    ],
+    [
+     1536.3,
+     "Industrial dispute, section 2(q), and other definitions"
+    ],
+    [
+     1924.3,
+     "Bipartite forums: Works Committee and Grievance Redressal Committee"
+    ],
+    [
+     2202.6,
+     "Trade unions: registration, rules, certificate"
+    ],
+    [
+     2550.1,
+     "Incorporation, negotiating union, funds"
+    ],
+    [
+     2782.5,
+     "Immunities, agreements, members' rights"
+    ],
+    [
+     3002.7,
+     "Name change, amalgamation, dissolution, returns, Registrar's powers"
+    ],
+    [
+     3176.5,
+     "Cases on trade unions"
+    ],
+    [
+     3310.4,
+     "Standing orders: what, why, and the scheme"
+    ],
+    [
+     3608.3,
+     "First Schedule and cases on standing orders"
+    ],
+    [
+     3841.8,
+     "Notice of change and the Third Schedule"
+    ],
+    [
+     4102.0,
+     "Dispute resolution: voluntary arbitration and conciliation"
+    ],
+    [
+     4349.0,
+     "Recovery of money, Industrial Tribunal, National Industrial Tribunal"
+    ],
+    [
+     4546.9,
+     "Tribunal decisions, powers, and relief"
+    ],
+    [
+     4683.0,
+     "Awards and settlements: sections 55 to 58"
+    ],
+    [
+     4938.9,
+     "Strikes and lock outs: basics"
+    ],
+    [
+     5043.0,
+     "Section 62: when a strike is barred"
+    ],
+    [
+     5177.6,
+     "Illegal strikes, strike wages, penalties, and the checklist"
+    ],
+    [
+     5404.0,
+     "Chapter 9: which regime applies, and the three terms"
+    ],
+    [
+     5565.8,
+     "Continuous service and lay off compensation"
+    ],
+    [
+     5811.1,
+     "Retrenchment, closure, and sections 71 to 76"
+    ],
+    [
+     6037.4,
+     "The class problem: lay off then retrenchment"
+    ],
+    [
+     6168.3,
+     "Chapter 10: 300 plus worker establishments"
+    ],
+    [
+     6490.0,
+     "Chapter 9 versus Chapter 10, in one table"
+    ],
+    [
+     6568.6,
+     "Unfair labour practices: Part I, by employers"
+    ],
+    [
+     6738.3,
+     "Unfair labour practices: Part II, by workers and unions"
+    ],
+    [
+     6845.0,
+     "IR Code Part 11: offences and miscellaneous, in brief"
+    ],
+    [
+     6957.4,
+     "Code on Wages: why minimum wages, and the norms"
+    ],
+    [
+     7120.6,
+     "Wages, section 2(y), and the 50 percent rule"
+    ],
+    [
+     7305.9,
+     "Chapter 2: equal pay and fixing minimum wages"
+    ],
+    [
+     7552.3,
+     "Hours, overtime, and Chapter 3: payment of wages"
+    ],
+    [
+     7678.4,
+     "Deductions: section 18, the 50 percent ceiling, fines, absence"
+    ],
+    [
+     8012.4,
+     "Bonus: who is covered and eligibility"
+    ],
+    [
+     8382.9,
+     "From profit to bonus pool, set on and set off"
+    ],
+    [
+     8599.8,
+     "Adjustments, payment time, and the bonus chain"
+    ],
+    [
+     8759.7,
+     "Advisory Boards, section 42"
+    ],
+    [
+     8850.9,
+     "Payment of dues: sections 43 and 44"
+    ],
+    [
+     9049.7,
+     "Section 45: claims, the most important section"
+    ],
+    [
+     9285.1,
+     "Sections 46 to 49: bonus disputes, audited accounts, appeal"
+    ],
+    [
+     9617.4,
+     "Sections 50 and 51: records, and the Inspector cum Facilitator"
+    ],
+    [
+     9817.9,
+     "Code on Wages offences and miscellaneous, in brief"
+    ],
+    [
+     9971.0,
+     "Model answers, October 2025: question 1"
+    ],
+    [
+     10462.7,
+     "Model answers, October 2025: question 2"
+    ],
+    [
+     10973.8,
+     "Question bank and wrap up"
+    ]
+   ],
+   "description": "End-semester exam notes explained simply: Labour Law.\n\nChapters:\n0:00 Welcome and how ma'am marks answers\n2:39 How questions came in October 2025\n7:34 The International Labour Organisation\n11:58 History of labour law in India\n15:45 IR Code definitions: employer, employee, worker\n18:55 Cases: who is a workman\n20:30 Industry, section 2(p), and its cases\n25:36 Industrial dispute, section 2(q), and other definitions\n32:04 Bipartite forums: Works Committee and Grievance Redressal Committee\n36:43 Trade unions: registration, rules, certificate\n42:30 Incorporation, negotiating union, funds\n46:22 Immunities, agreements, members' rights\n50:03 Name change, amalgamation, dissolution, returns, Registrar's powers\n52:56 Cases on trade unions\n55:10 Standing orders: what, why, and the scheme\n1:00:08 First Schedule and cases on standing orders\n1:04:02 Notice of change and the Third Schedule\n1:08:22 Dispute resolution: voluntary arbitration and conciliation\n1:12:29 Recovery of money, Industrial Tribunal, National Industrial Tribunal\n1:15:47 Tribunal decisions, powers, and relief\n1:18:03 Awards and settlements: sections 55 to 58\n1:22:19 Strikes and lock outs: basics\n1:24:03 Section 62: when a strike is barred\n1:26:18 Illegal strikes, strike wages, penalties, and the checklist\n1:30:04 Chapter 9: which regime applies, and the three terms\n1:32:46 Continuous service and lay off compensation\n1:36:51 Retrenchment, closure, and sections 71 to 76\n1:40:37 The class problem: lay off then retrenchment\n1:42:48 Chapter 10: 300 plus worker establishments\n1:48:10 Chapter 9 versus Chapter 10, in one table\n1:49:29 Unfair labour practices: Part I, by employers\n1:52:18 Unfair labour practices: Part II, by workers and unions\n1:54:05 IR Code Part 11: offences and miscellaneous, in brief\n1:55:57 Code on Wages: why minimum wages, and the norms\n1:58:41 Wages, section 2(y), and the 50 percent rule\n2:01:46 Chapter 2: equal pay and fixing minimum wages\n2:05:52 Hours, overtime, and Chapter 3: payment of wages\n2:07:58 Deductions: section 18, the 50 percent ceiling, fines, absence\n2:13:32 Bonus: who is covered and eligibility\n2:19:43 From profit to bonus pool, set on and set off\n2:23:20 Adjustments, payment time, and the bonus chain\n2:26:00 Advisory Boards, section 42\n2:27:31 Payment of dues: sections 43 and 44\n2:30:50 Section 45: claims, the most important section\n2:34:45 Sections 46 to 49: bonus disputes, audited accounts, appeal\n2:40:17 Sections 50 and 51: records, and the Inspector cum Facilitator\n2:43:38 Code on Wages offences and miscellaneous, in brief\n2:46:11 Model answers, October 2025: question 1\n2:54:23 Model answers, October 2025: question 2\n3:02:54 Question bank and wrap up"
   }
  ]
 }
