@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 06:39:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 09:29:26 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Tuesday 17 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-17/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Tuesday, 17 November 2026. In this edition: National Press Day : Landmark Supreme Court Judgments Upholding Media Freedom; Gratuity Can't Be Withheld Because Of Pending Appeal Against Acquittal: Supreme Court; 2002 Gujarat Riots | Supreme Court Suspends Life Sentence Of Two Bilkis Bano Rape Case Convicts; Supreme Court Awards Rs. 30 Lakhs To Man Kept In Jail For 7 Years Despite Acquittal, Recommends Law To Compensate Illegal Custody; Bhakra-Beas power dispute: Supreme Court directs Punjab and Haryana to pay Himachal Pradesh’s 13,066 MU energy arrears over 20 years; Past Criminal Cases Alone Can't Justify Police Surveillance: Telangana High Court Issues Guidelines For Opening, Review Of Rowdy Sheets; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Tuesday 17 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Tuesday, 17 November 2026. In this edition: National Press Day : Landmark Supreme Court Judgments Upholding Media Freedom; Gratuity Can't Be Withheld Because Of Pending Appeal Against Acquittal: Supreme Court; 2002 Gujarat Riots | Supreme Court Suspends Life Sentence Of Two Bilkis Bano Rape Case Convicts; Supreme Court Awards Rs. 30 Lakhs To Man Kept In Jail For 7 Years Despite Acquittal, Recommends Law To Compensate Illegal Custody; Bhakra-Beas power dispute: Supreme Court directs Punjab and Haryana to pay Himachal Pradesh’s 13,066 MU energy arrears over 20 years; Past Criminal Cases Alone Can't Justify Police Surveillance: Telangana High Court Issues Guidelines For Opening, Review Of Rowdy Sheets; and 28 more stories.</itunes:summary>
+      <itunes:duration>42:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-17/brief.mp3" length="20162417" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Monday 16 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-16/</link>
