@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 09:29:26 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 08:36:29 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Wednesday 18 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-18/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Wednesday, 18 November 2026. In this edition: Forgery Not Official Duty, Public Servant Accused Of Forging Records Can't Claim S.197 CrPC Sanction : Supreme Court; Proved Contradiction In Witness Testimony Doesn't Mean Their Statement To Police Was True : Supreme Court; Bilkis Bano Case: Supreme Court Grants Bail to two Convicts After 17 Years in Jail, Suspends Sentence Pending Appeal; Supreme Court Applies Doctrine Of Indoor Management, Says Company's Boardroom Dispute Cannot Invalidate Sale To Bona Fide Third-Party; Supreme Court Upholds Stay On Azam Khan's Conviction In Forged Birth Certificate Case, Gives Same Relief To Wife &amp; Son; Bilkis Bano Expresses Shock Over Supreme Court Order Suspending Sentences Of Men Convicted For Gang-Rape &amp; Murder, Says She Wasn't Heard; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Wednesday 18 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Wednesday, 18 November 2026. In this edition: Forgery Not Official Duty, Public Servant Accused Of Forging Records Can't Claim S.197 CrPC Sanction : Supreme Court; Proved Contradiction In Witness Testimony Doesn't Mean Their Statement To Police Was True : Supreme Court; Bilkis Bano Case: Supreme Court Grants Bail to two Convicts After 17 Years in Jail, Suspends Sentence Pending Appeal; Supreme Court Applies Doctrine Of Indoor Management, Says Company's Boardroom Dispute Cannot Invalidate Sale To Bona Fide Third-Party; Supreme Court Upholds Stay On Azam Khan's Conviction In Forged Birth Certificate Case, Gives Same Relief To Wife &amp; Son; Bilkis Bano Expresses Shock Over Supreme Court Order Suspending Sentences Of Men Convicted For Gang-Rape &amp; Murder, Says She Wasn't Heard; and 28 more stories.</itunes:summary>
+      <itunes:duration>43:07</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-18/brief.mp3" length="20695387" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Tuesday 17 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-17/</link>
