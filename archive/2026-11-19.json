@@ -1,0 +1,896 @@
+[
+{
+"id": "555fd90c062e",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Stay Of Conviction Can't Be Sought Only To Contest Elections : Supreme Court",
+"court": "Supreme Court",
+"case_name": "STATE OF U.P v. MOHAMMAD AZAM KHAN AND ORS",
+"ratio": "Courts cannot permit statutory powers to be leveraged to suit political calendars.",
+"summary": "The Supreme Court has cautioned that a stay of conviction cannot be sought merely to pursue electoral ambitions or contest upcoming elections, observing that courts cannot permit statutory powers to be leveraged to suit political calendars. At the same time, the Court held that judicial discretion to stay a conviction must be cautiously exercised by balancing the irreversible damage to an individual's personal reputation and dignity against the sanctity of a judicial finding of guilt.",
+"url": "https://www.livelaw.in/supreme-court/stay-of-conviction-cant-be-sought-only-to-contest-elections-supreme-court-558898",
+"priority": 100,
+"topics": [
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "The Supreme Court entertained appeals by Mohammad Abdullah Azam Khan and Dr Tazeen Fatma, seeking a stay of their convictions in a case alleging use of conflicting birth certificates, and a State of U.P. appeal challenging a High Court stay.",
+"Issue": "Whether a stay of criminal conviction may be granted solely to enable the petitioner to contest elections or pursue electoral ambitions.",
+"Held": "The Court allowed the stays of conviction pending revision but categorically held that a stay cannot be granted merely on the ground of political or electoral expediency.",
+"Principle": "A stay of conviction must be exercised with judicial discretion, balancing the irreversible damage to personal dignity (Article 21) against the sanctity of a conviction, and cannot be used as a tool to suit political calendars.",
+"Provisions": "Section 389(1), Criminal Procedure Code; Article 21 of the Constitution; reference to *Afjal Ansari v. State of U.P.* (2023).",
+"Exam angle": "Criminal Procedure Code – application of Section 389(1) in the context of electoral politics; could be asked as an issue-framing question on the limits of seeking stay of conviction under the Representation of the People Act or on the interplay between Article 21 and criminal convictions."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-19"
+},
+{
+"id": "4d1e81f6d4ba",
+"source": "livelaw",
+"category": "high-court",
+"title": "Whether Magistrate's Order Directing FIR Registration Is Revisable? J&K High Court Refers Legal Question To Larger Bench",
+"court": "Jammu & Kashmir and Ladakh High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Jammu & Kashmir and Ladakh High Court has referred to a larger Bench the question whether an order passed by a Magistrate under Section 156(3) CrPC, directing registration of an FIR and police investigation, is an interlocutory order barred from revision or an intermediate order amenable to revisional jurisdiction.",
+"url": "https://www.livelaw.in/high-court/jammu-kashmir/whether-magistrates-order-directing-fir-registration-is-revisable-jk-high-court-refers-legal-question-to-larger-bench-558974",
+"priority": 100,
+"topics": [
+"BNSS / CrPC",
+"Constitution"
+],
+"note": {
+"Facts": "Two petitions challenged orders of Judicial Magistrates directing registration of FIRs under Section 156(3) CrPC; the petitioners argued that such orders are interlocutory and not subject to criminal revision, while the respondents contended they are intermediate orders amenable to revision.",
+"Issue": "Whether an order passed by a Magistrate under Section 156(3) CrPC directing FIR registration and investigation is an interlocutory order barred by Sections 397(2) CrPC and 438(2) BNSS, or an intermediate order subject to criminal revision.",
+"Held": "The Jammu & Kashmir and Ladakh High Court did not decide the issue but referred six specific questions to a larger Bench for authoritative determination.",
+"Principle": "The nature of an order (interlocutory vs. intermediate) must be examined by its jurisdiction, issue decided, effect and legal consequences; mere non-determination of guilt does not automatically render it interlocutory, and an order may acquire revisional jurisdiction if it decides a substantial legal right or jurisdictional question.",
+"Provisions": "State of Haryana*, *Madhu Limaye v. State of Maharashtra*, *Girish Kumar Suneja v. CBI*, *Father Thomas v. State of U.P.* (Allahabad HC), *Arun P. Gidh v. Chandraprakash Singh* (Bombay HC), *Manohar Nath Sher v. State of J&K*, *Satpal Sharma v. Pawan Singh Rathore*, *Anurag Bhatnagar & Anr. v. State (NCT of Delhi)*, *Priyanka Srivastava v. State of Uttar Pradesh*, *Anil Kumar v. M.K. Aiyappa*.",
+"Exam angle": "Criminal Procedure Code – test the revisional jurisdiction under Section 397 CrPC vis-à-vis orders under Section 156(3) CrPC; focus on distinguishing interlocutory and intermediate orders and the impact of Supreme Court precedents (Amar Nath, Madhu Limaye, Suneja)."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Personal, local and constitutional"
+],
+"acts": [
+"BNSS / CrPC",
+"Constitution"
+],
+"landmark": true,
+"boost": 21
+},
+"date": "2026-11-19"
+},
+{
+"id": "f443be8758a0",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Constructive Res Judicata | Claim Based On Subsequent Cause Of Action Not Barred By Judgment On Prior Cause Of Action : Supreme Court",
+"court": "Supreme Court",
+"case_name": "Ashok Kumar v. Central Bank of India & Ors",
+"ratio": "The principle of constructive res judicata cannot bar a subsequent claim merely because a relief was not sought in earlier proceedings…",
+"summary": "The Supreme Court on Wednesday (November 18) held that the principle of constructive res judicata cannot bar a subsequent claim merely because a relief was not sought in earlier proceedings.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1171-ashok-kumar-v-central-bank-of-india-ors-558998",
+"priority": 100,
+"topics": [
+"CPC"
+],
+"note": {
+"Facts": "The Supreme Court on Wednesday (November 18) held that the principle of constructive res judicata cannot bar a subsequent claim merely because a relief was not sought in earlier proceedings.",
+"Held": "The principle of constructive res judicata cannot bar a subsequent claim merely because a relief was not sought in earlier proceedings…",
+"Principle": "The principle of constructive res judicata cannot bar a subsequent claim merely because a relief was not sought in earlier proceedings…",
+"Provisions": "Held that the principle of constructive res judicata would apply only if the cause of action for claiming interest on delayed payment of salary had existe; Noted that the claim for interest required adjudication of separate factual issues, including entitlement to interest, the period of delay attributable to"
+},
+"syllabus": {
+"clusters": [
+"Civil procedure"
+],
+"acts": [
+"CPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-19"
+},
+{
+"id": "dec9cb89ece5",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Dismisses PIL Seeking Ban On Animal Sacrifices For Religious Rituals",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court today dismissed a public interest litigation seeking a ban on killing of animals in the name of religion. A bench of Justice Vikram Nath, Justice R Mahadevan, and Justice Aparesh.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-dismisses-pil-seeking-ban-on-animal-sacrifices-for-religious-rituals-558980",
+"priority": 96,
+"topics": [
+"BNS / IPC"
+],
+"note": {
+"Facts": "A public interest litigation was filed by Advocate Shruti Bist seeking a direction to the Ministry of Animal Husbandry to amend Section 28 of the Prevention of Cruelty to Animals Act, 1960, to prohibit killing animals in the name of religion.",
+"Issue": "Whether the saving clause in Section 28, which exempts animal killing required by any religion, can be struck down or amended to ban animal sacrifice.",
+"Held": "The Supreme Court, a bench of Justices Vikram Nath, R Mahadevan and Aparesh Singh, dismissed the PIL and did not order any amendment to Section 28.",
+"Principle": "A statutory saving clause that expressly protects religiously mandated animal killing cannot be overridden by a PIL; the Court will not interfere with a clear legislative provision on religious practice.",
+"Provisions": "Section 28 of the Prevention of Cruelty to Animals Act, 1960; no other statutes, articles or cases are cited in the source.",
+"Exam angle": "Questions may test the Prevention of Cruelty to Animals Act, focusing on the interpretation of Section 28’s savings clause and its interaction with constitutional guarantees of religious freedom."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-19"
+},
+{
+"id": "e5212d5c2327",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Asset Reconstruction Company Can Step Into Bank's Shoes In Cheque Bounce Case, But Must Prove It Is 'Holder In Due Course': Supreme Court",
+"court": "Supreme Court",
+"case_name": "Kishore Avarsekar & Ors. v. Assets Care and Reconstruction Enterprises Ltd & Ors",
+"ratio": null,
+"summary": "The Supreme Court held that an Asset Reconstruction Company (ARC) that acquires a bank's financial asset under Section 5 of the Securitisation and Reconstruction of Financial Assets and Enforcement.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1166-kishore-avarsekar-ors-v-assets-care-and-reconstruction-enterprises-ltd-ors-558884",
+"priority": 94,
+"topics": [
+"NI Act s.138"
+],
+"note": {
+"Facts": "The Supreme Court held that an Asset Reconstruction Company (ARC) that acquires a bank's financial asset under Section 5 of the Securitisation and Reconstruction of Financial Assets and Enforcement.",
+"Held": "Bench: Justice Dipankar Datta, Justice Sheel Nagu",
+"Provisions": "Provision: Section 138 of the NI Act"
+},
+"syllabus": {
+"clusters": [
+"Special criminal Acts"
+],
+"acts": [
+"NI Act s.138"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-19"
+},
+{
+"id": "98dec3e90153",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Arbitral Tribunal Final Arbiter Of Facts; Section 37 Court Cannot Make Independent Assessment Of Merits : Supreme Court",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court has reiterated that appellate courts cannot substitute their own interpretation of contractual terms for that of an Arbitral Tribunal if the interpretation adopted by the Tribunal is a possible and plausible one.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1170-rajasthan-rajya-vidyut-utpadan-nigam-ltdv-parsa-kente-collieries-limited-558969",
+"priority": 92,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "The Supreme Court has reiterated that appellate courts cannot substitute their own interpretation of contractual terms for that of an Arbitral Tribunal if the interpretation adopted by the Tribunal is a possible and plausible one.",
+"Held": "Bench: Justice Satish Chandra Sharma, Justice Nongmeikapam Kotiswar Singh, Justice Sudhir Kumar Katriar",
+"Provisions": "Provision: Section 37 of the Arbitration and Conciliation Act, 1996; Observed that the Arbitral Tribunal is the final arbiter of facts, and that the construction of contractual terms primarily falls within its domain"
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-19"
+},
+{
+"id": "56100f4fc02f",
+"source": "livelaw",
+"category": "high-court",
+"title": "Telangana High Court Quashes Preventive Detention Of 6 Accused In CPI Leader's Murder, Finds No Evidence Of Habitual Offending",
+"court": "Telangana High Court",
+"case_name": "Nagaraju v. State of Telangana and Others",
+"ratio": null,
+"summary": "The Telangana High Court has recently quashed the detention orders of six individuals over the murder of Communist Party of India leader Kethawat Chandu Rathod, consequently classified as 'Goondas' under the Telangana Prevention of Dangerous Activities Act, 1986. The Division Bench comprising of Justice Moushumi Bhattacharya and Justice Renuka Yara said that a single crime.",
+"url": "https://www.livelaw.in/high-court/telangana-high-court/telangana-high-court-quashes-preventive-detention-six-persons-accused-cpi-leader-chandu-rathod-murder-559021",
+"priority": 85,
+"topics": [
+"BNS / IPC"
+],
+"note": {
+"Facts": "Six persons were detained as “Goondas” under the Telangana Prevention of Dangerous Activities Act, 1986 for the murder of CPI leader Kethawat Chandu Rathod.",
+"Issue": "Whether a single criminal act (the murder) suffices to classify the accused as habitual offenders (“Goondas”) under the Act.",
+"Held": "The Telangana High Court quashed the preventive detention orders, holding that a single crime does not meet the statutory requirement of habitual offending.",
+"Principle": "Classification as a “Goonda” under the Telangana Prevention of Dangerous Activities Act, 1986 requires proof of a pattern of repeated offences; a solitary offence is insufficient.",
+"Provisions": "Telangana Prevention of Dangerous Activities Act, 1986 (specific sections not stated in the source).",
+"Exam angle": "Questions may test the ingredients of “Goonda” under the Telangana Prevention of Dangerous Activities Act, 1986 – e.g., “What is the statutory test for deeming a person a ‘Goonda’ and how does the requirement of habitual offending affect preventive detention?”"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-19"
+},
+{
+"id": "dbbcb120107c",
+"source": "livelaw",
+"category": "high-court",
+"title": "Hindu Marriage Can't Be Dissolved Through Community Separation Deed Unless Custom Is Established: Rajasthan High Court",
+"court": "Rajasthan High Court",
+"case_name": null,
+"ratio": "A Hindu marriage cannot be treated as dissolved merely on the basis of a community separation deed unless the customary practice permitting such dissolution is…",
+"summary": "The ruling: A Hindu marriage cannot be treated as dissolved merely on the basis of a community separation deed unless the customary practice permitting such dissolution is….",
+"url": "https://www.livelaw.in/high-court/rajasthan-high-court/rajasthan-high-court-hindu-marriage-dissolved-through-community-separation-deed-559018",
+"priority": 83,
+"topics": [
+"CPC",
+"Hindu / Muslim law",
+"Rajasthan laws"
+],
+"note": {
+"Facts": "The appellant sought recognition of a marriage dissolution based solely on a community separation deed, which the Family Court had refused to acknowledge.",
+"Issue": "Whether a Hindu marriage can be deemed dissolved merely on the basis of a community separation deed absent proof of a customary practice allowing such dissolution.",
+"Held": "The Rajasthan High Court dismissed the appeal, holding that a Hindu marriage cannot be dissolved through a community separation deed unless the existence of a custom permitting such dissolution is duly established.",
+"Principle": "A Hindu marriage is not dissolved by a community separation deed unless the custom that authorises such dissolution is proven.",
+"Provisions": "not stated.",
+"Exam angle": "Hindu Marriage Act – test of custom as a ground for dissolution; could be asked to frame the issue of “custom” as an ingredient for nullity or dissolution of marriage."
+},
+"syllabus": {
+"clusters": [
+"Civil procedure",
+"Personal, local and constitutional"
+],
+"acts": [
+"CPC",
+"Hindu / Muslim law",
+"Rajasthan laws"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-19"
+},
+{
+"id": "eaf503588074",
+"source": "sccblog",
+"category": "high-court",
+"title": "“Legislature cannot nullify a judgment by enacting law without removing the basis”: Andhra Pradesh High Court strikes down Section 147-A, Income-tax Act, 1961 as unconstitutional",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Andhra Pradesh High Court: The petitions were filed challenging the constitutional validity of Section 147-A, Income-tax Act, 1961 (IT Act), inserted by the Finance Act, 2026 , with retrospective effect from 1 April 2021, as being ultra vires and violative of the basic structure of the Constitution , including the principles of Rule of Law.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/ap-high-court-strikes-down-section-147a-income-tax-act/",
+"priority": 81,
+"topics": [
+"Constitution",
+"NDPS / SC-ST / PC / others",
+"Interpretation of statutes"
+],
+"note": {
+"Facts": "Petitioners challenged the constitutional validity of the newly inserted Section 147-A of the Income-Tax Act, 1961 (effective 1 April 2026 but retrospectively deemed from 1 April 2021), alleging it was ultra-vires and violated the basic structure, Rule of Law and separation of powers, and also contested reassessment proceedings initiated by Jurisdictional Assessing Officers (JAOs) under Sections 148-A and 148 as being non-faceless and therefore without jurisdiction.",
+"Issue": "Whether a legislature can nullify a judicial pronouncement by enacting a retrospective provision (Section 147-A) without removing the basis of the earlier judgment, and whether the JAOs have jurisdiction to issue notices and conduct reassessment under the faceless assessment scheme.",
+"Held": "The Andhra Pradesh High Court struck down Section 147-A as unconstitutional and set aside the impugned reassessment proceedings, holding that the provision sought to override judicial findings without eliminating the defect identified by the courts and could not be inserted after the IT Act had been repealed.",
+"Principle": "A validating or retrospective enactment cannot stand if it does not remove the defect identified by the judiciary; the legislature cannot defeat a judgment by merely inserting a new provision without addressing the underlying basis of the decision.",
+"Provisions": "Sections 147-A, 148-A, 148, 151-A, 144-B of the Income-Tax Act, 1961; Finance Acts 2021, 2022, 2026; Notification No. 18/2022, 15/2022, 61/2022; cases Snehdham Trust v. CIT (2025) SCC OnLine Guj 5771, Prithvi Cotton Mills Ltd. v. Broach Borough Municipality (1969) 2 SCC 283.",
+"Exam angle": "Income-Tax Act – validity of retrospective/validating legislation under the Constitution (basic structure, Rule of Law). Could be asked as: *“Explain the limitation on Parliament’s power to enact retrospective provisions that seek to override judicial decisions, citing the Andhra Pradesh High Court’s decision on Section 147-A.”"
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional",
+"Special criminal Acts",
+"Interpretation"
+],
+"acts": [
+"Constitution",
+"NDPS / SC-ST / PC / others",
+"Interpretation of statutes"
+],
+"landmark": false,
+"boost": 10
+},
+"date": "2026-11-19"
+},
+{
+"id": "91e1f6c60903",
+"source": "sccblog",
+"category": "high-court",
+"title": "Offering money, catching hold of a woman’s hand and asking her to accompany him to the jungle outrages her modesty: Himachal Pradesh High Court",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Himachal Pradesh HC : The present criminal revision petition, challenging a decision by the Additional Session Judge, dealt with a conviction of an accused under Section 354 , Penal Code, 1860 (IPC) arising from an incident where he allegedly caught hold of the informant’s arm, offered her money, and asked her to accompany him to.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/upheld-conviction-for-outraging-womens-modesty-hp-hc/",
+"priority": 80,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "The informant was returning from the jungle when the accused offered her ₹100, caught hold of her arm/hand and asked her to accompany him to the jungle; she raised an alarm, witnesses arrived, and the accused fled.",
+"Issue": "Whether the accused’s conduct of offering money, seizing the woman’s hand and urging her to follow him amounts to “outraging the modesty” of a woman punishable under Section 354 IPC.",
+"Held": "The High Court dismissed the revision, affirming the conviction and sentence under Section 354 IPC, holding that the accused’s acts indeed outraged the informant’s modesty.",
+"Principle": "Any act that shocks the sense of decency of a woman and assaults her modesty, such as offering money and forcibly taking hold of her hand to lead her elsewhere, falls within Section 354 IPC; a hostile witness’s testimony is not to be discarded if corroborated by other evidence.",
+"Provisions": "Section 354, Indian Penal Code; Section 313, Criminal Procedure Code; cited cases – *Kuntegowda v. Thurubaiah* (2026 SCC OnLine SC 1485), *State of Maharashtra v. Jagmohan Singh Kuldip Singh Anand* (2004 7 SCC 659), *State of Kerala v. Puttumana Illath Jathavedan Namboodiri* (1999 2 SCC 452), *Dadu v. State of M.P.* (2025 SCC OnLine SC 2733), *Selvamani v. State of T.N.* (2024 SCC OnLine SC 837), *Krishnan v. State of T.N.* (2003 7 SCC 56), *Rupan Deol Bajaj v. Kanwar Pal Singh Gill* (1995 6 SCC 194), *Tarkeshwar Sahu v. State of Bihar* (2006 8 SCC 560), *State of Punjab v. Major Singh* (1966 SCC OnLine SC 51).",
+"Exam angle": "IPC 354 – elements of outraging a woman’s modesty; evidentiary rule on hostile witnesses (corroboration required). Could be asked as: “Explain the test for ‘outraging modesty’ under Section 354 IPC and discuss the treatment of hostile witness testimony.”"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-19"
+},
+{
+"id": "4d5d0a08b04f",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Automatic Vesting Under Kerala Private Forests Act Applies Only If Land Falls Within Definition Of 'Private Forest': Supreme Court",
+"court": "Supreme Court",
+"case_name": "State of Kerala & Anr. v. P Krishna Pillai & Ors",
+"ratio": "The Forest Tribunal's finding, which was affirmed by the High Court…",
+"summary": "The Supreme Court has clarified that although the vesting of private forests in the Kerala Government under Section 3(1) of the Kerala Private Forests (Vesting and Assignment) Act, 1971.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1168-state-of-kerala-anr-v-p-krishna-pillai-ors-558897",
+"priority": 78,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "3b6672bb3438",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Inquiry Vitiated If Complainant's Close Relative Sits In Committee, Proof Of Actual Bias Not Required: Supreme Court",
+"court": "Supreme Court",
+"case_name": "Ku. Kiran D/o Purushottam Bhujade v. Sudhir Shikshan Sanstha & Ors",
+"ratio": "The Secretary, who issued the charge-sheet and was the key witness…",
+"summary": "Supreme Court judgment in Ku. Kiran D/o Purushottam Bhujade v. Sudhir Shikshan Sanstha & Ors. The ruling: The Secretary, who issued the charge-sheet and was the key witness….",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1169-ku-kiran-do-purushottam-bhujade-v-sudhir-shikshan-sanstha-ors-558939",
+"priority": 78,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "48a789ea9266",
+"source": "livelaw",
+"category": "high-court",
+"title": "Time Spent On Search & Seizure Can't Be Excluded From 24-Hour Limit For Producing Accused Before Magistrate: Manipur High Court",
+"court": "Manipur High Court",
+"case_name": "Tinneihing Khongsai v. Narcotics Control Bureau",
+"ratio": null,
+"summary": "Manipur High Court judgment in Tinneihing Khongsai v. Narcotics Control Bureau.",
+"url": "https://www.livelaw.in/high-court/manipur-high-court/manipur-high-court-quashes-ndps-remand-order-finding-violation-article222-559016",
+"priority": 78,
+"topics": [
+"Constitution",
+"NDPS / SC-ST / PC / others"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional",
+"Special criminal Acts"
+],
+"acts": [
+"Constitution",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 9
+},
+"date": "2026-11-19"
+},
+{
+"id": "2dc029d69572",
+"source": "livelaw",
+"category": "high-court",
+"title": "LiveLaw Rajasthan High Court Weekly Round-Up: November 2 - November 8, 2026",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "NOMINAL INDEX [Citations: 467 - 490]Radheshyam Gupta v Ankur Khandelwal & Ors., and other connected petition; 2026 LiveLaw (Raj) 467Anil v State of Rajasthan & Ors; 2026 LiveLaw (Raj) 468Dr. A v Union of India & Ors., and other connected petitions; 2026 LiveLaw (Raj) 469Smt. Usha v Union of India & Ors; 2026 LiveLaw (Raj).",
+"url": "https://www.livelaw.in/high-court/rajasthan-high-court/rajasthan-high-court-weekly-roundup-558822",
+"priority": 76,
+"topics": [
+"Rajasthan laws"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Rajasthan laws"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-19"
+},
+{
+"id": "a9a68e31112c",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "SC puts advocate on notice over ‘unworthy’ remarks against CJI - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Home > Analysis > SC puts advocate on notice over ‘unworthy’ remarks against CJI The disagreement over the listing of Singhal’s petition took a turn when he questioned the CJI’s authority and integrity, prompting his remo Today, a Special Bench of Justices Dipankar Datta , Joymalya Bagchi and V. Mohana issued notice to Advocate Pravin.",
+"url": "https://www.scobserver.in/journal/sc-puts-advocate-on-notice-over-unworthy-remarks-against-cji/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "ce3726115cbb",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "SC weighs penalties for Yamuna water pollution - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scobserver.in/journal/sc-weighs-penalties-for-yamuna-water-pollution/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "a90d96120044",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "Whose rights take precedence? SC to consider traders’ challenge to Delhi protests - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scobserver.in/journal/whose-rights-take-precedence-sc-to-consider-traders-challenge-to-delhi-protests/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "c748573f61dc",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Thiruparankundram Row | Thousands Of Survey Pillars Will Become Religious If HC Order Not Stayed, TN Govt Tells Supreme Court",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The State's plea seeks a stay of the Madras High Court's January 2026 division bench judgment , which upheld a December 2025 single-judge order directing the Arulmigu Subramaniaswamy Temple management to light the Karthigai Deepam at the disputed stone pillar (located about 50 metres from the Sikandar Badusha Dargah as per the High Court). The High Court had rejected the State's apprehensions of public-order disturbance as an “imaginary ghost” and held that the pillar stood on temple land.",
+"url": "https://www.livelaw.in/top-stories/thiruparankundram-row-thousands-of-survey-pillars-will-become-religious-if-hc-order-not-stayed-tn-govt-tells-supreme-court-558933",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "b21a7eb2e4f0",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "By Deleting 13 Crore Voters In SIR, ECI Hijacked Sovereignty To Favour A Political Party : Justice Gopala Gowda",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "\"SIR is not to delete the voters, to enable the political parties to bundle Form 7s to delete persons,\" he said.",
+"url": "https://www.livelaw.in/top-stories/by-deleting-13-crore-voters-in-sir-eci-hijacked-sovereignty-to-favour-a-political-party-justice-gopala-gowda-558972",
+"priority": 72,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "97296990ea52",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Shiv Sena Dispute | Dissent Not Defection; Skipping Party Meeting Doesn't Mean Giving Up Membership : Eknath Shinde to Supreme Court",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "In the Shiv Sena dispute , Senior Advocate Dhruv Mehta , for Eknath Shinde, argued before the Supreme Court yesterday that there can't be a disqualification for not attending a meeting of a legislative party, as it cannot be regarded as voluntarily giving up of membership of a political party in terms of the Tenth Schedule.",
+"url": "https://www.livelaw.in/top-stories/shiv-sena-dispute-dissent-not-defection-skipping-party-meeting-doesnt-mean-giving-up-membership-eknath-shinde-to-supreme-court-558840",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "c0a4a986bf2b",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "CJI Surya Kant Meets UN Special Rapporteur On Rights Of Persons With Disabilities, Says Supreme Court Will Set Up Committee On Disability Rights",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court will set up a Permanent Committee on the Rights of Persons with Disabilities, Chief Justice of India Justice Surya Kant announced on Wednesday. The CJI also directed the Supreme.",
+"url": "https://www.livelaw.in/top-stories/cji-surya-kant-meets-un-special-rapporteur-on-rights-of-persons-with-disabilities-says-supreme-court-will-set-up-committee-on-disability-rights-558943",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "15863fc6a041",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Government of NCT of Delhi and Anr v Gautam Chopra and Ors",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1165-government-of-nct-of-delhi-and-anr-v-gautam-chopra-and-ors-558876",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "20af689cd368",
+"source": "sccblog",
+"category": "supreme-court",
+"title": "Supreme Court to Establish Permanent Committee on Disability Rights; CJI Surya Kant Directs SCLSC to Set Up Panels of Lawyers and Sign Language Interpreters",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "On November 18, 2026, the Chief Justice of India, Justice Surya Kant, met Heba Hagrass, the United Nations Special Rapporteur on the Rights of Persons with Disabilities, at the Supreme Court of India. Lawyers with disabilities and representatives of civil society also participated in the meeting. During the meeting, the Chief Justice acknowledged the work.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/cji-surya-kant-meets-un-special-rapporteur-disability-rights-supreme-court/",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "f55fd22fb83b",
+"source": "sccblog",
+"category": "judiciary",
+"title": "Cyril Amarchand Mangaldas advises Sumitomo Mitsui Trust Bank on its minority investment in One Planet Partners Pvt. Ltd.",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Sumitomo Investment Trust Bank i.e. Japan’s largest trust bank, with an AUM of more than $800 Billion has made a minority investment in One Planet Partners Private Limited, a Mumbai-based private equity firm founded in 2024 by former Tata Group executives Mukund Rajan and Bobby Pauly, alongside former McKinsey partner Mrinalini Mirchandani and former Blackstone.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/cyril-amarchand-mangaldas-advises-sumitomo-mitsui-trust-bank-one-planet-partners-investment/",
+"priority": 69,
+"topics": [
+"Sale of Goods / Partnership"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Obligations"
+],
+"acts": [
+"Sale of Goods / Partnership"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-19"
+},
+{
+"id": "cd4eb5c53576",
+"source": "sccblog",
+"category": "judiciary",
+"title": "Beyond the Code: Monil Chheda on IBC, Restructuring and Distressed Transactions",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "1. Please introduce yourself to our readers. I am Monil Anil Chheda, a Partner in the Restructuring and Insolvency practice at Cyril Amarchand Mangaldas, Mumbai, with around 10 years of experience in the legal profession.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/beyond-the-code-monil-chheda-on-ibc-restructuring-and-distressed-transactions/",
+"priority": 69,
+"topics": [
+"Sale of Goods / Partnership"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Obligations"
+],
+"acts": [
+"Sale of Goods / Partnership"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-19"
+},
+{
+"id": "62e63a3c4c9f",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Delhi SIR : Petitioners Cite Report On Form 7 Misuse, Seek Supreme Court Directions",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The petitioners also sought directions to allow ASDD voters to submit enumeration forms instead of filing Form 6 to restore their names.",
+"url": "https://www.livelaw.in/top-stories/delhi-sir-petitioners-cite-report-on-form-7-misuse-seek-supreme-court-directions-558925",
+"priority": 68,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "331452c44741",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Case On Regulating Private Universities Shifted From Justice Amanullah's Bench",
+"court": "Supreme Court",
+"case_name": "Ayesha Jain v. Amity University",
+"ratio": null,
+"summary": "A bench of Justice Amanullah and Justice NV Anjaria expanded the scope of the case to address wider systemic issues. As per the latest roster, Justice Amanullah's roster does not include PIL.",
+"url": "https://www.livelaw.in/top-stories/case-on-regulating-private-universities-shifted-from-justice-amanullahs-bench-558905",
+"priority": 66,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "a317774c8553",
+"source": "sccblog",
+"category": "legislation",
+"title": "Delhi notifies Rules for online filing, tracking and appeals in time-bound delivery of citizen services",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "On 10 November 2026, the Information Technology Department, Government of the National Capital Territory of Delhi (GNCTD), notified the Delhi (Right of Citizen to Time Bound and Ease of Delivery of Services) Rules, 2026 . Framed under Section 19 of the Delhi (Right of Citizen to Time Bound and Ease of Delivery of Services) Act,.",
+"url": "https://www.scconline.com/blog/post/2026/11/18/delhi-right-of-citizen-time-bound-ease-delivery-services-rules-2026/",
+"priority": 64,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "98b15f04ee3f",
+"source": "livelaw",
+"category": "high-court",
+"title": "LiveLaw Madras High Court Weekly Roundup: November 9 to November 15, 2026",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Citations: 2026 LiveLaw (Mad) 538 To 2026 LiveLaw (Mad) 544 NOMINAL INDEX S v U, 2026 LiveLaw (Mad) 538 J v The Commissioner of Police and Others, 2026 LiveLaw (Mad) 539 A. Shahul Hameed v State of Tamil Nadu and Others, 2026 LiveLaw (Mad) 540 D Rakesh v The Union of India and Others, 2026.",
+"url": "https://www.livelaw.in/high-court/madras-high-court/madras-high-court-weekly-roundup-november-9-to-15-2026-558636",
+"priority": 58,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-19"
+},
+{
+"id": "e98f88ace27b",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Scared once again: Bil",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "2002. on October 28, the Supreme Court suspendedtheirlife sen- “Ihavewallked to courtroom tences and granted them bail. after courtroom, and been grateful each time I was vindi- “I make this statement even when words come slowly cated; eachtimemy faith inthe through fresh tears of pain, idea of justice was restored. I shock and disbelief. I still can- have rebuilt from the rubble of.",
+"url": "tg://-1002114906180/8367#3",
+"priority": 78,
+"topics": [
+"BNSS / CrPC"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-19"
+},
+{
+"id": "88a53c810934",
+"source": "telegram-pdf",
+"category": "national",
+"title": "officials, says firm must follow all rules",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Satara Guardian Minister asks villagers,address their complaints Maharashtra Forest Minister Alok Deshpande Ganesh Naik & Chandan Haygunde Mumbai,Pune,November17 \"The meeting was called by the minister to understand the MAHARASHTRA FOREST issue and whether any mis- Minister Ganesh Nailk Tuesday.",
+"url": "tg://-1002114906180/8367#1",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-19"
+},
+{
+"id": "625c4dc62447",
+"source": "telegram-pdf",
+"category": "national",
+"title": "proficiency for 6-year Agniveers",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Agniveersoffered2-yearextension.",
+"url": "tg://-1002114906180/8367#2",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-19"
+},
+{
+"id": "2beeb937bb9f",
+"source": "telegram-pdf",
+"category": "national",
+"title": "How Dhoni told CsK",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "After not playing a game nai and across Tamil Nadu. last season because of injury, \"There is no CSK without M Dhoni had been contemplat- S Dhoni. For nearly two dec- ing his future as a player. He ades, we have walked and had previously spoken about grown alongside each other, wanting to end his career in through triumphs, setbacks front of CsK fans at the Che- and everything in between.",
+"url": "tg://-1002114906180/8367#4",
+"priority": 68,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-19"
+},
+{
+"id": "ebd1f746da7b",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Maharashtra Minister meets Adani officials",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "based on project cost of each ture facilities and associated ment ordered Adani Green ance (February 11, 2025) and Energy to stop all work at the shouldbefulfilled without fail,\" project development activities. Consent to Establish (April 7, Tarali PSP site, saying the pro- 2025), afterwhichconstruction the official told The Indlian Ex- The figure of Rs 56.75 crore press. The meeting was at- mentioned represents the cost.",
+"url": "tg://-1002114906180/8367#6",
+"priority": 66,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-19"
+}
+]

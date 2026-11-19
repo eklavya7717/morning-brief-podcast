@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 08:36:29 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 08:10:00 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Thursday 19 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-19/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Thursday, 19 November 2026. In this edition: Constructive Res Judicata | Claim Based On Subsequent Cause Of Action Not Barred By Judgment On Prior Cause Of Action : Supreme Court; Stay Of Conviction Can't Be Sought Only To Contest Elections : Supreme Court; Whether Magistrate's Order Directing FIR Registration Is Revisable? J&amp;K High Court Refers Legal Question To Larger Bench; Supreme Court Dismisses PIL Seeking Ban On Animal Sacrifices For Religious Rituals; Asset Reconstruction Company Can Step Into Bank's Shoes In Cheque Bounce Case, But Must Prove It Is 'Holder In Due Course': Supreme Court; Arbitral Tribunal Final Arbiter Of Facts; Section 37 Court Cannot Make Independent Assessment Of Merits : Supreme Court; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Thursday 19 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Thursday, 19 November 2026. In this edition: Constructive Res Judicata | Claim Based On Subsequent Cause Of Action Not Barred By Judgment On Prior Cause Of Action : Supreme Court; Stay Of Conviction Can't Be Sought Only To Contest Elections : Supreme Court; Whether Magistrate's Order Directing FIR Registration Is Revisable? J&amp;K High Court Refers Legal Question To Larger Bench; Supreme Court Dismisses PIL Seeking Ban On Animal Sacrifices For Religious Rituals; Asset Reconstruction Company Can Step Into Bank's Shoes In Cheque Bounce Case, But Must Prove It Is 'Holder In Due Course': Supreme Court; Arbitral Tribunal Final Arbiter Of Facts; Section 37 Court Cannot Make Independent Assessment Of Merits : Supreme Court; and 28 more stories.</itunes:summary>
+      <itunes:duration>18:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-19/brief.mp3" length="8774224" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Wednesday 18 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-18/</link>
