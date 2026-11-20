@@ -1,0 +1,786 @@
+[
+{
+"id": "0ce777406c5c",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Manager's Access To Airbnb Room Cannot Absolve Occupant: Supreme Court Cancels Bail Of Accused In Narcotics Case",
+"court": "Supreme Court",
+"case_name": "State of Goa v. Agniv Sengupta",
+"ratio": null,
+"summary": "The Supreme Court recently set aside a Bombay High Court order granting bail to an accused in a narcotics case registered in Goa, holding that the High Court was wrong to infer that the accused had.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1175-state-of-goa-v-agniv-sengupta-559142",
+"priority": 100,
+"topics": [
+"BNSS / CrPC",
+"Transfer of Property",
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "The Supreme Court recently set aside a Bombay High Court order granting bail to an accused in a narcotics case registered in Goa, holding that the High Court was wrong to infer that the accused had.",
+"Held": "Bench: Justice JB Pardiwala, Justice K Vinod Chandran"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Property",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"Transfer of Property",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 14
+},
+"date": "2026-11-20"
+},
+{
+"id": "994e437b734a",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Recovery Of Victim's Ornaments Alone Cannot Prove Murder: Supreme Court Acquits Man",
+"court": "Supreme Court",
+"case_name": "Bheemanagouda @ Bheemajja v. State by Harapanahalli Police",
+"ratio": "The prosecution had failed to establish a complete and unbroken chain of circumstantial evidence as the recovery of victim's ornaments alone cannot prove murder.",
+"summary": "Bench: Justice Prashant Kumar Mishra, Justice Vipul M Pancholi",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1176-bheemanagouda-bheemajja-v-state-by-harapanahalli-police-559146",
+"priority": 100,
+"topics": [
+"BSA / Evidence",
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "Bench: Justice Prashant Kumar Mishra, Justice Vipul M Pancholi",
+"Held": "The prosecution had failed to establish a complete and unbroken chain of circumstantial evidence as the recovery of victim's ornaments alone cannot prove murder.",
+"Principle": "The prosecution had failed to establish a complete and unbroken chain of circumstantial evidence as the recovery of victim's ornaments alone cannot prove murder.",
+"Provisions": "Observed so while hearing an appeal filed against the Karnataka High Court's judgment which had upheld appellant's (accused) conviction under Section 302 Indi"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BSA / Evidence",
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-20"
+},
+{
+"id": "13cb703690db",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Lender Does Not Hold Mortgage Security In Trust For Borrower: Supreme Court Quashes FIR Over Alleged Use Of Land As Cross-Collateral",
+"court": "Supreme Court",
+"case_name": "Edelweiss Asset Reconstruction Company Limited v. State of NCT of Delhi & Ors",
+"ratio": null,
+"summary": "The Court observed that a lender taking a mortgage to secure repayment of its own loan holds the security for itself and not in the capacity of a banker entrusted with property belonging to a customer. Consequently, the offence of criminal breach of trust by a banker under Section 409 of the Indian Penal Code (IPC) cannot be invoked merely because a lender holds a mortgage over property offered as security for a loan.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1178-edelweiss-asset-reconstruction-company-limited-v-state-of-nct-of-delhi-ors-559186",
+"priority": 100,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC",
+"Transfer of Property"
+],
+"note": {
+"Facts": "The Court observed that a lender taking a mortgage to secure repayment of its own loan holds the security for itself and not in the capacity of a banker entrusted with property belonging to a customer. Consequently, the offence of criminal breach of trust by a banker under Section 409 of the Indian Penal Code (IPC) cannot be invoked merely because a lender holds a mortgage over property offered as security for a loan.",
+"Held": "Bench: Justice Vikram Nath, Justice Sandeep Mehta"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Property"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC",
+"Transfer of Property"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-20"
+},
+{
+"id": "cb9f7eea7b7c",
+"source": "sccblog",
+"category": "supreme-court",
+"title": "Appreciating the scope and dimensions of “surcharge” in taxation laws: Implications of Supreme Court’s larger Bench exposition on “surcharge” and “cess”",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Introduction Tax on tax is economically frowned upon as it results into cascading effect. Whether such economic distortion can render the levy legally invalid is a different matter altogether. Giving short thrift to the debate, about five decades back the Supreme Court observed that “bad economics may be good law and vice versa ”, thereby.",
+"url": "https://www.scconline.com/blog/post/2026/11/19/supreme-court-larger-bench-surcharge-cess-taxation-laws/",
+"priority": 96,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "Arjun Flour Mills challenged a State levy that computed a surcharge on the sales-tax payable by a dealer, arguing it was in substance a tax on the dealer’s income and beyond State competence. The State contended it was merely a “surcharge” – an enhancement of the sales-tax rate.",
+"Issue": "Whether a levy that is computed as a percentage of the sales-tax payable is a valid surcharge (i.e., a sales-tax) or an unconstitutional tax on income/fiscal burden of the dealer.",
+"Held": "The Supreme Court held that the levy is a surcharge – an enhancement of the principal sales-tax – and therefore a valid sales-tax, not a tax on income. Consequently, while the surcharge is constitutionally valid, the Court barred States from levying it post-GST transition because the underlying sales-tax statutes have ceased to exist.",
+"Principle": "A surcharge, even if computed on the amount of another tax, retains the character of the principal levy; the method of computation does not alter the subject-matter of the tax.",
+"Provisions": "- Arjun Flour Mills v. State of Odisha (larger Bench) – cited. - State of Telangana v. Tirumala Construction – GST transition provision, Sec. 19, Constitution (101st Amendment) Act, 2016. - No specific statutory sections were quoted for the surcharge itself; the decision refers to the constitutional entry on “tax on sale or purchase of goods”.",
+"Exam angle": "Constitutional Law – State List (List II) power to tax sale or purchase of goods.* The question can be framed as: “Explain the scope of ‘surcharge’ under State taxation power and its limitation post-GST (Sec. 19, 101st Amendment).” This tests understanding of legislative competence, the distinction between surcharge and cess, and the effect of the GST transition on State levies."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": true,
+"boost": 16
+},
+"date": "2026-11-20"
+},
+{
+"id": "724da1b63ee5",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Quashes Mining Land Acquisition In Tribal Area, Holds Gram Sabha Consent Mandatory",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Court held that Section 41(3) of the RFCTLARR Act was mandatory for acquisitions in scheduled areas.",
+"url": "https://www.livelaw.in/supreme-court/supreme-court-quashes-mining-land-acquisition-in-tribal-area-holds-gram-sabha-consent-mandatory-559049",
+"priority": 89,
+"topics": [
+"Transfer of Property"
+],
+"note": {
+"Facts": "The government sought to acquire land in scheduled village areas of Sundergarhi district, Odisha, for a Dalmia Cement plant, but the gram panchayats had rejected the proposal and no consent was recorded on Form M as required.",
+"Issue": "Whether prior consent of the gram panchayat/gram sabha under Section 41(3) of the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 is mandatory for land acquisition in scheduled areas, and whether its absence vitiates the acquisition.",
+"Held": "The Supreme Court set aside the acquisition proceedings, holding that the consent requirement under Section 41(3) is mandatory, not directory, and its non-compliance renders the acquisition void.",
+"Principle": "For land acquisition in scheduled areas, the statutory requirement of obtaining gram sabha consent under Section 41(3) of the 2013 Act is mandatory; failure to secure it cannot be cured later and invalidates the acquisition.",
+"Provisions": "Section 41(3), 2013 Act; Section 2(2)(b), 2013 Act (80% family consent for private company); Rule 41, Odisha Rules (Form M); Mines and Minerals (Development and Regulation) Act, 1957 (mining lease).",
+"Exam angle": "Test on the Right to Fair Compensation and Transparency in Land Acquisition Act, 2013 – focus on mandatory consent under Section 41(3) and its applicability to private-company projects in scheduled areas."
+},
+"syllabus": {
+"clusters": [
+"Property"
+],
+"acts": [
+"Transfer of Property"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-20"
+},
+{
+"id": "2b4085639e49",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "'Go And Tell The Chief Justice To Mind His Own Business': When A Judge Allowed Sons To Appear Before Him",
+"court": "Supreme Court",
+"case_name": "Purushottam Bhujade v. Sudhir Shikshan Sanstha & Ors",
+"ratio": null,
+"summary": "The Supreme Court traced the evolving law of bias and recalled that kinship was not regarded as a ground for bias at one point in time.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-recalls-justice-badaurddin-tyabji-sons-appearing-law-of-bias-559056",
+"priority": 87,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "14b8740fc9a9",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Directions For Removal Of Highway Encroachments Can't Be Used To Demolish Structures Without Due Process : Supreme Court Clarifies Order",
+"court": "Supreme Court",
+"case_name": "RE: PHALODI ACCIDENT v. NATIONAL HIGHWAYS AUTHORITY OF INDIA & ORS",
+"ratio": "Its April directions to remove encroachments along National Highways cannot be used to demolish disputed structures without following due process of law",
+"summary": "The Supreme Court on Wednesday (November 18) clarified that its April directions to remove encroachments along National Highways cannot be used to demolish disputed structures without following due.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1171-in-re-phalodi-accident-versus-national-highways-authority-of-india-ors-559024",
+"priority": 78,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "6001fe21a963",
+"source": "sccblog",
+"category": "high-court",
+"title": "Top Legal Developments [9-15 Nov 2026]: Digital Arrest Scams, GST, AI Deepfakes and More",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "This week witnessed significant judicial developments, with the Supreme Court calling for mandatory compensation to victims of cyber frauds where financial institutions fail to exercise due diligence, and clarifying when balance sheet entries can extend the limitation period. The High Courts delivered key rulings on GST input tax credit, AI-generated deepfakes, personality rights, social media.",
+"url": "https://www.scconline.com/blog/post/2026/11/19/weekly-legal-developments-india-9-15-november-2026/",
+"priority": 76,
+"topics": [
+"Limitation / Registration"
+],
+"note": {
+"Facts": "A three-Judge Bench of the Supreme Court examined digital arrest scams and other cyber frauds where victims lost money because their banks failed to exercise due diligence.",
+"Issue": "Whether financial institutions are required to compensate victims when cyber fraud occurs due to their lack of due diligence.",
+"Held": "The Court directed that banks must indemnify victims and pay compensation not less than the amount lost, and must adopt preventive safeguards such as suspending suspicious transactions, notifying police and physically verifying transactions.",
+"Principle": "A financial institution that fails to exercise due diligence and thereby enables a cyber fraud must compensate the victim for the full loss.",
+"Provisions": "not stated.",
+"Exam angle": "Likely framed under the Banking Regulation Act / RBI regulatory framework, testing the duty of banks to exercise due diligence and the remedy of mandatory compensation for cyber-fraud victims."
+},
+"syllabus": {
+"clusters": [
+"Property"
+],
+"acts": [
+"Limitation / Registration"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-20"
+},
+{
+"id": "91bf476cb36b",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Maharashtra Entertainment Duty Act | Business-To-Business Trade Exhibitions Liable To Duty If Entry Is Paid : Supreme Court",
+"court": "Supreme Court",
+"case_name": "GEM AND JEWELLERY EXPORT PROMOTION COUNCIL v. STATE OF MAHARASHTRA AND OTHERS",
+"ratio": null,
+"summary": "The Supreme Court has held that business-to-business trade exhibitions can fall within the definition of “entertainment” under the Maharashtra Entertainment Duty Act, 1923.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1177-the-gem-and-jewellery-export-promotion-council-versus-the-state-of-maharashtra-and-others-559184",
+"priority": 76,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "9150781b3ead",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court To Decide In January Whether To Continue Probe Into Functioning Of Private Universities",
+"court": "Supreme Court",
+"case_name": "Ayesha Jain v. Amity University",
+"ratio": null,
+"summary": "The Supreme Court on Thursday deferred consideration of the nationwide proceedings concerning regulation of private universities to January 11, 2027. The Court said that it will consider on that date whether to continue examining the larger issue or to close the matter.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-to-decide-in-january-whether-to-continue-probe-into-functioning-of-private-universities-559127",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "3c5b1a75b2f3",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "The Summer Docket: Counting the Supreme Court’s output during Partial Court Working Days - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scobserver.in/journal/the-summer-docket-counting-the-supreme-courts-output-during-partial-court-working-days/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "c5ac38debb95",
+"source": "livelaw",
+"category": "high-court",
+"title": "'Pathetic Reality, Collective Shame': Delhi High Court Condemns Dowry Harassment, Deaths Of Married Women",
+"court": "Delhi High Court",
+"case_name": "Chhotey Lal & Jai Dev v. State",
+"ratio": null,
+"summary": "The Court noted that when the bride's family is unable to fulfil such demands, the harassment may continue, sometimes resulting in her death, suicide or divorce. In other instances, women continue to endure cruel treatment while suppressing their emotions.",
+"url": "https://www.livelaw.in/high-court/delhi-high-court/pathetic-reality-collective-shame-delhi-high-court-condemns-dowry-harassment-deaths-of-married-women-559178",
+"priority": 74,
+"topics": [
+"Hindu / Muslim law"
+],
+"note": {
+"Facts": "The appellant husband and his family were convicted for the death of his wife, who set herself on fire in 2001 after alleged dowry harassment for a motorcycle, gas stove, water motor and ₹25,000.",
+"Issue": "Whether the prosecution proved cruelty or dowry harassment sufficient to sustain a conviction under Section 304B (dowry death) and whether the husband’s conduct amounted to cruelty under Section 498A.",
+"Held": "The Court held that the prosecution failed to prove dowry-related cruelty required for Section 304B, converting the dowry-death conviction to abetment of suicide under Section 306, while upholding the conviction under Section 498A for cruelty. The father and brother were acquitted.",
+"Principle": "A conviction under Section 304B IPC demands proof of cruelty linked to dowry demands immediately before death; absent such proof, the charge cannot stand, though persistent matrimonial cruelty can sustain a conviction under Section 498A and, if it leads to suicide, under Section 306.",
+"Provisions": "Sections 498A, 304B, 306 IPC (as cited in the judgment).",
+"Exam angle": "Questions may test the application of IPC Sections 498A, 304B and 306 in dowry-related cases, focusing on the evidentiary requirement of a direct link between dowry demand and death and the distinction between cruelty and dowry death."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Hindu / Muslim law"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-20"
+},
+{
+"id": "c1d71276adb7",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Civil Judge Exam | Supreme Court Refuses To Extend One-Year Deemed Practice Benefit To 2026 Law Graduates",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V Mohana was dealing with a challenge to the Andhra Pradesh High Court order which dismissed a bunch of pleas filed by law graduates who obtained their degrees within 1 year preceding the notification dated 25 September 2026 for recruitment to the post of Civil Judge (Junior Division). These law graduates (of 2026) sought to be deemed as having completed one year of practice even though 1 year had not passed since their graduation.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-refuses-to-extend-one-year-deemed-practice-benefit-to-2026-law-graduates-bhumika-trust-three-year-practice-rule-559124",
+"priority": 73,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "bf4b5ef60b96",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Bharat Now Rich Country But Poor Sanitation Negated Growth In Other Fields : Supreme Court",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Court noted that approximately 400 districts were yet to establish Special Cells to assist District Collectors. Only nine out of 28 States had met the target for urban bylaws, while 16 States had not reported the incorporation of rural bylaws and 18 States had not reported four-way segregation of rural solid waste.",
+"url": "https://www.livelaw.in/supreme-court/bharat-now-rich-country-but-poor-sanitation-negated-growth-in-other-fields-supreme-court-559100",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "95290f76e0a8",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "BIBOL TOPPO & ORS. VERSUS STATE OF ODISHA & ORS",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1173-bibol-toppo-ors-versus-state-of-odisha-ors-559050",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "4dbd6bc8d04e",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Uttar Pradesh Avas Evam Vikas Parishad & Anr. v M/s Gaursons India Pvt. Ltd. & Ors",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1174-uttar-pradesh-avas-evam-vikas-parishad-anr-v-ms-gaursons-india-pvt-ltd-ors-559105",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "ac3666aa374a",
+"source": "livelaw",
+"category": "high-court",
+"title": "Prisoner Can't Be Repeatedly Penalised For One Parole Violation Committed Long Ago: Delhi High Court",
+"court": "Delhi High Court",
+"case_name": "Azim Khan v. State GNCT of Delhi",
+"ratio": "A prisoner cannot be repeatedly penalised for a parole violation committed several years ago, particularly when he has subsequently been released on parole and furlough",
+"summary": "The Delhi High Court has observed that a prisoner cannot be repeatedly penalised for a parole violation committed several years ago, particularly when he has subsequently been released on parole.",
+"url": "https://www.livelaw.in/high-court/delhi-high-court/prisoner-cant-be-repeatedly-penalised-for-one-parole-violation-committed-long-ago-delhi-high-court-559179",
+"priority": 62,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "0012fd6a1453",
+"source": "livelaw",
+"category": "high-court",
+"title": "High Court Holds It Has Jurisdiction To Hear Plea Against CARA For NOC Even Though Adoption Took Place Outside Delhi",
+"court": "Delhi High Court",
+"case_name": "Harpreet Kaur & Anr. v. Union of India & Ors",
+"ratio": null,
+"summary": "The Court observed that although the adoption deed was executed in Amritsar, Punjab, the principal relief was sought against CARA, which is situated in the national capital.",
+"url": "https://www.livelaw.in/high-court/delhi-high-court/high-court-holds-it-has-jurisdiction-to-hear-plea-against-cara-for-noc-even-though-adoption-took-place-outside-delhi-559180",
+"priority": 58,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-20"
+},
+{
+"id": "a3667d6d1050",
+"source": "telegram-pdf",
+"category": "national",
+"title": "River sharing can'tignore bilateralties: India on Indus",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "RespondingtoShehbazremarks,Yadav refers toTreaty pause,flagsarchaic mechanisms,broaderenvironment Amitabh Sinha New Delhi, November 18 IN A clear reference to India's decisionto put in abeyance the Indus Waters Treaty with Pak- istan, Environment Minister Bhupendler Yadav Wednesday said sharing of waters of trans-.",
+"url": "tg://-1002114906180/8372#0",
+"priority": 82,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "ff69160ff0a6",
+"source": "telegram-pdf",
+"category": "national",
+"title": "22 可qR 2026, qR",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Online &offline Live Interactive ClassosRogular Test Series|Personal Mentorship Contact us- Springboard Academy Online QR Code减 Springboard Academy Jaipur.",
+"url": "tg://-1002114906180/8372#1",
+"priority": 81,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "74d1240fe46f",
+"source": "thehindu",
+"category": "national",
+"title": "Women in high public office doesn’t mean equality throughout society: Justice Nagarathna",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court judge says a woman may hold a senior position while other women remain excluded from education, employment, property, or effective legal remedies.",
+"url": "https://www.thehindu.com/news/national/women-in-high-public-office-doesnt-mean-equality-throughout-society-justice-nagarathna/article71721273.ece/",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "e11ff87406cc",
+"source": "thehindu",
+"category": "national",
+"title": "Set aside differences and oppose Mekedatu dam, says TNCC president",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "He also questions Prime Minister Narendra Modi’s silence when Karnataka Chief Minister D.K. Shivakumar spoke in favour of the project in his presence.",
+"url": "https://www.thehindu.com/news/national/tamil-nadu/set-aside-differences-and-oppose-mekedatu-dam-says-tncc-president/article71720861.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "c223a626a055",
+"source": "thehindu",
+"category": "national",
+"title": "Devotees visiting Guruvayur temple must be treated with respect, says Kerala High Court",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Kerala High Court urges Guruvayur temple staff to treat all devotees with respect and maintain calm, ensuring fair darshan for all.",
+"url": "https://www.thehindu.com/news/national/kerala/devotees-visiting-guruvayur-temple-must-be-treated-with-respect-says-kerala-high-court/article71721361.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "1b5bebfb8958",
+"source": "thehindu",
+"category": "national",
+"title": "Karnataka Cabinet okays confiscation of book that ‘insults’ Basavanna and ‘distorts’ his philosophy",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Basava Samiti has accused U.S.-based author Ravi Hanj of hurting the sentiments of followers of the 12th century social reformer Basavanna in his book ‘Basava Mantapa’.",
+"url": "https://www.thehindu.com/news/national/karnataka/karnataka-cabinet-okays-confiscation-of-book-that-insults-basavanna-and-distorts-his-philosophy/article71720767.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "d44f883c2779",
+"source": "thehindu",
+"category": "national",
+"title": "Two months after deciding to drag the Centre to court, Maharashtra government decides to withdraw petition",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "FDA Commissioner Tukaram Mundhe had challenged FSSAI over the constitutional validity of a few regulations. The petition had challenged the creation of a few posts by the Centre, claiming it was against the Food Safety and Standards Act, 2006.",
+"url": "https://www.thehindu.com/news/national/maharashtra/two-months-after-deciding-to-drag-the-centre-to-court-maharashtra-government-decides-to-withdraw-petition/article71720000.ece/",
+"priority": 75,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "1f84c36d9516",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Key talks today, China bid to co-direct global order under Shenzhen system",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "September. Vladimir Putin, INSIDE PAGES 7,12 who arrived thesame day,held talks with Xi ahead ofthe main XLPUTINSLAM WEST'S brakingmechanisms'tolimit competition event. On Thursday, Xi willre- ‘PROTECTIONISM, ceive Trump at Qilin villa he- SANCTIONSASTRUMP CRajaMohan fore Putinjoinsthem forthetri- ternational System\"",
+"url": "tg://-1002114906180/8372#2",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "a3f0ec38286e",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Valley's last listed local terrorist killed in Kulgam gunfight",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "attemptstogethimtosurrenderfailed Bashaarat Masood Kulgam, November18 AFTER A week-long pursuit, a joint team of security forces killed Lashkar-e-Toiba (LeT) commander Mohammad La- teef Bhat in an early-morning gunfight in south Kashmir's Kulgam on Wedlnesday. With his killing, forthe first LeT commander Lateef Bhat. PT.",
+"url": "tg://-1002114906180/8372#4",
+"priority": 72,
+"topics": [
+"BNS / IPC"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "922affe589f5",
+"source": "telegram-pdf",
+"category": "national",
+"title": "in 35 cases killed",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Manish Sahu bullet injuriestotheir hands in Lcknow, November 18 the firing, the police said. The two accused then fled AN UTTAR Pradesh gangster towards the Shiv Baba ground wanted in35 criminal cases was area on the motorcycle,the po- killed in a police encounter lice said, adding that though after a routine vehicle-check- they pursued the suspects and repeatedlyasked them to sur-.",
+"url": "tg://-1002114906180/8372#3",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "e48ca9077a3b",
+"source": "thehindu",
+"category": "international",
+"title": "Third Ukrainian strike in 4 days halts rail traffic on Russia's Kerch Bridge to Crimea",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The attack came hours before the start of talks in Berlin between U.S. envoys Jared Kushner and Steve Witkoff and Ukrainian President Volodymyr Zelenskyy alongside more than 40 European leaders who are supporting Ukraine's war effort.",
+"url": "https://www.thehindu.com/news/international/third-ukrainian-strike-in-4-days-halts-rail-traffic-on-russias-kerch-bridge-to-crimea/article71721511.ece/",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "5a21d867e330",
+"source": "thehindu",
+"category": "international",
+"title": "Yunus's ancestral home set ablaze as violence grips Bangladesh",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Newspaper reports said rival activists, presumably belonging to Prime Minister Tarique Rahman's Bangladesh Nationalist Party (BNP), overnight attacked or set ablaze the residences of two Awami League leaders in Dhaka.",
+"url": "https://www.thehindu.com/news/international/yunuss-ancestral-home-set-ablaze-as-violence-grips-bangladesh/article71719029.ece/",
+"priority": 69,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "7c14f46c3ee1",
+"source": "thehindu",
+"category": "editorial",
+"title": "A regulatory fix for India’s campuses",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The Environment Ministry must act without delay and issue a statutory notification, consistent with the court’s judgment, for eligible educational campuses.",
+"url": "https://www.thehindu.com/opinion/op-ed/a-regulatory-fix-for-indias-campuses/article71716165.ece/",
+"priority": 81,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "e89769ecc156",
+"source": "thehindu",
+"category": "editorial",
+"title": "Incomplete remedies: On Special Summary Revision of electoral rolls",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "ECI’s SSR relief skims issues from SIR flaws, restoring some electors but leaving structural problems and limited coverage unresolved.",
+"url": "https://www.thehindu.com/opinion/editorial/incomplete-remedies-on-special-summary-revision-of-electoral-rolls/article71721539.ece/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "f1c9e89e8fde",
+"source": "thehindu",
+"category": "editorial",
+"title": "The changing dynamic of nationalism in India",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Examines civic vs. ethnic nationalism in India, contrasting inclusive freedom-struggle ideals with today’s exclusionary, patriarchal Hindutva and its capitalist ties.",
+"url": "https://www.thehindu.com/opinion/lead/the-changing-dynamic-of-nationalism-in-india/article71721507.ece/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+},
+{
+"id": "b548582ff326",
+"source": "thehindu",
+"category": "editorial",
+"title": "Testing times: On India’s two-Test series against New Zealand",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Account subscription benefits alongside Premium Stories, Editorials, Opinions and more. Unlock these with Subscription.",
+"url": "https://www.thehindu.com/opinion/editorial/testing-times-on-indias-two-test-series-against-new-zealand/article71717329.ece/",
+"priority": 72,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-20"
+}
+]
