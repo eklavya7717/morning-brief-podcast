@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 07:57:36 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 07:50:01 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Saturday 21 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-21/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Saturday, 21 November 2026. In this edition: Supreme Court Rejects Plea Seeking Maintenance Of Police Database On Persons Making Repeated Sexual Offense Complaints; 'Shocking The Conscience' Not Enough To Modify Arbitral Award: Supreme Court Restores Contractor's Claim Against Kolkata Port Trust; Section 92 CPC Suit Doesn't Give Every Devotee An Automatic Right To Be Impleaded: Supreme Court; UP Urban Tenancy Act 2021 | Pending Petitions Shouldn't Be Dismissed : Supreme Court To Examine HC Verdict Striking Down Law; In Case Of Child Born To Unwed Parents, Mother Has Better Prima Facie Claim Of Custody : Supreme Court; Supreme Court Awards Rs 10 Lakh Each To Two School Clerks For Wrongful Dismissal, Notes Poor Drafting Defeated Their Claim In HC; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Saturday 21 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Saturday, 21 November 2026. In this edition: Supreme Court Rejects Plea Seeking Maintenance Of Police Database On Persons Making Repeated Sexual Offense Complaints; 'Shocking The Conscience' Not Enough To Modify Arbitral Award: Supreme Court Restores Contractor's Claim Against Kolkata Port Trust; Section 92 CPC Suit Doesn't Give Every Devotee An Automatic Right To Be Impleaded: Supreme Court; UP Urban Tenancy Act 2021 | Pending Petitions Shouldn't Be Dismissed : Supreme Court To Examine HC Verdict Striking Down Law; In Case Of Child Born To Unwed Parents, Mother Has Better Prima Facie Claim Of Custody : Supreme Court; Supreme Court Awards Rs 10 Lakh Each To Two School Clerks For Wrongful Dismissal, Notes Poor Drafting Defeated Their Claim In HC; and 28 more stories.</itunes:summary>
+      <itunes:duration>39:55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-21/brief.mp3" length="19160568" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Friday 20 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-20/</link>
