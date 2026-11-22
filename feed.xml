@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 07:50:01 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 06:50:57 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Sunday 22 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-22/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Sunday, 22 November 2026. In this edition: Magistrate Must Give Reasons When Ordering FIR Despite Police Report Of 'No Offence': Supreme Court; Accidental Gunshot Injury From Own Gun Qualifies For War Injury Pension: Supreme Court; 2019 Amendment Enhancing Minimum Punishment Under POCSO Act Not Retrospective: Tripura High Court; Limitation Act | Delay Must Be Assessed On Cumulative Circumstances, Not Isolated Reasons: Supreme Court; Non-Participant In Auction Cannot Seek Award By Making Higher Offer Later : Supreme Court; 'Stringent Bail Conditions Under PMLA Cannot Override Constitutional Right To Personal Liberty': Jharkhand High Court; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Sunday 22 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Sunday, 22 November 2026. In this edition: Magistrate Must Give Reasons When Ordering FIR Despite Police Report Of 'No Offence': Supreme Court; Accidental Gunshot Injury From Own Gun Qualifies For War Injury Pension: Supreme Court; 2019 Amendment Enhancing Minimum Punishment Under POCSO Act Not Retrospective: Tripura High Court; Limitation Act | Delay Must Be Assessed On Cumulative Circumstances, Not Isolated Reasons: Supreme Court; Non-Participant In Auction Cannot Seek Award By Making Higher Offer Later : Supreme Court; 'Stringent Bail Conditions Under PMLA Cannot Override Constitutional Right To Personal Liberty': Jharkhand High Court; and 28 more stories.</itunes:summary>
+      <itunes:duration>21:32</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-22/brief.mp3" length="10335641" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Saturday 21 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-21/</link>
