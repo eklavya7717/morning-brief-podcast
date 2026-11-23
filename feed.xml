@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 06:50:57 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 07:19:11 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Monday 23 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-23/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Monday, 23 November 2026. In this edition: Justice’s Long Ascent - Supreme Court Observer; Court Must Assess Builder-Banker Nexus Before Directing Loan Recovery From Homebuyer : Supreme Court; Supreme Court To Examine Whether Former Mutawalli Can Represent Waqf As Sajjadanashin After Tenure Ends; 2026 SCC Vol. 9 Part 1: Key Supreme Court Case on online games; Delhi High Court Declines Death Penalty For Cop Convicted Of Double Murder, Says Breach Of Public Trust Alone Can't Justify Capital Punishment; Daughter-In-Law Can't Be Expected To Vacate Senior Citizen's House Without Assured Alternate Accommodation: Delhi High Court; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Monday 23 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Monday, 23 November 2026. In this edition: Justice’s Long Ascent - Supreme Court Observer; Court Must Assess Builder-Banker Nexus Before Directing Loan Recovery From Homebuyer : Supreme Court; Supreme Court To Examine Whether Former Mutawalli Can Represent Waqf As Sajjadanashin After Tenure Ends; 2026 SCC Vol. 9 Part 1: Key Supreme Court Case on online games; Delhi High Court Declines Death Penalty For Cop Convicted Of Double Murder, Says Breach Of Public Trust Alone Can't Justify Capital Punishment; Daughter-In-Law Can't Be Expected To Vacate Senior Citizen's House Without Assured Alternate Accommodation: Delhi High Court; and 28 more stories.</itunes:summary>
+      <itunes:duration>45:25</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-23/brief.mp3" length="21804787" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Sunday 22 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-22/</link>
