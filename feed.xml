@@ -6,7 +6,7 @@
     <description>A five to six minute daily audio digest of Supreme Court and High Court judgments, new laws, national news and editorials, for law students and judiciary aspirants in India.</description>
     <language>en-IN</language>
     <copyright>Eklavya</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 09:48:22 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 09:14:19 +0530</lastBuildDate>
     <generator>morning-brief/src/podcast.py</generator>
     <itunes:author>Eklavya</itunes:author>
     <itunes:explicit>false</itunes:explicit>
@@ -22,6 +22,18 @@
       <link>https://eklavya7717.github.io/morning-brief-podcast/</link>
     </image>
     <atom:link href="https://eklavya7717.github.io/morning-brief-podcast/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eklavya's Morning Brief, Thursday 26 November 2026</title>
+      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-26/</link>
+      <guid isPermaLink="false">morning-brief-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 06:30:00 +0530</pubDate>
+      <description>The Morning Brief for Thursday, 26 November 2026. In this edition: Prosecution Case Fails When Medical Evidence Is Completely Opposite Eyewitness Account : Supreme Court Acquits In 1986 Murder Case; Will's Registration In Presence Of Two Witnesses Prima Facie Proves Execution, Expert Opinion Cannot Override It: Supreme Court; Children Are Not Mere Chattels, Nor Toys For Parents: Supreme Court In Custody Battle; Supreme Court Revives Conviction &amp; Life Sentence Of Ex-Congress MLA Vinay Kulkarni In 2016 Yogesh Goudar Murder Case; 'Cash For Jobs' Case: Supreme Court Directs Trial Court To Defer Proceedings Against Ex-TN Minister Senthil Balaji; Sale Deed For UP Property Registered Outside State After 1994 Amendment To Registration Act Is Void: Allahabad High Court; and 28 more stories.</description>
+      <itunes:title>Eklavya's Morning Brief, Thursday 26 November 2026</itunes:title>
+      <itunes:summary>The Morning Brief for Thursday, 26 November 2026. In this edition: Prosecution Case Fails When Medical Evidence Is Completely Opposite Eyewitness Account : Supreme Court Acquits In 1986 Murder Case; Will's Registration In Presence Of Two Witnesses Prima Facie Proves Execution, Expert Opinion Cannot Override It: Supreme Court; Children Are Not Mere Chattels, Nor Toys For Parents: Supreme Court In Custody Battle; Supreme Court Revives Conviction &amp; Life Sentence Of Ex-Congress MLA Vinay Kulkarni In 2016 Yogesh Goudar Murder Case; 'Cash For Jobs' Case: Supreme Court Directs Trial Court To Defer Proceedings Against Ex-TN Minister Senthil Balaji; Sale Deed For UP Property Registered Outside State After 1994 Amendment To Registration Act Is Void: Allahabad High Court; and 28 more stories.</itunes:summary>
+      <itunes:duration>42:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-26/brief.mp3" length="20478884" type="audio/mpeg" />
+    </item>
     <item>
       <title>Eklavya's Morning Brief, Wednesday 25 November 2026</title>
       <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-25/</link>
@@ -177,18 +189,6 @@
       <itunes:duration>41:31</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
       <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-13/brief.mp3" length="19932972" type="audio/mpeg" />
-    </item>
-    <item>
-      <title>Eklavya's Morning Brief, Thursday 12 November 2026</title>
-      <link>https://eklavya7717.github.io/morning-brief-podcast/2026-11-12/</link>
-      <guid isPermaLink="false">morning-brief-2026-11-12</guid>
-      <pubDate>Thu, 12 Nov 2026 06:30:00 +0530</pubDate>
-      <description>The Morning Brief for Thursday, 12 November 2026. In this edition: Prohibitory Orders Near SC Premises Not Lifted; Display Board Can Be Kept : Supreme Court Clarifies; October 2026: Pendency hits record high, soars past 96,000 - Supreme Court Observer; CBDT exempts dividends paid between IFSC aircraft-leasing units from TDS under Income-tax Act, 2025; Gauhati High Court Quashes Activist's NSA Detention Linked With Protest Against Luxury Hotel Project, Cites Multiple Procedural Lapses; Scientific Measurement, Digital Monitoring: Kerala High Court Appreciates Devaswom Board Efforts To Address Irregularity In Sabarimala Ghee Sales; Merely Producing Voter Lists With Ancestor's Names Does Not Establish Citizenship Without Proof Of Family Linkage: Gauhati High Court; and 28 more stories.</description>
-      <itunes:title>Eklavya's Morning Brief, Thursday 12 November 2026</itunes:title>
-      <itunes:summary>The Morning Brief for Thursday, 12 November 2026. In this edition: Prohibitory Orders Near SC Premises Not Lifted; Display Board Can Be Kept : Supreme Court Clarifies; October 2026: Pendency hits record high, soars past 96,000 - Supreme Court Observer; CBDT exempts dividends paid between IFSC aircraft-leasing units from TDS under Income-tax Act, 2025; Gauhati High Court Quashes Activist's NSA Detention Linked With Protest Against Luxury Hotel Project, Cites Multiple Procedural Lapses; Scientific Measurement, Digital Monitoring: Kerala High Court Appreciates Devaswom Board Efforts To Address Irregularity In Sabarimala Ghee Sales; Merely Producing Voter Lists With Ancestor's Names Does Not Establish Citizenship Without Proof Of Family Linkage: Gauhati High Court; and 28 more stories.</itunes:summary>
-      <itunes:duration>25:21</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <enclosure url="https://github.com/eklavya7717/morning-brief-podcast/releases/download/ed-2026-11-12/brief.mp3" length="12171679" type="audio/mpeg" />
     </item>
   </channel>
 </rss>
