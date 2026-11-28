@@ -1,0 +1,826 @@
+[
+{
+"id": "b2e5bc4e5829",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Whether SARFAESI Act Overrides MPID Act In Recovery Of Dues? Supreme Court Refers To Larger Bench",
+"court": "Supreme Court",
+"case_name": "National Spot Exchange Ltd. v. Union of India",
+"ratio": "The overriding provisions of the MPID Act and the SARFAESI Act must be harmoniously reconciled to ensure their effective operation.",
+"summary": "The Supreme Court on Thursday (November 26) referred to a larger bench the dispute over the priority of claims under the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002 (SARFAESI Act) and the Maharashtra Protection of Interest of Depositors (in Financial Establishments) Act, 1999 (MPID Act), after expressing disagreement with a coordinate bench ruling in National Spot Exchange Ltd. v. Union of India (NSEL) which had accorded priority to claims under the MPID Act over those under the Centrally enacted Insolvency and Bankruptcy Code (IBC).",
+"url": "https://www.livelaw.in/supreme-court/whether-sarfaesi-act-overrides-mpid-act-in-recovery-of-dues-supreme-court-refers-to-larger-bench-560258",
+"priority": 100,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "SBI extended credit to a borrower who mortgaged property; the loan became NPA and SBI invoked SARFAESI-Act security. The borrower was later found to have duped depositors under the MPID Act. Maharashtra seized the same properties, directed SBI to obtain permission under the MPID Act, and later attached the properties, allocating sale proceeds to depositors. SBI sought to appropriate the surplus towards its secured debt; lower courts rejected the claim, relying on *NSEL*.",
+"Issue": "Whether, in a conflict between the SARFAESI Act, 2002 and the Maharashtra Protection of Interest of Depositors (MPID) Act, 1999, the SARFAESI Act gives priority to secured creditors over the claims of depositors protected under the MPID Act.",
+"Held": "The two-Judge bench declined to decide the matter and referred the questions of priority and dominant legislation to a larger bench, expressing the view that the SARFAESI Act, being a later central enactment, is likely to prevail over the MPID Act.",
+"Principle": "When a central law (SARFAESI Act) and a state law (MPID Act) overlap on the recovery of dues, the doctrine of “dominant legislation” requires harmonious construction, giving priority to secured creditors under the SARFAESI Act unless the state law expressly provides a contrary priority; the later-enacted, non-obstante clause and the inclusion of Section 26E strengthen the SARFAESI Act’s priority.",
+"Provisions": "SARFAESI Act – Section 35 (non-obstante clause), Section 26E; MPID Act – Section 14 (non-obstante clause), Section 26E (comparative reference); *National Spot Exchange Ltd. v. Union of India* (NSEL) (precedent questioned). No other statutes or cases cited.",
+"Exam angle": "Test on the SARFAESI Act – priority of secured debt vs. unsecured depositors; application of the “dominant legislation” doctrine; possible MCQ/short answer on whether Section 26E extends to MPID deposits and on the hierarchy between a central law (Entry 45, List I) and a state law in the context of recovery of dues."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": true,
+"boost": 16
+},
+"date": "2026-11-28"
+},
+{
+"id": "dc8285a75760",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "STATE BANK OF INDIA Versus STATE OF MAHARASHTRA & ORS",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1216-state-bank-of-india-versus-state-of-maharashtra-ors-560259",
+"priority": 100,
+"topics": [
+"Constitution"
+],
+"note": {},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": true,
+"boost": 16
+},
+"date": "2026-11-28"
+},
+{
+"id": "f047c3cf0e6a",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Victim Has Right To Be Heard Before Convict Is Granted Remission : Supreme Court Supreme Court Quashes Bihar Govt's Remission Granted To Ex-MP Anand Mohan In IAS Officer's Murder Case",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": "An identifiable and traceable victim, or the victim's legal representative, must be given a reasonable opportunity to submit a representation before the State decides a…",
+"summary": "The Supreme Court has held that an identifiable and traceable victim, or the victim's legal representative, must be given a reasonable opportunity to submit a representation before the State decides a convict's plea for premature release or remission.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1217-telugu-umadevi-krishnaiah-anrversus-the-state-of-bihar-ors-560306",
+"priority": 100,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "The Supreme Court has held that an identifiable and traceable victim, or the victim's legal representative, must be given a reasonable opportunity to submit a representation before the State decides a convict's plea for premature release or remission.",
+"Held": "An identifiable and traceable victim, or the victim's legal representative, must be given a reasonable opportunity to submit a representation before the State decides a…",
+"Principle": "An identifiable and traceable victim, or the victim's legal representative, must be given a reasonable opportunity to submit a representation before the State decides a…"
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-28"
+},
+{
+"id": "f0393893322c",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Grants 3 Weeks' Interim Bail To AAP Leader Deepak Singla In Money Laundering Case",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "A bench of CJI Surya Kant, Justice Joymalya Bagchi and Justice V Mohana passed the order after hearing Senior Advocates Vikas Singh and Balbir Singh (for Singla).",
+"url": "https://www.livelaw.in/top-stories/supreme-court-grants-interim-bail-to-aap-leader-deepak-singla-in-money-laundering-case-155-crore-cbi-complaint-mahesh-timbre-bank-fraud-560262",
+"priority": 96,
+"topics": [
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "Deepak Singla, an AAP leader, was arrested by the Enforcement Directorate on 18 May 2026 in a money-laundering case linked to a Rs 155 crore bank fraud arising from a 2018 CBI complaint; he had been in custody for over six months and his father was ailing.",
+"Issue": "Whether the Supreme Court should grant interim bail to Singla pending the decision of the Punjab and Haryana High Court on his regular bail application.",
+"Held": "The Supreme Court granted interim bail for three weeks, subject to conditions and bail bonds, and directed the High Court to decide the pending bail application within that period.",
+"Principle": "The Court may grant interim bail without addressing the merits of the case when personal circumstances (e.g., ailing family member) and the protracted nature of the trial justify temporary release, while the lower court’s pending decision is left untouched.",
+"Provisions": "not stated.",
+"Exam angle": "Prevention of Money-Laundering Act (PMLA) – could be asked on the criteria for granting interim bail versus regular bail, focusing on personal hardship and trial delay as factors."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-28"
+},
+{
+"id": "63ae1cdcfb6a",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "High Court Cannot Act Like An Appellate Court Under Article 227 Supervisory Jurisdiction : Supreme Court",
+"court": "Supreme Court",
+"case_name": "FENKIN INFOTECH LLP) v. ANIRUDDH NIKHIL MAKHECHA & ORS",
+"ratio": null,
+"summary": "The Court emphasized that a “reasoned decision taken on an elaborate consideration of relevant facts cannot be interfered with in exercise of supervisory jurisdiction under Article 227 of the Constitution.”.",
+"url": "https://www.livelaw.in/sc-judgments/2026-livelaw-sc-1215-destini-realpro-developers-llp-formerly-known-as-ms-fenkin-infotech-llp-versus-aniruddh-nikhil-makhecha-ors-with-connected-cases-560239",
+"priority": 94,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "The Court emphasized that a “reasoned decision taken on an elaborate consideration of relevant facts cannot be interfered with in exercise of supervisory jurisdiction under Article 227 of the Constitution.”.",
+"Held": "Bench: Justice Pamidighantam Sri Narasimha, Justice Alok Aradhe",
+"Provisions": "Held that the Charity Commissioner had considered the three statutory requirements under Section 36(1)(a), the interest, benefit and protection of the Tru; Noted that the negative weightages in the valuation reports were attributable to factors such as land reservation, coastal regulation zone restrictions, gr"
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "4de23bdcffdd",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Administrative Chaos In Tamil Nadu, Officers Acted On Dictates Of Political Bosses': Supreme Court In Thiruparankundram Case",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Court observed that there was a \"brazen and flagrant\" violation of its order.",
+"url": "https://www.livelaw.in/top-stories/administrative-chaos-in-tamil-nadu-officers-acted-on-dictates-of-political-bosses-supreme-court-in-thiruparankundram-case-560299",
+"priority": 91,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "The Court observed that there was a \"brazen and flagrant\" violation of its order.",
+"Held": "Bench: Justice Aravind Kumar, Justice Vipul M Pancholi",
+"Provisions": "Observed that the officials appeared to have acted at the behest of their political superiors"
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "39dd6d3f0369",
+"source": "sccblog",
+"category": "supreme-court",
+"title": "Supreme Court examines whether Corporate Debtor’s balance sheets constitute acknowledgement of debt under Section 18, Limitation Act in IBC proceedings",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Supreme Court: In an appeal questioning the dismissal of the Section 7 application filed by the appellant-Company under the Insolvency and Bankruptcy Code, 2016 (IBC) for being time-barred, the Division Bench of K.V. Viswanathan* and Arun Palli held that the balance sheets of the corporate debtor constituted clear acknowledgement of liability under Section 18 ,.",
+"url": "https://www.scconline.com/blog/post/2026/11/27/section-18-limitation-act-balance-sheet-as-acknowledgment-of-debt-section-7-ibc-sc/",
+"priority": 88,
+"topics": [
+"Limitation / Registration"
+],
+"note": {
+"Facts": "United Bank of India sanctioned a ₹12.26 cr loan to Kalpataru Cold Storage Ltd.; the first default occurred on 31 Dec 2013 and the account was declared NPA on 31 Mar 2014. The debtor’s balance sheets for FY 2015-16, 2016-17 and 2017-18 showed long-term borrowings and secured term loans. The appellant filed a Section 7 IBC application on 26 Oct 2018 claiming ₹21.61 cr, which the NCLT admitted on the basis of those balance sheets. The NCLAT reversed, holding the statements did not amount to acknowledgement of debt and the claim was time-barred.",
+"Issue": "Whether the Section 7 application filed on 26 Oct 2018 was within the limitation period, i.e., whether the debtor’s balance sheets constitute an acknowledgement of liability under Section 18 of the Limitation Act, 1963.",
+"Held": "The Supreme Court held that the balance sheets for FY 2015-16, 2016-17 and 2017-18 clearly acknowledge the subsisting liability; consequently, the Section 7 application was filed within limitation. The NCLAT’s judgment was set aside and the matter remitted to the NCLT to decide only the question of default under Section 7(5) IBC.",
+"Principle": "An entry in a corporate debtor’s balance sheet that records long-term borrowings or secured term loans, together with surrounding disclosures, can constitute an acknowledgement of liability under Section 18, Limitation Act, 1963; the provision must not be applied with “pedantic rigidity” in IBC proceedings.",
+"Provisions": "Section 7, IBC, 2016; Section 18, Limitation Act, 1963; Section 13(2), Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002; cases: *Dena Bank v. C. Shivakumar Reddy* (2021) 10 SCC 330, *Vidyasagar Prasad v. UCO Bank* (2024) 251 Comp Cas 636, *IL & FS Financial Services Ltd. v. Adhunik Meghalaya Steels (P) Ltd.* (2026) 3 SCC 794.",
+"Exam angle": "IBC – limitation of a Section 7 petition; focus on “acknowledgement of debt” under Section 18, Limitation Act. Could be asked to frame the issue of whether financial statements qualify as acknowledgment, or to list the ingredients (written acknowledgment, reference to liability, contemporaneity) required for invoking Section 18 in IBC cases."
+},
+"syllabus": {
+"clusters": [
+"Property"
+],
+"acts": [
+"Limitation / Registration"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "04c8d8d3c4a1",
+"source": "sccblog",
+"category": "supreme-court",
+"title": "Supreme Court: Judicial member mandatory for final adjudication under PMLA; single non-judicial member can issue show-cause notice",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Supreme Court: While examining the validity of the Constitution and functioning of the adjudicating authority (AA) under the Prevention of Money-Laundering Act, 2002 (PMLA), a three-Judge Bench of Surya Kant, CJ with Joymalya Bagchi and V. Mohana, JJ. , held that the Bench undertaking final adjudication under Section 8(2) and (3) PMLA must necessarily include.",
+"url": "https://www.scconline.com/blog/post/2026/11/27/supreme-court-judicial-member-pmla-adjudicating-authority/",
+"priority": 88,
+"topics": [
+"Constitution"
+],
+"note": {
+"Facts": "The Adjudicating Authority (AA) under the PMLA issued a show-cause notice under Section 8(1) through a single Technical Member (non-judicial) who was also the Chairperson; the validity of such a single-member, non-judicial bench and the requirement of a Judicial Member for final adjudication were challenged before the Supreme Court.",
+"Issue": "Whether a Bench of the AA that decides matters under Section 8(2)-(3) (final adjudication) must include a Judicial Member, and whether a single non-judicial Member can issue a show-cause notice under Section 8(1).",
+"Held": "The Court held that any Bench undertaking final adjudication under Section 8(2)-(3) must necessarily include a Judicial Member. However, the issuance of a show-cause notice under Section 8(1) may be made by a single Member, even if that Member is non-judicial. The Chairperson need not be a Judicial Member.",
+"Principle": "Final adjudicatory decisions under Section 8(2)-(3) of the PMLA require the presence of a Judicial Member on the Bench; a single-Member bench (including a non-judicial Member) may validly issue a show-cause notice under Section 8(1).",
+"Provisions": "Sekar v. Union of India (2018 SCC OnLine Del 6523); R.P. Infosystems Ltd. v. Adjudication Authority PMLA (2023 2 HCC (Cal) 251).",
+"Exam angle": "PMLA – composition of the Adjudicating Authority; focus on Section 8 (show-cause notice vs. final adjudication) and Section 6 (bench composition). Questions may ask to frame the issue of “mandatory judicial member for final adjudication” or to list the ingredients for a valid bench under the Act."
+},
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "f6919596a175",
+"source": "livelaw",
+"category": "high-court",
+"title": "Stringent Bail Conditions Under NDPS Act Can't Displace Special Protection Afforded To Juveniles: MP High Court",
+"court": "Madhya Pradesh High Court",
+"case_name": "Child In Conflict With Law v. State of MP",
+"ratio": null,
+"summary": "Madhya Pradesh High Court judgment in Child In Conflict With Law v. State of MP.",
+"url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-bail-conditions-in-ndps-does-not-displace-bail-framework-under-jj-act-560266",
+"priority": 81,
+"topics": [
+"BNSS / CrPC",
+"Probation / JJ / POCSO / DV",
+"NDPS / SC-ST / PC / others"
+],
+"note": {
+"Facts": "The bench considered a petition for bail where the accused, a juvenile, was charged under the Narcotic Drugs and Psychotropic Substances (NDPS) Act and the Juvenile Justice (JJ) Act.",
+"Issue": "Whether the stringent bail conditions prescribed under the NDPS Act can override the child-specific bail framework under Section 12 of the JJ Act.",
+"Held": "The High Court held that the special protection afforded to juveniles under Section 12 of the JJ Act prevails; bail is the rule for juveniles and denial is the exception, regardless of NDPS-Act conditions.",
+"Principle": "When a statute provides a special, child-specific bail regime, that regime cannot be displaced by the general, stricter bail conditions of another law.",
+"Provisions": "Section 12, Juvenile Justice Act; NDPS Act (bail provisions – not specified). No other cases cited.",
+"Exam angle": "Conflict between the NDPS Act and the Juvenile Justice Act – could be asked on the hierarchy of statutes and the rule that child-specific provisions under the JJ Act supersede other bail restrictions."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime",
+"Special criminal Acts"
+],
+"acts": [
+"BNSS / CrPC",
+"Probation / JJ / POCSO / DV",
+"NDPS / SC-ST / PC / others"
+],
+"landmark": false,
+"boost": 13
+},
+"date": "2026-11-28"
+},
+{
+"id": "d6edc5bb0e75",
+"source": "livelaw",
+"category": "high-court",
+"title": "Strong Suspicion Of Conspiracy Sufficient To Deny Discharge Even In Absence Of Direct Evidence: Kerala High Court",
+"court": "Kerala High Court",
+"case_name": "P.M. Rajan v. State of Kerala",
+"ratio": null,
+"summary": "Kerala High Court judgment in P.M. Rajan v. State of Kerala.",
+"url": "https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-strong-suspicion-conspiracy-sufficient-deny-discharge-absence-direct-evidence-560315",
+"priority": 77,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": {
+"Facts": "The second accused in a corruption case filed a discharge plea, which was rejected; the matter came before Justice A. Badharudeen on a revision petition.",
+"Issue": "Whether a mere strong suspicion of participation in a conspiracy, without direct evidence, is sufficient to deny discharge and proceed to trial.",
+"Held": "The court held that strong suspicion of involvement in a conspiracy is enough to justify a trial, even if direct evidence of the conspiracy is lacking.",
+"Principle": "A conviction can be pursued on the basis of strong suspicion of conspiracy; the absence of direct proof does not bar trial.",
+"Provisions": "not stated.",
+"Exam angle": "Could be asked under the Prevention of Corruption Act – focusing on the requirement of suspicion versus direct evidence to deny discharge."
+},
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-28"
+},
+{
+"id": "1aa118da9c40",
+"source": "sccblog",
+"category": "high-court",
+"title": "President appoints Justice Sujit Narayan Prasad as Acting Chief Justice of Jharkhand High Court",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scconline.com/blog/post/2026/11/27/jharkhand-high-court-chief-justice-appointment-sujit-narayan-prasad/",
+"priority": 76,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "db4ab210f5db",
+"source": "livelaw",
+"category": "high-court",
+"title": "Allahabad High Court Acquits Man Sentenced To Death For Murder Of Parents, Cites Material Contradictions In Eyewitness Accounts",
+"court": "Allahabad High Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Allahabad High Court recently acquitted a man sentenced to death for murdering his parents in 2020 as it pointed to material contradictions in the testimonies of the alleged eyewitnesses.",
+"url": "https://www.livelaw.in/high-court/allahabad-high-court/allahabad-high-court-acquits-man-parents-murder-case-560310",
+"priority": 75,
+"topics": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Evidence and crime"
+],
+"acts": [
+"BNS / IPC",
+"BNSS / CrPC"
+],
+"landmark": false,
+"boost": 12
+},
+"date": "2026-11-28"
+},
+{
+"id": "51dd5fca5d19",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "Justice S.C. Sharma: Notable judgements - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scobserver.in/journal/justice-s-c-sharma-notable-judgements/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "2c7b712a54c6",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "Justice S.C. Sharma’s Tenure in Numbers - Supreme Court Observer",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Home > Court Data > Justice S.C. Sharma’s Tenure in Numbers Justice S.C. Sharma’s stint of 3 years has been one of the shortest tenures served at the top court On 29 November, Justice S.C.",
+"url": "https://www.scobserver.in/journal/justice-s-c-sharmas-tenure-in-numbers/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "67b8faf4c39b",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Thiruparankundram Deepam Row | \"If Anyone Attempts To Dilute Our Order, We Will Set It Right\": Supreme Court",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court on Friday made strong oral observations in the Thiruparankundram Deepam controversy, stating that no individual, irrespective of their position, can dilute or undermine the orders passed by a court.",
+"url": "https://www.livelaw.in/top-stories/thiruparankundram-deepam-row-if-anyone-attempts-to-dilute-our-order-we-will-set-it-right-supreme-court-560271",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "f980a901d673",
+"source": "livelaw",
+"category": "high-court",
+"title": "Senior Officers Turning Police Department Into 'Unruly Horse', Promoting Disregard For Fundamental Rights: MP High Court Slams Gwalior SSP",
+"court": "Madhya Pradesh High Court",
+"case_name": "Ramjeet v. State of MP",
+"ratio": null,
+"summary": "The Madhya Pradesh High Court has strongly criticised the Gwalior Senior Superintendent of Police for attempting to shield police officials responsible for failing to provide medical assistance to a cancer-stricken prisoner despite 34 requisitions by the central Jail seeking police escorts for his treatment at AIIMS. The division bench of Justice GS Ahluwalia and Justice Anuradha Shukla.",
+"url": "https://www.livelaw.in/high-court/madhya-pradesh-high-court/madhya-pradesh-high-court-slams-gwalior-ssp-over-disregard-for-prisoners-fundamental-rights-560305",
+"priority": 73,
+"topics": [
+"Constitution"
+],
+"note": null,
+"syllabus": {
+"clusters": [
+"Personal, local and constitutional"
+],
+"acts": [
+"Constitution"
+],
+"landmark": false,
+"boost": 8
+},
+"date": "2026-11-28"
+},
+{
+"id": "dbed79aaacac",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Seeks Union's Response On Allowing Restricted Entry To OCI Cardholder Blacklisted Over Alleged Anti-National Acts",
+"court": "Supreme Court",
+"case_name": "Joymalya Bagchi and v. Mohana",
+"ratio": null,
+"summary": "The Supreme Court on Friday asked the Union Government to consider permitting US-based Professor Khalid Jahangir Qazi, an OCI cardholder whose OCI status was cancelled and who was blacklisted over alleged anti-India activities, to enter India subject to restrictions.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-seeks-union-response-to-us-based-professor-khalid-jahangir-qazi-entry-in-india-restrictions-oci-cancellation-blacklisted-anti-india-activities-560322",
+"priority": 73,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "06b90e0c0c7e",
+"source": "scobserver",
+"category": "supreme-court",
+"title": "Justice Sanjay Karol’s tenure in numbers",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "",
+"url": "https://www.scobserver.in/journal/justice-sanjay-karols-tenure-in-numbers/",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "f074def27c69",
+"source": "livelaw",
+"category": "supreme-court",
+"title": "Supreme Court Appreciates Sucheta Dalal's PIL On Unclaimed Financial Assets, Disposes Plea Noting Measures Taken By Authorities",
+"court": "Supreme Court",
+"case_name": null,
+"ratio": null,
+"summary": "The Supreme Court on Friday disposed of a Public Interest Litigation filed by financial journalist Sucheta Dalal seeking directions to authorities to put in place measures enabling legal heirs to trace and claim unclaimed financial assets, including bank deposits, shares and mutual fund investments.",
+"url": "https://www.livelaw.in/top-stories/supreme-court-appreciates-sucheta-dalals-pil-on-unclaimed-financial-assets-disposes-plea-noting-measures-taken-by-authorities-560231",
+"priority": 70,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": {
+"clusters": [],
+"acts": [],
+"landmark": false,
+"boost": -10
+},
+"date": "2026-11-28"
+},
+{
+"id": "caaf55d60668",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Since April: Tweaked Bill, split Opp,",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "DeeptimanTiwary changed in the intervening uniform 50% increase in Lok &AlokDeshpande period, both in the legislation Sabha seats across states and NewDelhi,Mumbai, thatthe govermment pro- seeks to freeze their relative representationin November 27 poses to bring and in the composition of the Op- Parliament, based onthe.",
+"url": "tg://-1002114906180/8467#0",
+"priority": 84,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "786b7a07c383",
+"source": "telegram-pdf",
+"category": "national",
+"title": "Dealt a blow by partners,",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Asad Rehman the Lok Sabha seats across all &Lalmani Verma states, the main Opposition New Delhi,Lucknow, party's prime concern now ap- pears to be over the inevitable November 27 redrawingofthe parliamentary NOTWITHSTANDING THE constituencies. divisions in the Opposition Several Congress leaders who The Indian Express spoke.",
+"url": "tg://-1002114906180/8467#2",
+"priority": 80,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "be5848890279",
+"source": "thehindu",
+"category": "national",
+"title": "Supreme Court refuses to mandate unified portal for tracing unclaimed deposits; cites regulatory reforms",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Sucheta Dalal’s petition highlighted the accumulation of unclaimed deposits and investments with financial institutions and the procedural difficulties faced by nominees and legal heirs in recovering them.",
+"url": "https://www.thehindu.com/news/national/supreme-court-refuses-to-mandate-unified-portal-for-tracing-unclaimed-deposits-cites-regulatory-reforms/article71751997.ece/",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "b25b8c4338db",
+"source": "thehindu",
+"category": "national",
+"title": "Supreme Court orders Karthigai Deepam to be lit at ‘deepathoon’ on November 28; issues contempt notice",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Bench directs Tamil Nadu Chief Secretary, DGP, Madurai District Collector, temple authorities to be present for next hearing on Dec. 15; court sees ‘pre-meditated conspiracy' between State and temple trustees.",
+"url": "https://www.thehindu.com/news/national/tamil-nadu/supreme-court-orders-karthigai-deepam-to-be-lit-on-deepathoon-on-november-28-issues-contempt-notice/article71751465.ece/",
+"priority": 77,
+"topics": [
+"BNS / IPC"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "f5450f28059c",
+"source": "telegram-pdf",
+"category": "national",
+"title": "INDIA bloc meets today; Congress, SPtarget BJP",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Asad Rehman the Lok Sabha seats across all &Lalmani Verma states, the main Opposition New Delhi,Lucknow, party's prime concern now ap- pears to be over the inevitable November 27 redrawingofthe parliamentary NOTWITHSTANDING THE constituencies. divisions in the Opposition Several Congress leaders who The Indian Express spoke.",
+"url": "tg://-1002114906180/8467#3",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "084d273cda28",
+"source": "thehindu",
+"category": "national",
+"title": "Modi invokes Lord Murugan; BJP says Tamil Nadu govt. acted against Hindus",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "BJP hails Supreme Court victory over Tamil Nadu's Karthigai Deepam dispute, accusing the government of anti-Sanatan bias toward Hindus.",
+"url": "https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-government-acted-against-hindus-says-bjp/article71751066.ece/",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "b117876ccebe",
+"source": "thehindu",
+"category": "national",
+"title": "Thirupparankundram row: Supreme Court-appointed former Judges leave for Madurai",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The apex court declared that authorities 'wilfully disobeyed' court orders and issued show cause notices on contempt against the Tamil Nadu Chief Secretary, DGP, HR&CE Commissioner, Board of Trustees Chairperson and Trustees.",
+"url": "https://www.thehindu.com/news/national/tamil-nadu/thiruparankundram-deepam-issue-supreme-court-contempt-tamil-nadu-karthigai-deepam-deepathoon-row-live-updates-november-28-2026/article71753437.ece/",
+"priority": 77,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "8e68cfbbefe9",
+"source": "thehindu",
+"category": "economy",
+"title": "RBI cuts daily CRR maintenance to 90%, to unlock over ₹40,000 crore",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The latest relaxation is expected to improve banks’ liquidity flexibility and support credit deployment.",
+"url": "https://www.thehindu.com/business/Economy/rbi-cuts-daily-crr-maintenance-to-90-to-unlock-over-40000-crore/article71751043.ece/",
+"priority": 75,
+"topics": [
+"Hindu / Muslim law"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "fa14c30a8128",
+"source": "thehindu",
+"category": "economy",
+"title": "RBI Governor pegs AI’s potential economic value to MSMEs at $685 billion, urges faster adoption",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "“This is entirely doable,” the Governor said, encouraging enterprises to begin with practical applications such as digital accounting, inventory management, quality control and customer engagement before expanding their use of AI.",
+"url": "https://www.thehindu.com/business/Industry/rbi-governor-pegs-ais-potential-economic-value-to-msmes-at-685-billion-urges-faster-adoption/article71751516.ece/",
+"priority": 75,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "d7531f3a4f81",
+"source": "telegram-pdf",
+"category": "national",
+"title": "belit today on pillar",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Issues notices toTN Chief Secretary, DGP,othersonwhycontemptaction AnanthakrishnanG New Delhi, November 27 UNCONVINCED BY justifica- tions offered bythe Tamil Nadu.",
+"url": "tg://-1002114906180/8467#4",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "1c8626594c8b",
+"source": "thehindu",
+"category": "economy",
+"title": "AI regulation must precede job losses and economic disruption, says PMI chief",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "A coordinated coalition of government, industry, and academia is critical to managing the transition. Hope India will act as a leading indicator rather than waiting for job losses and stalled investments to force policy action, says PMI President, Johannes Heinlein.",
+"url": "https://www.thehindu.com/business/Industry/ai-regulation-must-precede-job-losses-and-economic-disruption-says-pmi-chief/article71747517.ece/",
+"priority": 73,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "fb5101a7a371",
+"source": "thehindu",
+"category": "national",
+"title": "What is the Indraprastha Communique issued after SCO Civilizational Forum in New Delhi? | Explained",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The dialogue, which was organized by the Ministry of Culture and the Ministry of External Affairs, was proposed by Prime Minister Narendra Modi at the SCO leaders’ Summit in Tianjin last year and adopted by the SCO Council.",
+"url": "https://www.thehindu.com/news/national/what-is-the-indraprastha-communique-issued-after-sco-civilizational-forum-in-new-delhi-explained/article71753482.ece/",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "080aa5e9f1d9",
+"source": "thehindu",
+"category": "national",
+"title": "Ten pillars of Nepal-India vision statement issued during Prime Minister Balendra Shah’s visit",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "India-Nepal unveil a ten-pillar forward-looking vision document to redefine economic, energy, governance, and border collaboration post-uprising.",
+"url": "https://www.thehindu.com/news/national/ten-pillars-of-nepal-india-vision-statement-issued-during-prime-minister-balendra-shahs-visit/article71753492.ece/",
+"priority": 71,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "9a404cb889f3",
+"source": "thehindu",
+"category": "editorial",
+"title": "Fair play: on a hurried delimitation of Lok Sabha constituencies",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "The government must ensure broad political consensus before undertaking a far-reaching delimitation exercise.",
+"url": "https://www.thehindu.com/opinion/editorial/fair-play-on-a-hurried-delimitation-of-lok-sabha-constituencies/article71751034.ece/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+},
+{
+"id": "ab8f2a618cbf",
+"source": "thehindu",
+"category": "editorial",
+"title": "Letters to The Editor — November 28, 2026",
+"court": null,
+"case_name": null,
+"ratio": null,
+"summary": "Account subscription benefits alongside Premium Stories, Editorials, Opinions and more. Unlock these with Subscription.",
+"url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-november-28-2026/article71751933.ece/",
+"priority": 74,
+"topics": [
+"General"
+],
+"note": null,
+"syllabus": null,
+"date": "2026-11-28"
+}
+]
